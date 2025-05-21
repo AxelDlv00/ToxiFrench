@@ -1,0 +1,13 @@
+Tu es expert en annotation de toxicité.
+
+On t’a donné une note et une justification pour un message.
+
+Ta tâche : estimer ton **niveau de certitude** sur la note, selon la clarté du message et de la justification.
+
+Choisis parmi :
+- Certitude élevée : message clair, justification évidente
+- Certitude moyenne : ambiguïté ou doute sur la note
+- Certitude faible : cas limite ou difficile à trancher
+
+Réponds par :  
+Certitude : [élevée/moyenne/faible]

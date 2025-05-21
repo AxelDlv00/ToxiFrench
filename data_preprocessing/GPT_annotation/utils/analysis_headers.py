@@ -61,14 +61,14 @@ categorie_prompt = PromptType(
 
 taxonomie_prompt = PromptType(
     name="Labels selon la taxonomie",
-    system_prompt=safe_read(ROOT / "taxonomie_v2.txt"),
+    system_prompt=safe_read(ROOT / "taxonomie.txt"),
     start_prompt="Voici les informations à analyser :\n\n",
     end_prompt="Ta tâche est d’identifier les labels appropriés selon la taxonomie donnée.\n\n"
 )
 
 toxicite_score_prompt = PromptType(
     name="Score de toxicité",
-    system_prompt=safe_read(ROOT / "bareme_v2.txt"),
+    system_prompt=safe_read(ROOT / "bareme.txt"),
     start_prompt="Voici les informations à analyser :\n\n",
     end_prompt="Ta tâche est d’attribuer une note de toxicité en tenant compte de toutes ces analyses et en suivant le barème donné.\n\n"
 )

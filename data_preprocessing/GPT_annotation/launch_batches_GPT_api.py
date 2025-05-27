@@ -60,8 +60,8 @@ def main(args):
     CHECKPOINT_CSV = ROOT_DIR / "subsets_Di_annotated" / f"{subset_name}_{model_name}.csv"
     BATCH_PATH     = ROOT_DIR / "subsets_Di_annotated" / f"batch_{subset_name}_{step_name}_{model_name}.jsonl"
     OUTPUT_PATH    = ROOT_DIR / "subsets_Di_annotated" / f"batch_results_{subset_name}_{step_name}_{model_name}.jsonl"
-    # API_KEY_PATH   = ROOT_DIR / "confidential" / "GPT_API.txt"
-    API_KEY_PATH   = ROOT_DIR / "confidential" / "GPT_API_2.txt" # Temporary fix because of rate limits
+    API_KEY_PATH   = ROOT_DIR / "confidential" / "GPT_API.txt"
+    # API_KEY_PATH   = ROOT_DIR / "confidential" / "GPT_API_2.txt" # Temporary fix because of rate limits
     # API_KEY_PATH   = ROOT_DIR / "confidential" / "GPT_API_3.txt" # Temporary fix because of rate limits
 
     # model_name = "gpt-4.1-mini" # Temporary fix for gpt-4o-mini

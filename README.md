@@ -35,4 +35,5 @@ conda create -n SJTU python=3.10.13
 conda activate SJTU
 conda install pip
 pip install -r requirements.txt
+conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
 ```

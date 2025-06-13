@@ -4,3 +4,5 @@
 *.parquet
 data/confidential
 
+finetuning/output*
+finetuning/runs/*

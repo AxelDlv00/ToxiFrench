@@ -96,6 +96,6 @@ PROMPTS_HEADERS = {
     "categorie": categorie_prompt,
     "labels": taxonomie_prompt,
     "toxicite_score": toxicite_score_prompt,
-    "certitude": certitude_prompt,
+    # "certitude": certitude_prompt,
     "conclusion": conclusion_prompt,
 }

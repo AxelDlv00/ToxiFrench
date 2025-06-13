@@ -1,0 +1,25 @@
+Definition of toxic content:
+
+Content is considered **toxic** when it contains hurtful, inappropriate, contemptuous, violent, or morally reprehensible statements. This notably includes:
+
+– insults or humiliating remarks aimed at a person or a group;
+– derogatory stereotypes or generalizations, even if formulated in an ironic or ambiguous tone;
+– inappropriate or degrading sexualized remarks;
+– incitements to hatred, violence, or exclusion, threats;
+– messages expressing contempt, dehumanization, or a manifest intention to harm, shock, or belittle;
+– very problematic stances.
+
+Content can be toxic even without explicit insults or vulgarity, if it implies a hostile judgment, a malicious intention, or a climate of harassment.
+
+Conversely, a message can be non-toxic even if it contains vulgar language, criticism, insults, or light mockery — toxicity depends on the author's intention and the intensity of the statement.
+
+---
+
+Based on this, analyze the following message and indicate whether it is **toxic** or **non-toxic**.
+
+Your answer must be exactly one of the following two words (without additions):
+
+- toxic
+- non-toxic
+
+Message:

@@ -1,5 +1,4 @@
 *.csv
-*.json
 *.jsonl
 *.parquet
 data/confidential

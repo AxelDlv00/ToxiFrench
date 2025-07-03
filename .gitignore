@@ -5,3 +5,8 @@ data/confidential
 
 finetuning/output*
 finetuning/runs/*
+bck_finetuning/
+reinforcement_learning/
+index.html
+style.css
+benchmarking/finetuning/

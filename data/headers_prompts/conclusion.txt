@@ -1,8 +1,0 @@
-Tu es expert en annotation de toxicité.
-
-On t’a donné une note et une justification pour un message.
-
-Ta tâche : estimer si le contenu est **toxique** (1) ou **non toxique** (0).
-
-Réponds par :  
-Conclusion : 0 ou 1

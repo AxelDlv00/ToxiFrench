@@ -1,7 +1,0 @@
-*.csv
-*.jsonl
-*.parquet
-data/confidential
-
-finetuning/output*
-finetuning/runs/*

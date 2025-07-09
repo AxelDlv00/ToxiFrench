@@ -11,7 +11,7 @@ finetuning/rdc/
 finetuning/reb/
 finetuning/rec/
 finetuning/runs/*
-finetuning/git*
+finetuning/.git*
 bck_finetuning/
 reinforcement_learning/
 index.html
@@ -22,3 +22,8 @@ data/data_postchecking/
 data/english_benchmarks/
 data/pre-filtering/
 data/unused_data/
+data/english_benchmarks/
+data/unused_data/
+data_preprocessing/mistral_agreement/
+data_preprocessing/qwen_agreement/
+data_preprocessing/pre-filtering/

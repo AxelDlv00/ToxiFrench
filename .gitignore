@@ -3,10 +3,21 @@
 *.parquet
 data/confidential
 
-finetuning/output*
+finetuning/checkpoints/
+finetuning/odc/
+finetuning/oeb/
+finetuning/oec/
+finetuning/rdc/
+finetuning/reb/
+finetuning/rec/
 finetuning/runs/*
 bck_finetuning/
 reinforcement_learning/
 index.html
 style.css
 benchmarking/finetuning/
+data/cleaned_annotation/
+data/data_postchecking/
+data/english_benchmarks/
+data/pre-filtering/
+data/unused_data/

@@ -11,6 +11,7 @@ finetuning/rdc/
 finetuning/reb/
 finetuning/rec/
 finetuning/runs/*
+finetuning/git*
 bck_finetuning/
 reinforcement_learning/
 index.html

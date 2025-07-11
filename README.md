@@ -3,7 +3,7 @@
 <!-- Badges/Tags -->
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-brightgreen?style=flat-square&logo=github)](https://axeldlv00.github.io/ToxiFrench/)
 [![Hugging Face Model](https://img.shields.io/badge/Hugging%20Face-Model-blue?style=flat-square&logo=huggingface)](https://huggingface.co/Naela00/ToxiFrench)
-[![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue?style=flat-square&logo=huggingface)](https://huggingface.co/datasets/Naela00/ToxiFrenchFinetuning)
+[![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue?style=flat-square&logo=huggingface)](https://huggingface.co/datasets/Naela00/ToxiFrench)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](./LICENSE)
 
 **Author:** Axel Delaval

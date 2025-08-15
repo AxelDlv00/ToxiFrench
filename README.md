@@ -1,4 +1,4 @@
-# ToxiFrench: Benchmarking and Investigating SLMs and CoT Finetuning for French Toxicity Detection
+# ToxiFrench: Benchmarking and Enhancing Language Models via CoT Fine-Tuning for French Toxicity Detection
 
 <!-- Badges/Tags -->
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-brightgreen?style=flat-square&logo=github)](https://axeldlv00.github.io/ToxiFrench/)
@@ -6,11 +6,11 @@
 [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue?style=flat-square&logo=huggingface)](https://huggingface.co/datasets/Naela00/ToxiFrench)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](./LICENSE)
 
-**Author:** Axel Delaval
+**Authors:** Axel Delaval, Shujian Yang, Haicheng Wang, Han Qiu, Jialiang Lu
 
-**Affiliations:** École Polytechnique & Shanghai Jiao Tong University (SJTU)
+**Affiliations:** École Polytechnique & Shanghai Jiao Tong University (SJTU) & Tsinghua University
 
-**Email:** [axel.delaval@gmail.com](mailto:axel.delaval@gmail.com)
+**Email:** [axel.delaval.2022@polytechnique.org](mailto:axel.delaval.2022@polytechnique.org)
 
 ---
 
@@ -21,7 +21,7 @@
 
 ## Abstract
 
-Despite significant progress in English toxicity detection, performance drastically degrades in other languages like French, a gap stemming from disparities in training corpora and the culturally nuanced nature of toxicity. This paper addresses this critical gap with three key contributions. First, we introduce ToxiFrench, a new public benchmark dataset for French toxicity detection, comprising 53,622 entries. This dataset was constructed using a novel annotation strategy that required manual labeling for only 10% of the data, minimizing effort and error. Second, we conducted a comprehensive evaluation of toxicity detection models. Our findings reveal that while Large Language Models (LLMs) often achieve high performance, Small Language Models (SLMs) can demonstrate greater robustness to bias, better cross-language consistency, and superior generalization to novel forms of toxicity. Third, to identify optimal transfer-learning methods, we conducted a systematic comparison of In-Context Learning (ICL), Supervised Fine-tuning (SFT), and Chain-of-Thought (CoT) reasoning using `Qwen3-4B` and analyzed the impact of data imbalance. We propose a novel approach for CoT fine-tuning that employs a dynamic weighted loss function, significantly boosting performance by ensuring the model's reasoning is faithful to its final conclusion.
+Detecting toxic content using language models is crucial yet challenging. While substantial progress has been made in English, toxicity detection in French remains underdeveloped, primarily due to the lack of culturally relevant, large-scale datasets. In this work, we introduce TOXIFRENCH, a new public benchmark of 53,622 French online comments, constructed via a semi-automated annotation pipeline that reduces manual labeling to only 10% through high-confidence LLM-based pre-annotation and human verification. Then, we benchmark a broad range of models and uncover a counterintuitive insight: Small Language Models (SLMs) outperform many larger models in robustness and generalization under the toxicity detection task. Motivated by this finding, we propose a novel Chain-of-Thought (CoT) fine-tuning strategy using a dynamic weighted loss that progressively emphasizes the model's final decision, significantly improving faithfulness. Our fine-tuned 4B model achieves state-of-the-art performance, improving its F1 score by 13% over its baseline and outperforming LLMs such as GPT-40 and Gemini-2.5. Further evaluation on a cross-lingual toxicity benchmark demonstrates strong multilingual ability, suggesting that our methodology can be effectively extended to other languages and safety-critical classification tasks.
 
 ---
 
@@ -71,8 +71,8 @@ If you use this project in your research, please cite it as follows:
 
 ```bibtex
 @misc{delaval2025toxifrench,
-    title={ToxiFrench: Benchmarking and Investigating SLMs and CoT Finetuning for French Toxicity Detection},
-    author={Axel Delaval},
+    title={ToxiFrench: Benchmarking and Enhancing Language Models via CoT Fine-Tuning for French Toxicity Detection},
+    author={Axel Delaval and Shujian Yang and Haicheng Wang and Han Qiu and Jialiang Lu},
     year={2025},
 }
 ```

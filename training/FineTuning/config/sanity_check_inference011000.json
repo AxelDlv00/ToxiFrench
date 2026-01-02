@@ -1,0 +1,71 @@
+{
+    "model_params": {
+        "model_name": "Qwen/Qwen3-4B",
+        "local_checkpoint": "../../TrainedModels/finetuning/DEBUGGING011000/final_adapters",
+        "mode": "inference",
+        "optimizer_type": "SOAP",
+        "proxy_address": "http://127.0.0.1:10809"
+    },
+    "bnb_params": {
+        "load_in_4bit": true,
+        "bnb_4bit_use_double_quant": true,
+        "bnb_4bit_quant_type": "nf4",
+        "bnb_4bit_compute_dtype": "bfloat16"
+    },
+    "dataset_params": {
+        "dataset_path": "Naela00/ToxiFrench",
+        "text_field": "content",
+        "cot_fields": ["CoT_explication", "CoT_tons", "CoT_intentions", "CoT_categorie", "CoT_score", "cot_final_question"],
+        "label_field": "literal_conclusion_annotator"
+    },
+    "training_params": {
+        "output_dir": "../../TrainedModels/finetuning/DEBUGGING011000",
+        "num_train_epochs": 15,
+        "per_device_train_batch_size": 4,
+        "per_device_eval_batch_size": 4,
+        "auto_find_batch_size": false,
+        "learning_rate": 2e-4,
+        "weight_decay": 0.01,
+        "warmup_steps": 15,
+        "logging_strategy": "steps",
+        "logging_steps": 30,
+        "save_strategy": "steps",
+        "save_steps": 30,
+        "save_total_limit": 3,
+        "run_name": "DEBUGGING",
+        "report_to": "tensorboard",
+        "eval_strategy": "steps",
+        "eval_steps": 30,
+        "metric_for_best_model": "eval_loss",
+        "greater_is_better": false,
+        "lr_scheduler_type": "cosine",
+        "max_length": 1024,
+        "fp16": false,
+        "bf16": true,
+        "torch_compile": false,
+        "gradient_checkpointing": true,
+        "gradient_accumulation_steps": 1,
+        "logging_dir": "../../TrainedModels/finetuning/runs/DEBUGGING011000",
+        "deepspeed": "config/ds_config.json",
+        "remove_unused_columns": true,
+        "seed": 42
+    },
+    "training_params_custom": {
+        "weight_schedule": [
+            {"epoch": 0, "alphas": [0, 1, 0, 0, 0, 0]}
+        ],
+        "DFT": false,
+        "dataset": {
+            "oversampling": false,
+            "seed": 42,
+            "train_split_name": "train",
+            "eval_split_name": "test"
+        }
+    },
+    "lora_params": {
+        "r": 8,
+        "lora_alpha": 16,
+        "lora_dropout": 0.05,
+        "bias": "none"
+    }
+}

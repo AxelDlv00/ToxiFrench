@@ -1,0 +1,57 @@
+{
+    "model_params": {
+        "model_name": "Qwen/Qwen3-4B",
+        "local_checkpoint": "../../TrainedModels/finetuning/rec_soap",
+        "mode": "train",
+        "optimizer_type": "SOAP",
+        "proxy_address": "http://127.0.0.1:10809"
+    },
+    "bnb_params": {
+        "load_in_4bit": true,
+        "bnb_4bit_use_double_quant": true,
+        "bnb_4bit_quant_type": "nf4",
+        "bnb_4bit_compute_dtype": "bfloat16"
+    },
+    "dataset_params": {
+        "dataset_path": "AxelDlv00/ToxiFrench",
+        "dataset_config": "dpo",
+        "split":"augmented",
+        "chosen_field": "chosen",
+        "rejected_field": "rejected",
+        "prompt_fields": "prompt"
+    },
+    "training_params": {
+        "output_dir": "../../TrainedModels/DPO/rec_soap_dpo_augmented_v2",
+        "deepspeed": "config/ds_config.json",
+        "max_length": 1024,
+        "gradient_checkpointing": true,
+        "per_device_train_batch_size": 2,
+        "gradient_accumulation_steps": 32,
+        
+        "learning_rate": 1e-5,   
+        "num_train_epochs": 1,  
+        "beta": 0.1,          
+        
+        "bf16": true,
+        "logging_steps": 5,     
+        "save_steps": 25,       
+        "remove_unused_columns": false,
+        "report_to": "tensorboard",      
+        "logging_dir": "../../TrainedModels/DPO/runs/rec_soap_dpo_augmented_v2"
+    },
+    "training_params_custom": {
+        "dataset": {
+            "seed": 42,
+            "oversampling": true,
+            "train_split_name": "train",
+            "eval_split_name": "test"
+        },
+        "DFT": false
+    },
+    "lora_params": {
+        "r": 8,
+        "lora_alpha": 16,
+        "lora_dropout": 0.05,
+        "bias": "none"
+    }
+}

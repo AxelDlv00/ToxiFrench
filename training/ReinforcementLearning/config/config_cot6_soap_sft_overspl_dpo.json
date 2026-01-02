@@ -1,0 +1,42 @@
+{
+    "model_params": {
+        "model_name": "Qwen/Qwen3-4B",
+        "local_checkpoint": "../../TrainedModels/finetuning/Qwen3-4B-CoT6-SOAP-SFT-OverSpl/checkpoint-1260",
+        "mode": "inference",
+        "optimizer_type": "SOAP",
+        "proxy_address": ""
+    },
+    "bnb_params": {
+        "load_in_4bit": true,
+        "bnb_4bit_use_double_quant": true,
+        "bnb_4bit_quant_type": "nf4",
+        "bnb_4bit_compute_dtype": "bfloat16"
+    },
+    "dataset_params": {
+        "dataset_path": "Naela00/ToxiFrench",
+        "text_field": "content",
+        "cot_fields": ["CoT_explication", "CoT_tons", "CoT_intentions", "CoT_categorie", "CoT_score", "cot_final_question"],
+        "label_field": "literal_conclusion_annotator"
+    },
+    "training_params": {
+        "max_length": 2048,
+        "max_new_tokens": 1024,
+        "temperature": 0.8,
+        "top_p": 0.95,
+        "do_sample": true,
+        "repetition_penalty": 1.1,
+        "bf16": true,
+        "remove_unused_columns": false
+    },
+    "lora_params": {
+        "r": 8,
+        "lora_alpha": 16,
+        "lora_dropout": 0.05,
+        "bias": "none"
+    },
+    "dpo_params": {
+        "n_gen": 3,
+        "batch_size": 16,
+        "output_path": "dpo_candidates_cot6_soap_sft_overspl_v2.jsonl"
+    }
+}

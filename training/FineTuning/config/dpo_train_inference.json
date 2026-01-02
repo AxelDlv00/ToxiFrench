@@ -1,0 +1,50 @@
+{
+    "model_params": {
+        "model_name": "Qwen/Qwen3-4B",
+        "local_checkpoint": "../../TrainedModels/DPO/rec_soap_dpo_train/final_dpo_adapters",
+        "mode": "inference",
+        "optimizer_type": "SOAP",
+        "proxy_address": "http://127.0.0.1:10809"
+    },
+    "bnb_params": {
+        "load_in_4bit": true,
+        "bnb_4bit_use_double_quant": true,
+        "bnb_4bit_quant_type": "nf4",
+        "bnb_4bit_compute_dtype": "bfloat16"
+    },
+    "dataset_params": {
+        "dataset_path": "Naela00/ToxiFrench",
+        "dataset_config": "dpo",
+        "chosen_field": "chosen",
+        "rejected_field": "rejected",
+        "prompt_fields": "prompt"
+    },
+    "training_params": {
+        "output_dir": "../../TrainedModels/DPO/rec_soap_dpo_train",
+        "max_length": 1024,
+        "gradient_checkpointing": true,
+        "per_device_train_batch_size": 1,
+        "gradient_accumulation_steps": 32,
+        "learning_rate": 5e-5,
+        "num_train_epochs": 3,
+        "bf16": true,
+        "logging_steps": 5,
+        "save_steps": 50,
+        "remove_unused_columns": false
+    },
+    "training_params_custom": {
+        "dataset": {
+            "seed": 42,
+            "oversampling": true,
+            "train_split_name": "train",
+            "eval_split_name": "test"
+        },
+        "DFT": false
+    },
+    "lora_params": {
+        "r": 8,
+        "lora_alpha": 16,
+        "lora_dropout": 0.05,
+        "bias": "none"
+    }
+}

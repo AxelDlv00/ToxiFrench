@@ -1,0 +1,12 @@
+Definition of toxic content:
+
+Content is considered **toxic** when it contains hurtful, inappropriate, contemptuous, violent, or morally reprehensible statements. 
+
+Based on this, analyze the following message and indicate whether it is **toxic** or **non-toxic**.
+
+Your answer must be exactly one of the following two words (without additions):
+
+- toxic
+- non-toxic
+
+Message:

@@ -1,0 +1,988 @@
+msg_id,original_text,content,label,toxicity_score,is_toxic,predictions,prediction
+e6865c831da40459,"Combining 'Official requests for clemency' section with 'Calls for release' section, still needs tidying and possibly re-ordering.",Combiner la section 'Demandes officielles de clémence' avec la section 'Appels à la libération' nécessite encore un peu de rangement et peut-être un réagencement.,0,"{'PROFANITY': 0.010245483, 'INSULT': 0.0076838774, 'SEVERE_TOXICITY': 0.0006389618, 'THREAT': 0.0071847234, 'TOXICITY': 0.011623607}",False,0,0
+cff2b456e5059b47,"Web 
+
+Is this her own website? 113.22.84.65","Web
+
+Est-ce son propre site web ? 113.22.84.65",0,"{'THREAT': 0.008919456, 'SEVERE_TOXICITY': 0.0014972687, 'TOXICITY': 0.021785567, 'INSULT': 0.010286893, 'PROFANITY': 0.017572641}",False,0,0
+880d3d608f37bee3,"RFCU 
+
+FYI, I have opened Wikipedia:Requests_for_checkuser/Case/Betacommand. '''''' talk","RFCU 
+
+Pour info, j'ai ouvert Wikipedia:Requests_for_checkuser/Case/Betacommand. '''''' discussion",0,"{'TOXICITY': 0.013445686, 'SEVERE_TOXICITY': 0.0010967255, 'PROFANITY': 0.01620627, 'THREAT': 0.008194493, 'INSULT': 0.008348881}",False,0,0
+dd29d52a4320a2e4,"Monitor for cleanup: 
+As of the date signed below, I noticed the untitled link at reference [1] appears to be dead (http://module.smartech.gatech.edu/bitstream/1853/6262/1/AIAA-2002-5854.pdf).","Surveillance pour nettoyage :  
+À la date signée ci-dessous, j'ai remarqué que le lien sans titre à la référence [1] semble être mort (http://module.smartech.gatech.edu/bitstream/1853/6262/1/AIAA-2002-5854.pdf).",0,"{'SEVERE_TOXICITY': 0.0014781952, 'TOXICITY': 0.028856417, 'THREAT': 0.010291707, 'INSULT': 0.0115029, 'PROFANITY': 0.018324144}",False,0,0
+d70e773c975839e1,I concur and have done so.,Je suis d'accord et je l'ai fait.,0,"{'THREAT': 0.0072882893, 'TOXICITY': 0.010115679, 'INSULT': 0.0066958712, 'SEVERE_TOXICITY': 0.00093460083, 'PROFANITY': 0.012004685}",False,0,0
+247de1db0d711341,"could have fooled me, hens!
+last time i checked you come from the low lands and have edited tape","Tu m'as bien eu, les poules ! La dernière fois que j'ai vérifié, tu viens des Pays-Bas et tu as monté ton film à la hâte.",0,"{'THREAT': 0.009048914, 'TOXICITY': 0.19409354, 'INSULT': 0.08508729, 'SEVERE_TOXICITY': 0.0038909912, 'PROFANITY': 0.034146797}",False,0,0
+b2236bb18be3aa86,"Whatsmore, the citation refers to a study in 1999, before Chavez's health policy began.","De plus, la citation fait référence à une étude de 1999, avant que la politique de santé de Chávez ne commence.",0,"{'SEVERE_TOXICITY': 0.00032186508, 'TOXICITY': 0.008921904, 'PROFANITY': 0.009254865, 'INSULT': 0.007303875, 'THREAT': 0.0058869105}",False,0,0
+e1c2def77960a093,"Help me clean up an article 
+
+hey help me clean up this article. http://en.wikipedia.org/wiki/Sri_lanka_Armed_forces_Conduct_during_war
+
+Please add images, remove unwanted material. thanks.","Salut, aide-moi à nettoyer cet article. Ajoute des images, enlève les éléments indésirables. Merci.",0,"{'TOXICITY': 0.033806015, 'SEVERE_TOXICITY': 0.001335144, 'THREAT': 0.009825659, 'INSULT': 0.013896915, 'PROFANITY': 0.01805087}",False,0,0
+b48c788b797c2d58,""", 22 February 2008 (UTC)
+Nah, I don't mind. The more people that join, the better. '''' JibbaJabba!'' 00:29""",""", 22 février 2008 (UTC)  
+Non, ça ne me dérange pas. Plus il y a de gens qui rejoignent, mieux c'est. '''' JibbaJabba!'' 00:29""",0,"{'TOXICITY': 0.041172907, 'SEVERE_TOXICITY': 0.0022888184, 'INSULT': 0.017872108, 'PROFANITY': 0.02522431, 'THREAT': 0.011068452}",False,0,0
+92097eddfce97b5b,I didn't think it was an improvement.,Je ne pensais pas que c'était une amélioration.,0,"{'THREAT': 0.0069516995, 'PROFANITY': 0.013951761, 'TOXICITY': 0.017969469, 'INSULT': 0.009146886, 'SEVERE_TOXICITY': 0.000872612}",False,0,0
+547f596e29854539,It looks like the same person to me earoot@yahoo.com,Ça me semble être la même personne à moi earoot@yahoo.com.,0,"{'INSULT': 0.012300906, 'SEVERE_TOXICITY': 0.0018119812, 'PROFANITY': 0.019758832, 'TOXICITY': 0.028031485, 'THREAT': 0.008893564}",False,0,0
+4fbe2d3e771d2ea5,"Okay, done. What do you think?  hab","D'accord, c'est fait. Tu en penses quoi ?",0,"{'INSULT': 0.015416925, 'TOXICITY': 0.03592727, 'SEVERE_TOXICITY': 0.0016021729, 'PROFANITY': 0.019622196, 'THREAT': 0.008634649}",False,0,0
+e1b62911bc12de87,"Go right ahead, I don't see any problem with the suggestion.","Vas-y, je ne vois aucun problème avec cette suggestion.",0,"{'INSULT': 0.009165886, 'PROFANITY': 0.013336895, 'SEVERE_TOXICITY': 0.0011205673, 'TOXICITY': 0.016838523, 'THREAT': 0.007741391}",False,0,0
+dbc7caa106c495ef,I wonder if Wright's house is a tourist attraction like Johnny Adair's?,Je me demande si la maison de Wright est une attraction touristique comme celle de Johnny Adair ?,0,"{'SEVERE_TOXICITY': 0.00047922134, 'THREAT': 0.0060908063, 'PROFANITY': 0.009733095, 'TOXICITY': 0.009236055, 'INSULT': 0.0077598775}",False,0,0
+762cd552d5a2f9f2,"Okey i fixed the article to be more realistic, i am waiting feedback from others
+Waffa","D'accord, j'ai corrigé l'article pour qu'il soit plus réaliste, j'attends les retours des autres.  
+Waffa",0,"{'THREAT': 0.0091524795, 'PROFANITY': 0.019553876, 'TOXICITY': 0.027913637, 'SEVERE_TOXICITY': 0.0014877319, 'INSULT': 0.012756908}",False,0,0
+33184ecc136b3714,So what its interesting dont you think?,"Alors, c'est intéressant, non ?",0,"{'THREAT': 0.006330303, 'TOXICITY': 0.023788974, 'SEVERE_TOXICITY': 0.00088214874, 'PROFANITY': 0.014054239, 'INSULT': 0.011844902}",False,0,0
+170676687b54c3ae,"This is a shared IP
+This is a shared IP.",C'est une IP partagée.,0,"{'TOXICITY': 0.027088705, 'INSULT': 0.010210892, 'PROFANITY': 0.019280603, 'THREAT': 0.008556974, 'SEVERE_TOXICITY': 0.0018310547}",False,0,0
+affed1e1e5831082,"The 800 Club|800]] 04:25, 26 February 2007","Le Club des 800 | 800]] 04:25, 26 février 2007",0,"{'INSULT': 0.009906891, 'PROFANITY': 0.01846078, 'THREAT': 0.009281937, 'TOXICITY': 0.018723432, 'SEVERE_TOXICITY': 0.0015830994}",False,0,0
+67954c37f01b815f,"Ararat 
+
+I expect an agology from you for censoring Ararat's role in Armenian culture. You get nothing.","Ararat
+
+Je m'attends à des excuses de ta part pour avoir censuré le rôle d'Ararat dans la culture arménienne. Tu n'obtiendras rien.",0,"{'INSULT': 0.06687108, 'SEVERE_TOXICITY': 0.0032424927, 'TOXICITY': 0.17805049, 'PROFANITY': 0.01887069, 'THREAT': 0.012130005}",False,0,0
+6cacfc5e4ab51fa0,"Pashtuns, the dominant language there is Persian (see: Languages of Afghanistan","Pashtuns, la langue dominante là-bas est le persan.",0,"{'PROFANITY': 0.018255826, 'INSULT': 0.010058892, 'SEVERE_TOXICITY': 0.0015354156, 'TOXICITY': 0.02638162, 'THREAT': 0.008000307}",False,0,0
+b818ef67710c8056,"Voice 
+Shouldnt it be noted that he has a very powerful voice?","Voix  
+Ne devrait-on pas noter qu'il a une voix très puissante ?",0,"{'THREAT': 0.009463178, 'SEVERE_TOXICITY': 0.0018024445, 'INSULT': 0.0113509, 'PROFANITY': 0.01893901, 'TOXICITY': 0.02685301}",False,0,0
+4d557832fbda1ccc,"""
+ We should do something about that. Euthansia maybe? (How do you euthanase(?) Wiki accounts?) RB88 (T) """,Nous devrions faire quelque chose à ce sujet. Peut-être l'euthanasie ? (Comment on euthanasie des comptes Wiki ?) RB88 (T),0,"{'THREAT': 0.13397428, 'PROFANITY': 0.15985115, 'TOXICITY': 0.2854937, 'INSULT': 0.08533409, 'SEVERE_TOXICITY': 0.015286255}",False,0,0
+5e22d32d26d67c58,"""
+Hi again, In my view it's a good article. But former reviewer has mentioned some problems which you can see here. Thanks(t-c) ""","Salut encore, à mon avis c'est un bon article. Mais l'ancien évaluateur a mentionné quelques problèmes que tu peux voir ici. Merci.",0,"{'PROFANITY': 0.014464149, 'SEVERE_TOXICITY': 0.0008583069, 'THREAT': 0.007624879, 'TOXICITY': 0.014073989, 'INSULT': 0.0105148945}",False,0,0
+827cb61135f74a9d,"""
+Hi, , Everything is OK. Thank you very much for your help! All the best,  ""","Salut, tout va bien. Merci beaucoup pour ton aide ! Tout le meilleur,",0,"{'TOXICITY': 0.008859074, 'SEVERE_TOXICITY': 0.0011634827, 'INSULT': 0.007645877, 'PROFANITY': 0.014703264, 'THREAT': 0.008492245}",False,0,0
+dd97158598d5d318,"Ruthless For Life
+Can someone upload the Ruthless for Life album cover for Ren's discography pleaze?","Ruthless Pour La Vie  
+Quelqu'un peut uploader la couverture de l'album Ruthless for Life pour la discographie de Ren s'il vous plaît ?",0,"{'SEVERE_TOXICITY': 0.0020313263, 'THREAT': 0.010731863, 'PROFANITY': 0.020373698, 'INSULT': 0.01306091, 'TOXICITY': 0.035691574}",False,0,0
+03545107ce7f46cf,"""
+
+Also the last part of the last scentinence """"do things"""" is not really that descriptive of what is happening""","« De plus, la dernière partie de la dernière phrase ""faire des choses"" n'est pas vraiment descriptive de ce qui se passe. »",0,"{'INSULT': 0.014960921, 'SEVERE_TOXICITY': 0.0015258789, 'TOXICITY': 0.036162965, 'PROFANITY': 0.019622196, 'THREAT': 0.008919456}",False,0,0
+bc456c9c7e00410f,"Another question
+Sorry to bother you again, Jimfbleak, but how do I insert a picture into the page?","Une autre question  
+Désolé de te déranger encore, Jimfbleak, mais comment est-ce que j'insère une image dans la page ?",0,"{'PROFANITY': 0.039657943, 'SEVERE_TOXICITY': 0.0025749207, 'TOXICITY': 0.09481675, 'THREAT': 0.00967031, 'INSULT': 0.030265106}",False,0,0
+37184c63c4137f1c,There's also a problem with [ebu] in the list .  —,Il y a aussi un problème avec [ebu] dans la liste. —,0,"{'THREAT': 0.007909686, 'SEVERE_TOXICITY': 0.001411438, 'PROFANITY': 0.01887069, 'INSULT': 0.019483518, 'TOXICITY': 0.0438942}",False,0,0
+017962c9c2fa509f,Then I misunderstood the notification ) Thank you for replying,Alors j'ai mal compris la notification. Merci d'avoir répondu.,0,"{'INSULT': 0.0088618845, 'TOXICITY': 0.016587202, 'SEVERE_TOXICITY': 0.0010538101, 'PROFANITY': 0.014839902, 'THREAT': 0.007961469}",False,0,0
+8dd7cf19974f607d,"William S. Schaill
+The original author removed the prod tag, I've listed it for afd.","William S. Schaill  
+L'auteur original a retiré l'étiquette 'prod', je l'ai mentionnée pour la discussion sur la suppression.",0,"{'THREAT': 0.008090926, 'PROFANITY': 0.013234417, 'SEVERE_TOXICITY': 0.00091552734, 'INSULT': 0.009032886, 'TOXICITY': 0.016210219}",False,0,0
+985bc4c16fa1d839,"I'm inclined to assume good faith, nonetheless. And that evidence page was just a refractoring of the 3RR report, anyway.","Je suis enclin à supposer la bonne foi, cependant. Et cette page de preuves n'était qu'un refactoring du rapport 3RR, de toute façon.",0,"{'PROFANITY': 0.015898837, 'THREAT': 0.007819066, 'TOXICITY': 0.028502874, 'INSULT': 0.013174911, 'SEVERE_TOXICITY': 0.001206398}",False,0,0
+c37eafa0b1ab656e,"""Bare in mind, I am attacking no one except those who call the truth """"an attack"""". ""","""Tenez compte du fait que je n'attaque personne, sauf ceux qui qualifient la vérité 'd'attaque'.""",0,"{'SEVERE_TOXICITY': 0.014317908, 'INSULT': 0.08558089, 'TOXICITY': 0.3266089, 'THREAT': 0.33609006, 'PROFANITY': 0.089370176}",False,0,0
+96e8b1945271ea66,""", 3 September 2008 (UTC)
+Are you talking about  or  ~ {talk/contrib} 12:17""",""", 3 septembre 2008 (UTC)  
+Tu parles de ou ~ {discussion/contrib} 12:17""",0,"{'PROFANITY': 0.018324144, 'INSULT': 0.013820915, 'TOXICITY': 0.029092113, 'THREAT': 0.009644418, 'SEVERE_TOXICITY': 0.0015544891}",False,0,0
+288d80dc98aac919,"What is a nawlin 
+
+I'm nt quite sure and was wondering so i'll just leave this here","Qu'est-ce qu'un nawlin ? 
+
+Je ne suis pas vraiment sûr et je me demandais, alors je vais juste laisser ça ici.",0,"{'THREAT': 0.008686432, 'INSULT': 0.01632893, 'PROFANITY': 0.024814399, 'SEVERE_TOXICITY': 0.0023078918, 'TOXICITY': 0.044141594}",False,0,0
+f7150b8b15e8a72e,"""
+
+ """"largest moon"""" 
+
+Shouldn't it say largest known moon?   ""","« ""plus grande lune"" 
+
+Ne devrait-on pas dire plus grande lune connue ? »",0,"{'PROFANITY': 0.021330157, 'SEVERE_TOXICITY': 0.0017738342, 'THREAT': 0.008349842, 'TOXICITY': 0.03545588, 'INSULT': 0.0154929245}",False,0,0
+4c029692fc963e50,"lol soz
+didnt know u were one of dem","mdr désolé  
+je savais pas que tu faisais partie de ce genre de personnes",0,"{'SEVERE_TOXICITY': 0.0025367737, 'PROFANITY': 0.031641733, 'TOXICITY': 0.09308127, 'THREAT': 0.0073918556, 'INSULT': 0.030044744}",False,0,0
+de3c68c8f27afb0c,"""Infact, point 3 states this """"3.Mere collections of public domain or other source material"""". ""","En fait, le point 3 stipule ceci : ""3. De simples collections de matériel du domaine public ou d'autres sources"".",0,"{'INSULT': 0.007987879, 'PROFANITY': 0.013849284, 'THREAT': 0.007754337, 'TOXICITY': 0.012817383, 'SEVERE_TOXICITY': 0.0009250641}",False,0,0
+153a07821c4512d7,"March 2007 
+ Please stop. If you continue to vandalise Wikipedia, as you did to Women's rights, you will be blocked from editing.  - Denny","Mars 2007  
+Merci d'arrêter. Si tu continues à vandaliser Wikipédia, comme tu l'as fait avec les droits des femmes, tu seras bloqué de l'édition. - Denny",0,"{'INSULT': 0.053791173, 'TOXICITY': 0.16591948, 'PROFANITY': 0.03389629, 'THREAT': 0.040638234, 'SEVERE_TOXICITY': 0.0042915344}",False,0,0
+f3f9248cf12cc124,">>
+ I have just edited a message into the page about Ron Healey...
+Paddy Oates, Canberra. ACT, Auz
+<<","Je viens juste d'éditer un message sur la page concernant Ron Healey...  
+Paddy Oates, Canberra. ACT, Australie.",0,"{'PROFANITY': 0.013883443, 'SEVERE_TOXICITY': 0.0011014938, 'THREAT': 0.007961469, 'TOXICITY': 0.017089844, 'INSULT': 0.00979289}",False,0,0
+1de329584779a2a3,"Scientology 
+Are you now or having you ever been banned or blocked in in any of our Scientology articles?","Scientologie  
+Êtes-vous actuellement ou avez-vous jamais été banni ou bloqué dans l'un de nos articles sur la Scientologie ?",0,"{'INSULT': 0.043250903, 'TOXICITY': 0.16765249, 'SEVERE_TOXICITY': 0.0038146973, 'PROFANITY': 0.027137227, 'THREAT': 0.011638066}",False,0,0
+8899684401b5c51c,You edits to this article are of interest. I support your changes. Well done.,Vos modifications de cet article sont intéressantes. Je soutiens vos changements. Bien joué.,0,"{'THREAT': 0.0084793, 'SEVERE_TOXICITY': 0.0010919571, 'PROFANITY': 0.014225035, 'TOXICITY': 0.01024134, 'INSULT': 0.007778878}",False,0,0
+8c8e78d83e063a7d,"RFC
+you may want to check out this RFC
+http://en.wikipedia.org/wiki/Talk:Armenia","RFC  
+tu devrais jeter un œil à ce RFC",0,"{'PROFANITY': 0.015693882, 'THREAT': 0.008349842, 'SEVERE_TOXICITY': 0.0013256073, 'INSULT': 0.008424882, 'TOXICITY': 0.01646154}",False,0,0
+a1baa75378bacc1e,"You might try reviewing the section on personal vendettas yourself. This is typical of a right wing republican, trying to censor the LGBT community","Vous devriez peut-être essayer de lire vous-même la section sur les vendettas personnelles. C'est typique d'un républicain de droite, cherchant à censurer la communauté LGBT.",0,"{'SEVERE_TOXICITY': 0.006713867, 'INSULT': 0.16809943, 'TOXICITY': 0.30854854, 'THREAT': 0.011405042, 'PROFANITY': 0.04141149}",False,0,0
+84dbfbd6bdd622fb,"Thanks for the review , I've addressed all your comments.","Merci pour la critique, j'ai pris en compte tous tes commentaires.",0,"{'THREAT': 0.007689608, 'TOXICITY': 0.011937759, 'SEVERE_TOXICITY': 0.00086307526, 'INSULT': 0.007360875, 'PROFANITY': 0.011663092}",False,0,0
+813c6b97bd416a31,What does the WHOIS information give you that would indicate that? Do you even understand the information?78.68.210.173,Qu'est-ce que les informations WHOIS te donnent qui indiquerait ça ? Tu comprends même les informations ? 78.68.210.173,0,"{'PROFANITY': 0.052183274, 'SEVERE_TOXICITY': 0.0048065186, 'INSULT': 0.09563028, 'THREAT': 0.008764107, 'TOXICITY': 0.23739935}",False,0,0
+c42577cbdf90506d,"Agrred, but I would keep a good eye on RedAnt though. 91.184.0.80","D'accord, mais je garderais un bon œil sur RedAnt quand même.",0,"{'THREAT': 0.019918699, 'PROFANITY': 0.04667213, 'INSULT': 0.029714199, 'TOXICITY': 0.10696511, 'SEVERE_TOXICITY': 0.0033950806}",False,0,0
+15b8d828447c1ac2,"Disney has already answered my question; Fall 2007. Oh, well.",Disney a déjà répondu à ma question ; automne 2007. Eh bien.,0,"{'PROFANITY': 0.012482914, 'INSULT': 0.00821588, 'SEVERE_TOXICITY': 0.0008058548, 'THREAT': 0.006912862, 'TOXICITY': 0.01608456}",False,0,0
+a82383081065028d,"""
+Sorry, but """"there i am over-asked"""" (da bin ich überfragt). Really, i know nothing about uploading things on Commons. Cheers,   ""","Désolé, mais ""là, je suis dépassé"". Franchement, je ne sais rien sur le téléchargement de trucs sur Commons. À bientôt.",0,"{'SEVERE_TOXICITY': 0.0012874603, 'TOXICITY': 0.026145924, 'INSULT': 0.013782915, 'PROFANITY': 0.020510335, 'THREAT': 0.008194493}",False,0,0
+49e8057616e5f170,"====
+Link to a source where this image is released as GFDL? The link given says nothing about copyright status of the logo",Lien vers une source où cette image est publiée sous GFDL ? Le lien donné ne dit rien sur le statut de copyright du logo.,0,"{'TOXICITY': 0.022846194, 'PROFANITY': 0.017231047, 'SEVERE_TOXICITY': 0.0012111664, 'THREAT': 0.008039144, 'INSULT': 0.010438894}",False,0,0
+6dd2351f2597e851,"No, he has a valid point and I have proved it very easily. See above proof.","Non, il a raison et je l'ai prouvé très simplement. Voir la preuve ci-dessus.",0,"{'THREAT': 0.006543908, 'INSULT': 0.007493876, 'PROFANITY': 0.010809111, 'SEVERE_TOXICITY': 0.00064373016, 'TOXICITY': 0.010995304}",False,0,0
+7464ea443165cd32,"""
+
+Hi Mootros. I replied on the article discussion page. '''''' """,Salut Mootros. J'ai répondu sur la page de discussion de l'article.,0,"{'PROFANITY': 0.021125201, 'TOXICITY': 0.020842785, 'SEVERE_TOXICITY': 0.001707077, 'INSULT': 0.0113889, 'THREAT': 0.009955117}",False,0,0
+5421b319db142ab6,"That's right. Cheers. I have dynamic assignation of IPs, not my fault.","C'est ça. Santé. J'ai une attribution dynamique des adresses IP, ce n'est pas de ma faute.",0,"{'PROFANITY': 0.016752819, 'TOXICITY': 0.02308189, 'SEVERE_TOXICITY': 0.0011396408, 'THREAT': 0.007870848, 'INSULT': 0.010818896}",False,0,0
+7c1cfd2399255b4f,"Bert Weedon
+
+Although he has only two languages, I think he deserves a place as he was very influential in guitairing","Bert Weedon
+
+Bien qu'il n'ait que deux langues, je pense qu'il mérite une place car il a été très influent dans le domaine de la guitare.",0,"{'THREAT': 0.007353018, 'INSULT': 0.00971689, 'SEVERE_TOXICITY': 0.0012683868, 'TOXICITY': 0.017089844, 'PROFANITY': 0.013883443}",False,0,0
+e7364f3eb67454c9,"League leader/NFL record markers 
+
+Why were those removed from the stats tables? They're still there for, e.g., Peyton Manning.","Pourquoi ont-ils été retirés des tableaux de stats ? Ils y sont toujours pour, par exemple, Peyton Manning.",0,"{'TOXICITY': 0.0074453913, 'PROFANITY': 0.009280485, 'INSULT': 0.007607877, 'SEVERE_TOXICITY': 0.00046253204, 'THREAT': 0.0059419298}",False,0,0
+7eeb5e8e564b99f0,"page move/merge 
+
+Hello AdventurousSquirrel, what was your rationale for this page move]?  Thanks.","Bonjour AdventurousSquirrel, quelle était ta raison pour ce déplacement de page ? Merci.",0,"{'INSULT': 0.012756908, 'SEVERE_TOXICITY': 0.0013256073, 'TOXICITY': 0.023317585, 'PROFANITY': 0.017982552, 'THREAT': 0.008841781}",False,0,0
+e8ea81d9eac81735,"Deletion
+This has been tagged for Speedy Deletion as it is the same article previously deleted as","Suppression  
+Ceci a été marqué pour une suppression rapide car c'est le même article précédemment supprimé sous.",0,"{'PROFANITY': 0.017094411, 'TOXICITY': 0.029445656, 'INSULT': 0.0115029, 'SEVERE_TOXICITY': 0.0016021729, 'THREAT': 0.011223801}",False,0,0
+fd35165c9ee53baf,"""
+i agree. split only when necessary by size, only 37k, nowhere near big enough. ⇔ †@1₭ ""","Je suis d'accord. Ne divise que si c'est nécessaire par taille, seulement 37k, pas du tout assez gros.",0,"{'THREAT': 0.00899713, 'TOXICITY': 0.019603057, 'SEVERE_TOXICITY': 0.0013256073, 'PROFANITY': 0.01620627, 'INSULT': 0.0103248935}",False,0,0
+e5223cd506153f64,what i mean by the anti edditing thing is your vandilism protector,"Ce que je veux dire par le truc anti-édition, c'est ton protecteur de vandalisme.",0,"{'SEVERE_TOXICITY': 0.010910034, 'PROFANITY': 0.0887236, 'INSULT': 0.20668297, 'TOXICITY': 0.3250515, 'THREAT': 0.016810767}",False,0,0
+89f78df565666559,Who said the Native Americans weren't from the Middle East and Far East? All DNA points to their haplogroups originating there.,Qui a dit que les Amérindiens ne venaient pas du Moyen-Orient et de l'Extrême-Orient ? Tous les ADN montrent que leurs haplogroupes proviennent de là.,0,"{'PROFANITY': 0.012517073, 'SEVERE_TOXICITY': 0.0013542175, 'TOXICITY': 0.049089402, 'THREAT': 0.0062332097, 'INSULT': 0.016708933}",False,0,0
+c31be36ccd929bb8,", 8 June 2012 (UTC)
+
+ There after me ! 
+http://indianmilitarynews.files.wordpress.com/2011/05/indian-army-rape-us.jpg
+Indian kids trying to rape my user page ( 86.182.174.123  08:53",Il y a des enfants indiens qui essaient de violer ma page utilisateur !,0,"{'TOXICITY': 0.50789946, 'THREAT': 0.3733964, 'PROFANITY': 0.39026237, 'INSULT': 0.36021477, 'SEVERE_TOXICITY': 0.21596274}",True,1,1
+be7c0c94a5313a3d,(I'm sorry I actually know the law),"Désolé, je sais en fait la loi.",0,"{'INSULT': 0.008747884, 'SEVERE_TOXICITY': 0.0012683868, 'TOXICITY': 0.020231359, 'PROFANITY': 0.017299367, 'THREAT': 0.008090926}",False,0,0
+d6a581d8ed5f1a33,"""above line is generated by """"subst:Copyvio|url""""""","""La ligne ci-dessus est générée par """"subst:Copyvio|url""""""",0,"{'THREAT': 0.009385503, 'SEVERE_TOXICITY': 0.0018405914, 'INSULT': 0.012718908, 'PROFANITY': 0.019895468, 'TOXICITY': 0.027324399}",False,0,0
+be868bd4f99965d2,"Enough said? Not really. Paint Your Wagon, despite being a weird idea, isn't utterly terrible.","Assez dit ? Pas vraiment. Paint Your Wagon, malgré son idée bizarre, n'est pas complètement terrible.",0,"{'THREAT': 0.007081157, 'TOXICITY': 0.09481675, 'SEVERE_TOXICITY': 0.0013542175, 'PROFANITY': 0.017504321, 'INSULT': 0.034672357}",False,0,0
+3645b913469bdf02,ok i guess i got to read and learn more about editing. well thanks,"D'accord, je suppose que je dois lire et apprendre davantage sur le montage. Eh bien, merci.",0,"{'PROFANITY': 0.01620627, 'THREAT': 0.008181547, 'TOXICITY': 0.018849092, 'INSULT': 0.0105148945, 'SEVERE_TOXICITY': 0.0011348724}",False,0,0
+62486c1da44f53e9,"""
+He just vandalized your page again. He should be blocked indefinetly for repeadiatly vandalizing. """"aka"""" Thetruthbelow ""","Il vient encore de vandaliser ta page. Il devrait être bloqué indéfiniment pour vandalisation répétée. ""aka"" La vérité en dessous",0,"{'SEVERE_TOXICITY': 0.009765625, 'INSULT': 0.100019015, 'PROFANITY': 0.073529124, 'TOXICITY': 0.27975297, 'THREAT': 0.122295745}",False,0,0
+0b5ccac38d10b413,I just tag it so some administrator can delete it.   (talk),Je le signale juste pour qu'un administrateur puisse le supprimer.,0,"{'TOXICITY': 0.05378982, 'INSULT': 0.015340924, 'PROFANITY': 0.023311393, 'SEVERE_TOXICITY': 0.0023555756, 'THREAT': 0.027170537}",False,0,0
+e5c2e2a02dddedb2,"Thank you 
+
+Thank you for this 
+
+http://en.wikipedia.org/w/index.php?title=National_Revival_of_Poland&diff;=190039385&oldid;=190025515
+
+Slava bratiom Ceskim ! ;) Slava Slavianom bratie !","Merci
+
+Merci pour ça
+
+Gloire aux frères tchèques ! ;) Gloire aux frères slaves !",0,"{'SEVERE_TOXICITY': 0.044870634, 'PROFANITY': 0.17287734, 'THREAT': 0.03787563, 'INSULT': 0.06826523, 'TOXICITY': 0.23271075}",False,0,0
+c9c6e0e7ee5baf73,"What did you dream? It's alright, we told you what to dream. Congratulations, anyways. -)  (talk)","Qu'est-ce que tu as rêvé ? C'est bon, on t'a dit quoi rêver. Félicitations, quand même. -)",0,"{'THREAT': 0.008505191, 'PROFANITY': 0.020988565, 'TOXICITY': 0.05824285, 'SEVERE_TOXICITY': 0.0019168854, 'INSULT': 0.027841117}",False,0,0
+7c9982ea347aae91,Oh thanks very much and sorry for not noticing your respond...I'll look at those pages again and find out what's wrong(actually I forgot).,"Oh merci beaucoup et désolé de ne pas avoir remarqué ta réponse... Je vais regarder ces pages à nouveau et découvrir ce qui cloche (en fait, j'ai oublié).",0,"{'THREAT': 0.008531082, 'PROFANITY': 0.016957775, 'TOXICITY': 0.030741978, 'SEVERE_TOXICITY': 0.0012302399, 'INSULT': 0.013288911}",False,0,0
+b1d9ea1636fe2e50,"Fox
+Stop posting this rubbish about Fox and Al Jazeera",Arrêtez de poster ces conneries sur Fox et Al Jazeera.,0,"{'THREAT': 0.0071070488, 'TOXICITY': 0.4269174, 'PROFANITY': 0.26583168, 'SEVERE_TOXICITY': 0.022193791, 'INSULT': 0.4718924}",False,0,0
+e4c66847fdcad35a,"""
+
+ A barnstar for you! 
+
+  The Original Barnstar For adding images to Melbourne railway station articles   ""","Une étoile de grange pour toi !
+
+L'Étoile de Grange Originale Pour avoir ajouté des images aux articles sur la gare de Melbourne",0,"{'PROFANITY': 0.035399333, 'TOXICITY': 0.06381883, 'THREAT': 0.009256045, 'INSULT': 0.028281843, 'SEVERE_TOXICITY': 0.002822876}",False,0,0
+a1be934343f634de,"Yes, this should be reverted. maybe we give Scolaire a few hours to self revert first?","Oui, ça devrait être annulé. Peut-être qu'on devrait donner à Scolaire quelques heures pour se rétracter tout seul d'abord ?",0,"{'TOXICITY': 0.030859824, 'THREAT': 0.011974656, 'INSULT': 0.012870909, 'PROFANITY': 0.01764096, 'SEVERE_TOXICITY': 0.0014019012}",False,0,0
+4c63863f4c4a363a,"thanks a lot 
+
+i can edit now","merci beaucoup
+
+je peux éditer maintenant",0,"{'INSULT': 0.007835878, 'SEVERE_TOXICITY': 0.0013637543, 'THREAT': 0.008867673, 'PROFANITY': 0.015830519, 'TOXICITY': 0.012063419}",False,0,0
+9f7678c1c4c57190,", check my edition again please. And tell me what is the problem now. Thanks.",Vérifie encore une fois mon édition s'il te plaît. Et dis-moi quel est le problème maintenant. Merci.,0,"{'THREAT': 0.0091524795, 'TOXICITY': 0.025792383, 'PROFANITY': 0.0166845, 'SEVERE_TOXICITY': 0.0012207031, 'INSULT': 0.011920903}",False,0,0
+4355417d01ff0d8e,I see your point. Perhaps the article should be titled Lists of Seven Wonders of the World?,Je vois ce que tu veux dire. Peut-être que l'article devrait s'appeler Listes des Sept Merveilles du Monde ?,0,"{'SEVERE_TOXICITY': 0.0008249283, 'THREAT': 0.007340072, 'TOXICITY': 0.013068704, 'PROFANITY': 0.0127903465, 'INSULT': 0.007930879}",False,0,0
+3761497fd14121ad,"Category 
+
+Could an admin please change Category:Armenian history to Category:History of Armenia?  The former is being renamed.  Thanks,  20:15, 22 Jun 2005 (UTC)","Catégorie
+
+Un administrateur pourrait-il s'il vous plaît changer la Catégorie:Histoire arménienne en Catégorie:Histoire de l'Arménie ? La première est en train d'être renommée. Merci, 20:15, 22 juin 2005 (UTC)",0,"{'TOXICITY': 0.010869644, 'INSULT': 0.007322875, 'PROFANITY': 0.013985921, 'THREAT': 0.007521313, 'SEVERE_TOXICITY': 0.00093460083}",False,0,0
+a04956f230bcb11c,"Tony Pastor. - Tim, 14 July, 2009.","Tony Pastor. - Tim, 14 juillet 2009.",0,"{'INSULT': 0.004739156, 'TOXICITY': 0.00012958751, 'PROFANITY': 0.0075591793, 'SEVERE_TOXICITY': 2.041459e-05, 'THREAT': 0.0052266764}",False,0,0
+7ab55f5165ed9291,"The failure of Fagreterion 
+
+Fagreterion can't stop me!","L'échec de Fagreterion
+
+Fagreterion ne peut pas m'arrêter !",0,"{'SEVERE_TOXICITY': 0.013801457, 'INSULT': 0.081261896, 'PROFANITY': 0.14930901, 'THREAT': 0.013321015, 'TOXICITY': 0.2763787}",False,0,0
+ddb11abeca87bb3c,"birth place  
+
+ YC was not born in Jonesboro Georgia","lieu de naissance  
+
+YC n'est pas né à Jonesboro, en Géorgie.",0,"{'INSULT': 0.026702631, 'PROFANITY': 0.07047026, 'THREAT': 0.027170537, 'TOXICITY': 0.112953395, 'SEVERE_TOXICITY': 0.0051498413}",False,0,0
+ec2b5e0587e6d405,It is not blatant advertising it is simply telling what it is.... how should it be changed other than a simple bio?,"Ce n'est pas une pub flagrante, c'est simplement dire ce que c'est... comment ça pourrait être changé autre qu'une simple biographie ?",0,"{'PROFANITY': 0.0137468055, 'TOXICITY': 0.039226998, 'SEVERE_TOXICITY': 0.0008058548, 'THREAT': 0.006194372, 'INSULT': 0.018581128}",False,0,0
+18798f7376506b07,"Unregistered punk think's he's so cool 
+
+This isn't a personal attack, what are you talking about.","Un punk non enregistré se prend pour un mec tellement cool.
+
+Ce n'est pas une attaque personnelle, de quoi tu parles.",0,"{'INSULT': 0.2735258, 'SEVERE_TOXICITY': 0.0074005127, 'PROFANITY': 0.05393682, 'TOXICITY': 0.30539915, 'THREAT': 0.00899713}",False,0,0
+e42cb4ca527e1da3,"""
+
+ Ooops 
+
+We all make mistakes. I meant elitist, not eletist. I guess """"swine"""" might have been easier.... D""","Oups
+
+Nous faisons tous des erreurs. Je voulais dire élitiste, pas eletiste. Je suppose que ""porc"" aurait été plus simple.... D",0,"{'SEVERE_TOXICITY': 0.018578632, 'PROFANITY': 0.28938356, 'TOXICITY': 0.37751234, 'THREAT': 0.016810767, 'INSULT': 0.35016364}",False,0,0
+ddfa79358d7982ba,"People magazine, umm yeah, no, that does not meet WP:MEDRS.","People magazine, euh ouais, non, ça ne respecte pas WP:MEDRS.",0,"{'THREAT': 0.008155655, 'TOXICITY': 0.09394901, 'INSULT': 0.02618698, 'SEVERE_TOXICITY': 0.002632141, 'PROFANITY': 0.032643758}",False,0,0
+a710d080033ad0a8,"I have to agree with Rmhermen...
+Leave me a message on my talk-page if you have any questions or concerns with this comment
+Yashtulsyan","Je dois être d'accord avec Rmhermen...  
+Laisse-moi un message sur ma page de discussion si tu as des questions ou des préoccupations concernant ce commentaire.  
+Yashtulsyan",0,"{'PROFANITY': 0.014156717, 'SEVERE_TOXICITY': 0.0009965897, 'TOXICITY': 0.014136819, 'THREAT': 0.008298059, 'INSULT': 0.008519882}",False,0,0
+24973be1304921bb,"QuackGuru, we are already over that pseudohistorical revisionism. You know it better than I do.","QuackGuru, on a déjà dépassé ce révisionnisme pseudohistorique. Tu le sais mieux que moi.",0,"{'TOXICITY': 0.05799546, 'THREAT': 0.006861079, 'SEVERE_TOXICITY': 0.0016117096, 'PROFANITY': 0.018802373, 'INSULT': 0.025284592}",False,0,0
+beb0ae1102bd6348,"Ummm
+The top 10 oldest people living list has remained unchanged for over three months. Is this a record? Will it ever be updated?","Euh  
+La liste des 10 personnes les plus âgées vivantes est restée inchangée pendant plus de trois mois. C'est un record ? Ça sera jamais mis à jour ?",0,"{'THREAT': 0.0064144502, 'PROFANITY': 0.010723713, 'INSULT': 0.007873878, 'SEVERE_TOXICITY': 0.0006246567, 'TOXICITY': 0.0126288915}",False,0,0
+3b87b717957aaf37,"In fact Goda died circus 1047, and Eustache married Ida about 1049. Regards,","En fait, Goda est morte en 1047, et Eustache a épousé Ida vers 1049. Cordialement,",0,"{'TOXICITY': 0.030270588, 'SEVERE_TOXICITY': 0.0011634827, 'THREAT': 0.008815889, 'INSULT': 0.012794908, 'PROFANITY': 0.016752819}",False,0,0
+fc4ccc6e20f43f58,"I've reverted most of the edits, although I don't find any problems with A580666's edit to [[Chinese Singaporean]]. GotR Talk","J'ai annulé la plupart des modifications, même si je ne trouve aucun problème avec la modification d'A580666 sur [[Chinois de Singapour]]. GotR Discussion",0,"{'TOXICITY': 0.025320992, 'PROFANITY': 0.02030538, 'SEVERE_TOXICITY': 0.0017547607, 'THREAT': 0.010421164, 'INSULT': 0.0118069025}",False,0,0
+81a193ec21177f25,"Yes, I believe it is. Thank you very much.","Oui, je le crois. Merci beaucoup.",0,"{'SEVERE_TOXICITY': 0.0008583069, 'PROFANITY': 0.012141321, 'INSULT': 0.0069238725, 'THREAT': 0.007068211, 'TOXICITY': 0.008859074}",False,0,0
+7abeff1adf8066a8,Sorry about the vandalism - I've seen the error of my ways,Désolé pour le vandalisme - j'ai vu l'erreur de mes façons.,0,"{'TOXICITY': 0.1140901, 'SEVERE_TOXICITY': 0.0038909912, 'THREAT': 0.012233571, 'PROFANITY': 0.04867618, 'INSULT': 0.0279513}",False,0,0
+987abd429cd14540,"Hispanic
+What the hell do Hispanics have to do with this? I'm erasing it.",Qu'est-ce que les Hispaniques ont à voir avec ça ? Je l'efface.,0,"{'THREAT': 0.04363242, 'INSULT': 0.36798462, 'PROFANITY': 0.5013569, 'SEVERE_TOXICITY': 0.16960317, 'TOXICITY': 0.5885171}",True,1,1
+3409616715f118fa,"""
+You are bs-ing again with your """"no consensus."""" Nothing of the sort was said in the talk page.  ""","Tu racontes encore des conneries avec ton ""pas de consensus"". Rien de tout ça n'a été dit sur la page de discussion.",0,"{'INSULT': 0.33896056, 'TOXICITY': 0.3722269, 'THREAT': 0.011612174, 'SEVERE_TOXICITY': 0.013801457, 'PROFANITY': 0.22562476}",False,0,0
+4e3700e5093ab1e6,Just because you disagree that he is a conspiracy theorist does not mean I need to censor.,Ce n'est pas parce que tu n'es pas d'accord pour dire qu'il est un théoricien du complot que je dois censurer.,0,"{'SEVERE_TOXICITY': 0.002708435, 'INSULT': 0.06953252, 'THREAT': 0.008090926, 'PROFANITY': 0.024609445, 'TOXICITY': 0.16098402}",False,0,0
+bc7b61118507bf4f,"""   (Leave me a message)
+
+""",(Laisse-moi un message),0,"{'SEVERE_TOXICITY': 0.0023269653, 'TOXICITY': 0.028502874, 'PROFANITY': 0.021945024, 'INSULT': 0.010856897, 'THREAT': 0.0130621}",False,0,0
+ed9c1efb41f02916,"Hi Bruno 
+
+ Hi Bruno. How's things? I'll get the SPI together over the wknd. Cheers,","Salut Bruno,
+
+Comment ça va ? Je vais préparer le SPI ce week-end. À plus,",0,"{'THREAT': 0.03235042, 'PROFANITY': 0.068967216, 'TOXICITY': 0.09525062, 'SEVERE_TOXICITY': 0.0052261353, 'INSULT': 0.02264188}",False,0,0
+e7df978258868f5e,hu.... Does it refresh every time I refresh the page?,Euh... Est-ce que ça se met à jour chaque fois que je rafraîchis la page ?,0,"{'SEVERE_TOXICITY': 0.00166893, 'PROFANITY': 0.022218296, 'INSULT': 0.0116169015, 'TOXICITY': 0.031331215, 'THREAT': 0.008815889}",False,0,0
+909b3bec738614f9,"Please, could you explain your thinking for your warnings on my page? Thank you.","S'il te plaît, pourrais-tu expliquer tes réflexions sur tes avertissements sur ma page ? Merci.",0,"{'TOXICITY': 0.10002319, 'SEVERE_TOXICITY': 0.0021648407, 'THREAT': 0.01101667, 'PROFANITY': 0.022286616, 'INSULT': 0.027605021}",False,0,0
+baf86b93cc212702,"pdf 
+
+I doubt you'll be surprised to learn I agree. Cheers,","Je ne doute pas que tu seras surpris d'apprendre que je suis d'accord. Santé,",0,"{'THREAT': 0.007340072, 'INSULT': 0.0129089095, 'TOXICITY': 0.02543884, 'PROFANITY': 0.012585391, 'SEVERE_TOXICITY': 0.0008773804}",False,0,0
+63ef41ee3e3f5fd7,"""
+
+I think """"1st Lord Hailes"""" should be added to this page's title.  ""","Je pense que """"1er Lord Hailes"""" devrait être ajouté au titre de cette page.",0,"{'PROFANITY': 0.016889455, 'INSULT': 0.0107048955, 'TOXICITY': 0.018849092, 'SEVERE_TOXICITY': 0.0013065338, 'THREAT': 0.009411395}",False,0,0
+47b60ce20228d51f,""", 28 May 2010 (UTC)
+ —·comms 17:28""",", 28 mai 2010 (UTC)  
+—·comms 17:28",0,"{'PROFANITY': 0.015420608, 'TOXICITY': 0.012063419, 'INSULT': 0.00817788, 'THREAT': 0.0086087575, 'SEVERE_TOXICITY': 0.0012159348}",False,0,0
+74795a18fe96b5cb,"""
+Dude, you keep vandalizing it by adding spelling errors. contribsTALK ""","Mec, tu continues à le vandaliser en ajoutant des fautes d'orthographe.",0,"{'INSULT': 0.16846494, 'PROFANITY': 0.099305905, 'TOXICITY': 0.30527395, 'THREAT': 0.034422375, 'SEVERE_TOXICITY': 0.011672974}",False,0,0
+807168058208dc6a,I think John Milton died a few centuries ago! Hence his poems are in the public domain.,Je pense que John Milton est mort il y a quelques siècles ! D'où le fait que ses poèmes soient dans le domaine public.,0,"{'PROFANITY': 0.015010698, 'INSULT': 0.013592913, 'TOXICITY': 0.034984488, 'SEVERE_TOXICITY': 0.0013446808, 'THREAT': 0.009592636}",False,0,0
+519b3ff2988dd846,", by the way are we still friends.}}","Au fait, on est toujours amis ?",0,"{'SEVERE_TOXICITY': 0.001783371, 'PROFANITY': 0.018255826, 'TOXICITY': 0.022139108, 'INSULT': 0.010628895, 'THREAT': 0.009359611}",False,0,0
+a64d7ee9c33e61a5,This is going to a long drawn out issue...,C'est un problème qui va s'éterniser...,0,"{'SEVERE_TOXICITY': 0.0010442734, 'THREAT': 0.008492245, 'TOXICITY': 0.02072494, 'INSULT': 0.009146886, 'PROFANITY': 0.013473531}",False,0,0
+dc33313e15a7c1dc,"An indefinite block is appropriate, even for a minor infraction, if you show know signs of discontinuing.  —   (talk)","Un blocage indéfini est approprié, même pour une infraction mineure, si tu ne montres aucun signe d'arrêter.",0,"{'SEVERE_TOXICITY': 0.0012874603, 'PROFANITY': 0.020578653, 'INSULT': 0.013782915, 'THREAT': 0.009955117, 'TOXICITY': 0.031331215}",False,0,0
+6c3feae425dca667,"Yep, I'll have a look in a bit. Thanks for the heads-up. =) 「[[Special:Contributions/Dinoguy1000|千？！]]」? · Talk⇒Dinoguy1000","Ouais, je vais jeter un œil tout à l'heure. Merci pour l'info. =)",0,"{'TOXICITY': 0.022964042, 'INSULT': 0.010438894, 'SEVERE_TOXICITY': 0.0017261505, 'THREAT': 0.009437286, 'PROFANITY': 0.022969801}",False,0,0
+18df7605a2af7fd2,list of works is not a cpyright vio.,la liste des œuvres n'est pas une violation du droit d'auteur.,0,"{'SEVERE_TOXICITY': 0.0009870529, 'TOXICITY': 0.021432023, 'INSULT': 0.009013886, 'PROFANITY': 0.015420608, 'THREAT': 0.007417747}",False,0,0
+78ba428dc9822a01,"Barelvi Article
+Hi! Thank You for You maintaining neutral version at Barelvi Page.",Salut ! Merci de maintenir une version neutre sur la page des Barelvi.,0,"{'THREAT': 0.007857903, 'TOXICITY': 0.011246625, 'SEVERE_TOXICITY': 0.00082969666, 'PROFANITY': 0.012995303, 'INSULT': 0.008614883}",False,0,0
+2a7cff99fa8ee7d2,Approve. I second the above comment of Frederico1234.,Approuvé. Je soutiens le commentaire ci-dessus de Frederico1234.,0,"{'INSULT': 0.0070853736, 'SEVERE_TOXICITY': 0.00071525574, 'TOXICITY': 0.009864358, 'PROFANITY': 0.011065305, 'THREAT': 0.006835188}",False,0,0
+584be10cd96a4e41,That's all i have to say,C'est tout ce que j'ai à dire.,0,"{'PROFANITY': 0.020442016, 'INSULT': 0.00979289, 'THREAT': 0.0086087575, 'SEVERE_TOXICITY': 0.0018787384, 'TOXICITY': 0.024849601}",False,0,0
+5a0eea82969faaa5,"""
+ Lol okay Sasha, I thought you were going to """"Disappear"""" P  —  • TALK   ""","Lol d'accord Sasha, je pensais que tu allais """"disparaître"""" P — • PARLER",0,"{'INSULT': 0.1669316, 'SEVERE_TOXICITY': 0.01412424, 'PROFANITY': 0.12991914, 'THREAT': 0.13397428, 'TOXICITY': 0.30439767}",False,0,0
+c3e0deb15321de37,", also no one was required to join the PIRA and they can freely leave at anytime","De toute façon, personne n'était obligé de rejoindre le PIRA et ils peuvent partir librement à tout moment.",0,"{'PROFANITY': 0.013268576, 'SEVERE_TOXICITY': 0.0010585785, 'TOXICITY': 0.023199737, 'THREAT': 0.00789674, 'INSULT': 0.009868891}",False,0,0
+088052f1bebba391,"|Lesson learned, I will always post on discussion forum, if there is no opposition, then revert(provided a reputable source}}","Leçon apprise, je posterai toujours sur le forum de discussion, s'il n'y a pas d'opposition, alors je reviens en arrière (à condition d'avoir une source de confiance).",0,"{'THREAT': 0.01052473, 'PROFANITY': 0.01846078, 'SEVERE_TOXICITY': 0.0017929077, 'INSULT': 0.018710041, 'TOXICITY': 0.048594624}",False,0,0
+b6f0c22ed73d8bd9,Isn't it just better to not place a picture there at all? Take the picture out.,N'est-il pas simplement préférable de ne pas mettre de photo là-dedans du tout ? Enlève la photo.,0,"{'PROFANITY': 0.015147334, 'INSULT': 0.0129089095, 'TOXICITY': 0.03969839, 'THREAT': 0.009877442, 'SEVERE_TOXICITY': 0.0015068054}",False,0,0
+843c096fdf0f4118,How is the photo spam?   Talk,Comment c'est de la merde cette photo ? Parle.,0,"{'PROFANITY': 0.022354934, 'SEVERE_TOXICITY': 0.0022125244, 'TOXICITY': 0.049336795, 'THREAT': 0.010084574, 'INSULT': 0.013896915}",False,0,0
+7abc9f833f0ec939,Your point being? This is my first revert in 24 hours.,Votre point étant ? C'est mon premier retour en 24 heures.,0,"{'THREAT': 0.008841781, 'TOXICITY': 0.028620722, 'PROFANITY': 0.017845914, 'INSULT': 0.011198899, 'SEVERE_TOXICITY': 0.0014019012}",False,0,0
+042588634b739f5c,"Alas, the Autoblock was not lifted.","Hélas, le blocage n'a pas été levé.",0,"{'INSULT': 0.009507888, 'TOXICITY': 0.023788974, 'PROFANITY': 0.015386449, 'THREAT': 0.008311004, 'SEVERE_TOXICITY': 0.0012302399}",False,0,0
+647c2c6cebe3694b,"I've started a section for discussion on the talk page, we can go on from there.  (Евлекис)","J'ai commencé une section de discussion sur la page de discussion, on peut continuer à partir de là.  (Евлекис)",0,"{'INSULT': 0.009944891, 'PROFANITY': 0.021535112, 'THREAT': 0.009903334, 'SEVERE_TOXICITY': 0.0014400482, 'TOXICITY': 0.019728716}",False,0,0
+638cac2669d0bcfa,"Please stop.  If you continue to vandalize pages, you will be blocked from editing Wikipedia. – (t/c)","Veuillez arrêter. Si vous continuez à vandaliser des pages, vous serez bloqué de l'édition de Wikipédia. – (t/c)",0,"{'PROFANITY': 0.036651865, 'THREAT': 0.047835086, 'INSULT': 0.045007613, 'SEVERE_TOXICITY': 0.004634857, 'TOXICITY': 0.17025198}",False,0,0
+34516e3055079476,Where is the source that KLM uses JP8+100 in it's boeing fleet?,Où est la source qui dit que KLM utilise le JP8+100 dans sa flotte de Boeing ?,0,"{'TOXICITY': 0.0068799187, 'THREAT': 0.006272047, 'SEVERE_TOXICITY': 0.0005054474, 'PROFANITY': 0.010040528, 'INSULT': 0.0064203693}",False,0,0
+db232b91dce201e9,"Thanks, my bad, I only looked at the edit that deleted it. P","Merci, ma faute, je n'ai regardé que l'édition qui l'a supprimée.",0,"{'INSULT': 0.020966014, 'THREAT': 0.008789998, 'SEVERE_TOXICITY': 0.0015830994, 'PROFANITY': 0.022423252, 'TOXICITY': 0.049336795}",False,0,0
+bedb774095a9bcec,"""
+
+ help in modifying script 
+
+Would it be within your skill set to modify ''¡digame!¿que pasa?'' ""","Aide à modifier le script
+
+Serait-ce dans tes compétences de modifier ''¡digame!¿que pasa?''",0,"{'PROFANITY': 0.02119352, 'INSULT': 0.018774498, 'THREAT': 0.0089712385, 'TOXICITY': 0.039462693, 'SEVERE_TOXICITY': 0.0014400482}",False,0,0
+041e31a0e3392c2b,Its an interesting one in that the great hero von mueller actually created a weed issue in the name of leaving tracks! Suro,C'est intéressant dans le sens où le grand héros von Mueller a en fait créé un problème de mauvaises herbes au nom de laisser des traces ! Suro,0,"{'THREAT': 0.0077284453, 'TOXICITY': 0.04785245, 'PROFANITY': 0.015044857, 'INSULT': 0.018967867, 'SEVERE_TOXICITY': 0.0012683868}",False,0,0
+e16062b10c014e82,"British; cheque American; check, British; banque American; bank...","Britannique ; chèque Américain ; check, Britannique ; banque Américain ; bank...",0,"{'INSULT': 0.008538882, 'THREAT': 0.0062785195, 'TOXICITY': 0.014827953, 'PROFANITY': 0.011526455, 'SEVERE_TOXICITY': 0.000910759}",False,0,0
+ef9e759ec34ce71f,"""
+
+Not fair. I have the PS2 version.   01:25, August 10, 2005 (UTC)""","Pas juste. J'ai la version PS2. 01:25, 10 août 2005 (UTC)",0,"{'PROFANITY': 0.020646973, 'SEVERE_TOXICITY': 0.001707077, 'TOXICITY': 0.038991302, 'INSULT': 0.016100928, 'THREAT': 0.008945347}",False,0,0
+85e58dec1e3e9cfc,"- Material which is entirely sourced from the Wikipedia article that I created on De Poelen, Dronrijp.","- Matériel entièrement provenant de l'article Wikipedia que j'ai créé sur De Poelen, Dronrijp.",0,"{'PROFANITY': 0.016069634, 'THREAT': 0.0064597605, 'INSULT': 0.007797878, 'TOXICITY': 0.01017851, 'SEVERE_TOXICITY': 0.00096321106}",False,0,0
+6037714ed2d6785c,"In the immortal words of Arnie, I'll be back >:D","Dans les mots immortels d'Arnie, je reviendrai >:D",0,"{'TOXICITY': 0.034041706, 'SEVERE_TOXICITY': 0.0009965897, 'PROFANITY': 0.014361672, 'THREAT': 0.006433869, 'INSULT': 0.01890341}",False,0,0
+3a6dcec0b14e0f36,"I want C-HAND 
+
+I want C-Hand's raspberry boobies.",Je veux les seins framboise de C-Hand.,0,"{'THREAT': 0.012026439, 'INSULT': 0.07903719, 'SEVERE_TOXICITY': 0.040387187, 'TOXICITY': 0.5559701, 'PROFANITY': 0.45190978}",True,1,1
+319c26703da37b63,"""
+You're welcome, Oh well that's a relief I guess ) Anyway thanks, have a nice day, – • (talk) ""","De rien, eh bien, c'est un soulagement je suppose :) Quoi qu'il en soit, merci, passe une bonne journée.",0,"{'INSULT': 0.0092228865, 'TOXICITY': 0.013885498, 'PROFANITY': 0.017367685, 'SEVERE_TOXICITY': 0.0012779236, 'THREAT': 0.0091524795}",False,0,0
+7dbb929d7f5692f2,George Hewitt is not a reliable source.,George Hewitt n'est pas une source fiable.,0,"{'INSULT': 0.03511308, 'PROFANITY': 0.014327513, 'THREAT': 0.006874025, 'TOXICITY': 0.08716487, 'SEVERE_TOXICITY': 0.0012969971}",False,0,0
+c916a4f288d9687a,""")
+
+Please approve heli12  (talk) 17:50, 3 February 2007 (UTC""","Veuillez approuver heli12 (discussion) 17:50, 3 février 2007 (UTC)",0,"{'SEVERE_TOXICITY': 0.0013828278, 'PROFANITY': 0.01627459, 'THREAT': 0.00948907, 'INSULT': 0.008880884, 'TOXICITY': 0.014513801}",False,0,0
+0ef790658ead6f09,"I continue to support it.  What is a sock puppet?
+
+ Objections to BTB","Je continue à le soutenir. Qu'est-ce qu'une marionnette à chaussette ?
+
+Objections au BTB.",0,"{'TOXICITY': 0.27047762, 'PROFANITY': 0.19770569, 'SEVERE_TOXICITY': 0.010528564, 'INSULT': 0.15911613, 'THREAT': 0.023889944}",False,0,0
+0633e0577f32be0e,"Thanks for the info about double redirects.  Kind of new to them.  I'm up at 1:07 AM contributing to wikipedia, man this is crazy.","Merci pour les infos sur les doubles redirections. Je débute un peu avec ça. Je suis debout à 1h07 du matin à contribuer à Wikipédia, mec, c'est fou.",0,"{'PROFANITY': 0.12158839, 'TOXICITY': 0.20839658, 'INSULT': 0.110259406, 'SEVERE_TOXICITY': 0.0035476685, 'THREAT': 0.008686432}",False,0,0
+d9787cead7446199,You deleted the things that I put on Alan Clyne's profile saying that it was not cited. It was... Please put it back,"Tu as supprimé les choses que j'avais mises sur le profil d'Alan Clyne en disant que ce n'était pas cité. C'était bien le cas... Remets ça, s'il te plaît.",0,"{'THREAT': 0.009592636, 'TOXICITY': 0.07291982, 'SEVERE_TOXICITY': 0.001783371, 'PROFANITY': 0.017231047, 'INSULT': 0.022577424}",False,0,0
+76e5511fe778a066,"Keep.  21:13, 14 Dec 2004 (UTC)","Conservez. 21:13, 14 décembre 2004 (UTC)",0,"{'INSULT': 0.0081208795, 'SEVERE_TOXICITY': 0.0011873245, 'TOXICITY': 0.011623607, 'PROFANITY': 0.015044857, 'THREAT': 0.008272167}",False,0,0
+cd52395e5de0a1dd,"International Hockey League]]==
+ add links to original league
+
+==[[",Ligue internationale de hockey.,0,"{'PROFANITY': 0.017026093, 'THREAT': 0.008634649, 'SEVERE_TOXICITY': 0.0013065338, 'TOXICITY': 0.015330595, 'INSULT': 0.008766884}",False,0,0
+e4015740a61e33b2,"Its a good compromise, but the rule that forces us to use the most common name does not give us that option.","C'est un bon compromis, mais la règle qui nous force à utiliser le nom le plus courant ne nous donne pas cette option.",0,"{'TOXICITY': 0.012691722, 'INSULT': 0.007968879, 'THREAT': 0.007029374, 'PROFANITY': 0.011902207, 'SEVERE_TOXICITY': 0.00071525574}",False,0,0
+58699a5ccc0898e2,It seems to me they should be merged.  In the meantime I added a link.,"Il me semble qu'ils devraient être fusionnés. En attendant, j'ai ajouté un lien.",0,"{'TOXICITY': 0.024142517, 'THREAT': 0.0116639575, 'INSULT': 0.010552894, 'PROFANITY': 0.019485557, 'SEVERE_TOXICITY': 0.001745224}",False,0,0
+b7499be87a9a40c3,", I get none as I am a gobshite.",Je n'en ai pas du tout car je suis un imbécile.,0,"{'SEVERE_TOXICITY': 0.11756202, 'TOXICITY': 0.54325575, 'THREAT': 0.01187109, 'INSULT': 0.4196762, 'PROFANITY': 0.5722072}",True,1,1
+d5f526a5e8fe9c49,i dont even know what to do on this site.,Je ne sais même pas quoi faire sur ce site.,0,"{'PROFANITY': 0.029050145, 'TOXICITY': 0.06817148, 'INSULT': 0.014276917, 'SEVERE_TOXICITY': 0.0023841858, 'THREAT': 0.0100069}",False,0,0
+ba415e701e5019af,"Hey, Infinity0, whatever happened to your really ugly chart on types of anarchism?","Hé, Infinity0, qu'est-ce qu'il est devenu ton graphique vraiment moche sur les types d'anarchisme ?",0,"{'TOXICITY': 0.37751234, 'PROFANITY': 0.08322773, 'SEVERE_TOXICITY': 0.008125305, 'THREAT': 0.0071070488, 'INSULT': 0.35505778}",False,0,0
+bf07327e5473722a,"Oh, and Captain Finger Wag can tut-tut at someone who gives a flip.","Oh, et le Capitaine Tousse-Mou peut faire des reproches à quelqu'un qui s'en fout.",0,"{'PROFANITY': 0.087430455, 'INSULT': 0.06921569, 'TOXICITY': 0.25084448, 'THREAT': 0.13815513, 'SEVERE_TOXICITY': 0.009536743}",False,0,0
+fdace8436eb543cc,"""
+Check Frightner for the meaning of continually disruptive and for every possible way of insulting other editors after you got banned.  T ""","Vérifie Frightner pour le sens de ""continuellement disruptif"" et pour toutes les façons possibles d'insulter les autres éditeurs après avoir été banni. T",0,"{'INSULT': 0.17486192, 'PROFANITY': 0.07191269, 'SEVERE_TOXICITY': 0.008201599, 'TOXICITY': 0.30439767, 'THREAT': 0.045895394}",False,0,0
+0b2d0d4b09aef03d,"Help 
+
+Can someone please undo the OR being added by an IP to Almighty Vice Lord Nation? -  ✉","Aidez-moi
+
+Est-ce que quelqu'un peut enlever l'OR ajouté par un IP à la Nation des Grands Seigneurs Vice ? - ✉",0,"{'SEVERE_TOXICITY': 0.0022029877, 'PROFANITY': 0.023789622, 'THREAT': 0.013372798, 'INSULT': 0.0151129225, 'TOXICITY': 0.04686289}",False,0,0
+c71619bc044723d8,"""in this system, and """"welcomed"""", like a drug addict getting another hit ""","""dans ce système, et """"accueilli"""", comme un toxicomane qui reçoit une autre dose""",0,"{'PROFANITY': 0.22663295, 'THREAT': 0.1954604, 'INSULT': 0.45135358, 'SEVERE_TOXICITY': 0.023076924, 'TOXICITY': 0.45921504}",False,0,0
+726ea35aecfc7ccf,I'm afraid you don't know what you're talking about!,J'ai peur que tu ne sais pas de quoi tu parles !,0,"{'INSULT': 0.07491849, 'TOXICITY': 0.16245349, 'THREAT': 0.0067186756, 'SEVERE_TOXICITY': 0.0018882751, 'PROFANITY': 0.017914234}",False,0,0
+ce7b04e40783ae18,English is not my native language. Unfortunately in my country English even is not third language so far.,"L'anglais n'est pas ma langue maternelle. Malheureusement, dans mon pays, l'anglais n'est même pas encore la troisième langue.",0,"{'TOXICITY': 0.050821137, 'SEVERE_TOXICITY': 0.0018024445, 'THREAT': 0.0071847234, 'PROFANITY': 0.017845914, 'INSULT': 0.013744914}",False,0,0
+43b984d8278425ed,"Might not have been in E. Not in Voegelin either.  Perhaps just Ruhlen.  
+
+Yeah, no need for the other retired codes.  —","Peut-être pas dans E. Pas dans Voegelin non plus. Peut-être juste Ruhlen.  
+
+Ouais, pas besoin des autres codes de retraités. —",0,"{'TOXICITY': 0.030859824, 'PROFANITY': 0.015932998, 'THREAT': 0.0077672824, 'INSULT': 0.0151129225, 'SEVERE_TOXICITY': 0.0012111664}",False,0,0
+9664b7d015dd9666,"What we still need to resolve is the NPOV discussion in the section above.  04:05, July 23, 2005 (UTC)","Ce qu'il nous reste à résoudre, c'est la discussion sur le NPOV dans la section ci-dessus. 04:05, 23 juillet 2005 (UTC)",0,"{'SEVERE_TOXICITY': 0.0016784668, 'PROFANITY': 0.019758832, 'TOXICITY': 0.032391842, 'INSULT': 0.014580919, 'THREAT': 0.010084574}",False,0,0
+90b13e944ada83ff,I like the term Eastern Eurasian better than Mongoloid.,Je préfère le terme Eurasien de l'Est à Mongoloïde.,0,"{'PROFANITY': 0.23083201, 'INSULT': 0.2838064, 'THREAT': 0.012906751, 'SEVERE_TOXICITY': 0.023076924, 'TOXICITY': 0.37751234}",False,0,0
+0f2b8c1926ceb3fd,(here's his profile stating it ),(Voici son profil qui le dit),0,"{'INSULT': 0.009469888, 'TOXICITY': 0.019854378, 'PROFANITY': 0.016752819, 'THREAT': 0.007974415, 'SEVERE_TOXICITY': 0.0012779236}",False,0,0
+c92cad06a82758b7,"Just when we thought it couldn't get any messier, Volkova, Feygin and Polozov are suing Kommersant newspaper and Irina Khrunova for defamation. http://lenta.ru/news/2013/01/21/isk/","Juste au moment où nous pensions que c'était déjà assez bordélique, Volkova, Feygin et Polozov attaquent le journal Kommersant et Irina Khrunova en diffamation.",0,"{'PROFANITY': 0.021535112, 'INSULT': 0.023028618, 'THREAT': 0.012130005, 'SEVERE_TOXICITY': 0.0018501282, 'TOXICITY': 0.07371122}",False,0,0
+bcf800f3d696d0e1,"On wikitravel you can also see what is correct. That Scandinavia are Den, Nor and Swe. http://wikitravel.org/en/Scandinavia Comanche cph","Sur wikitravel, tu peux aussi voir ce qui est correct. Que la Scandinavie c'est le Danemark, la Norvège et la Suède.",0,"{'THREAT': 0.0073918556, 'TOXICITY': 0.021903414, 'SEVERE_TOXICITY': 0.0013160706, 'INSULT': 0.009868891, 'PROFANITY': 0.016069634}",False,0,0
+455da23bf0ad13b4,Many thanks - do you have a page number for the Sedunary ref? Snowman,Merci beaucoup - as-tu un numéro de page pour la référence Sedunary ? Bonhomme de neige.,0,"{'THREAT': 0.008116818, 'TOXICITY': 0.020842785, 'SEVERE_TOXICITY': 0.0012302399, 'INSULT': 0.0114269, 'PROFANITY': 0.015830519}",False,0,0
+0f2d539c10f0991f,http://www.thesun.co.uk/sol/homepage/showbiz/tv/x_factor/2585128/Louis-Walsh-gets-the-groups.html - follow this link and it tells u all abt the judges categories !,"Désolé, je ne peux pas accéder à des liens.",0,"{'SEVERE_TOXICITY': 0.0010681152, 'TOXICITY': 0.02107848, 'THREAT': 0.007262398, 'INSULT': 0.009507888, 'PROFANITY': 0.013883443}",False,0,0
+cc67a9a43eb98d22,I do not have vandalized hkcugu is that he continued to eliminate my edits not wrong on some pages of wikipedia.,"Je n'ai pas vandalisé hkcugu, c'est juste qu'il a continué à supprimer mes modifications, ce qui n'est pas faux, sur certaines pages de Wikipédia.",0,"{'THREAT': 0.04233929, 'SEVERE_TOXICITY': 0.009498596, 'INSULT': 0.08459369, 'TOXICITY': 0.25915736, 'PROFANITY': 0.08775374}",False,0,0
+f1b4d0ed68e4cdac,"Again, a meritless edit to my talk page.  I can't figure out how to get rid of this guy.",Encore une modification sans fondement sur ma page de discussion. Je n'arrive pas à me débarrasser de ce type.,0,"{'INSULT': 0.33964422, 'PROFANITY': 0.09260304, 'THREAT': 0.17648515, 'TOXICITY': 0.37751234, 'SEVERE_TOXICITY': 0.01322045}",False,0,0
+0c11002791bb49c1,"]]
+ Five Little Indians
+ Krosswindz
+ Someplace Else (Kolkata)
+ [[Chronic Xorn","Cinq petits Indiens  
+Krosswindz  
+Ailleurs (Calcutta)  
+Xorn Chronique",0,"{'PROFANITY': 0.032142747, 'SEVERE_TOXICITY': 0.0037002563, 'TOXICITY': 0.04760506, 'INSULT': 0.017227544, 'THREAT': 0.013579931}",False,0,0
+4568c119ad303db3,"What an awful article! I don't know, I'm missing out. —","Quel article terrible ! Je ne sais pas, je rate quelque chose. —",0,"{'TOXICITY': 0.37751234, 'THREAT': 0.009385503, 'PROFANITY': 0.1184936, 'SEVERE_TOXICITY': 0.010299683, 'INSULT': 0.3388922}",False,0,0
+19ae3f887cf0ca1b,"I'd love a picture, but that one is copyrighted. -","J'aimerais une photo, mais celle-là est protégée par des droits d'auteur.",0,"{'TOXICITY': 0.026499467, 'SEVERE_TOXICITY': 0.0015640259, 'INSULT': 0.0116169015, 'PROFANITY': 0.019553876, 'THREAT': 0.009178371}",False,0,0
+313527c4d5991f76,Can we delete the one I uploaded?,Peut-on supprimer celui que j'ai téléchargé ?,0,"{'INSULT': 0.010476895, 'PROFANITY': 0.021945024, 'THREAT': 0.023889944, 'TOXICITY': 0.050821137, 'SEVERE_TOXICITY': 0.0027656555}",False,0,0
+d3abe9f3e6488b3f,"Your block was in good faith, but terribly mistaken.","Votre blocage était de bonne foi, mais terriblement erroné.",0,"{'PROFANITY': 0.027273865, 'TOXICITY': 0.102192536, 'SEVERE_TOXICITY': 0.0018882751, 'THREAT': 0.0078449575, 'INSULT': 0.032028005}",False,0,0
+aa477904603fcfec,"""
+Why do you ask?  (TALK) """,Pourquoi tu demandes ? (PARLE),0,"{'THREAT': 0.0083886795, 'INSULT': 0.018838953, 'SEVERE_TOXICITY': 0.0016498566, 'PROFANITY': 0.01982715, 'TOXICITY': 0.03828422}",False,0,0
+8337eea9a8f12e33,so whats up with this chris nelson dude?  why are you so leery of him?,"Alors, c'est quoi ce mec Chris Nelson ? Pourquoi tu te méfies autant de lui ?",0,"{'PROFANITY': 0.037904397, 'INSULT': 0.09124154, 'THREAT': 0.0068869707, 'TOXICITY': 0.18649188, 'SEVERE_TOXICITY': 0.0028038025}",False,0,0
+aa45c6701471a332,"Movies 
+
+Were any movies produced about this war?(just being curious)",Des films ont-ils été réalisés sur cette guerre ? (je suis juste curieux),0,"{'INSULT': 0.010362893, 'SEVERE_TOXICITY': 0.0018692017, 'THREAT': 0.010887212, 'PROFANITY': 0.01887069, 'TOXICITY': 0.03781283}",False,0,0
+a2e47ed129f773f9,"Obviously, I have a regard for other opinions or I wouldn't be discussing things here. I would simply be reverting things in the article.","Évidemment, j'ai du respect pour d'autres opinions sinon je ne discuterais pas ici. Je me contenterais de modifier les choses dans l'article.",0,"{'TOXICITY': 0.029799197, 'INSULT': 0.011958904, 'THREAT': 0.009722093, 'SEVERE_TOXICITY': 0.001335144, 'PROFANITY': 0.019143965}",False,0,0
+09033bd28bc8af77,Naw lets just keep it here for now,"Non, gardons-le ici pour l'instant.",0,"{'INSULT': 0.011692902, 'THREAT': 0.0097738765, 'TOXICITY': 0.030506283, 'PROFANITY': 0.020510335, 'SEVERE_TOXICITY': 0.002002716}",False,0,0
+dd68f2cf35476970,"]]
+Marion Giordan
+Marion Giordan author of:
+Consumer Education_(book)
+Consumer Education: A Handbook for Teachers
+How to be Exploited_(book)
+[[The Consumer Jungle_(book)","Marion Giordan  
+Marion Giordan, auteur de :  
+Éducation à la consommation_(livre)  
+Éducation à la consommation : Un manuel pour les enseignants  
+Comment être exploité_(livre)  
+[[La jungle des consommateurs_(livre)",0,"{'TOXICITY': 0.024142517, 'INSULT': 0.011692902, 'PROFANITY': 0.01846078, 'THREAT': 0.007922632, 'SEVERE_TOXICITY': 0.0012683868}",False,0,0
+3a0e685e0c518c10,"Hi, thank you for contributing to Wikipedia.
+
+However, when editing a disambiguation page please follow Wikipedia:Disambiguation dos and don'ts. Thanks,","Bonjour, merci de contribuer à Wikipedia.
+
+Cependant, lorsque vous éditez une page de désambiguïsation, veuillez suivre les recommandations de Wikipedia : les choses à faire et à ne pas faire en matière de désambiguïsation. Merci,",0,"{'INSULT': 0.009982891, 'SEVERE_TOXICITY': 0.0009012222, 'PROFANITY': 0.014225035, 'TOXICITY': 0.015770407, 'THREAT': 0.007961469}",False,0,0
+7a10e2e631b7a09f,good old Sterbinski! what a pity to lose that flower of Macedonian intelligentsija for Wikipedia )  (ᛏ),bon vieux Sterbinski ! quel dommage de perdre cette fleur de l'intelligentsia macédonienne pour Wikipédia )  (ᛏ),0,"{'SEVERE_TOXICITY': 0.0061416626, 'INSULT': 0.07935401, 'PROFANITY': 0.058946952, 'THREAT': 0.009618527, 'TOXICITY': 0.20102765}",False,0,0
+6e5cd9e8bf67d800,"be better avoiding me as I have been doing with him as much as possible, better that than","mieux vaut m'éviter comme je l'ai fait avec lui autant que possible, mieux vaut ça que",0,"{'TOXICITY': 0.15048122, 'INSULT': 0.025929155, 'THREAT': 0.013631714, 'PROFANITY': 0.049678206, 'SEVERE_TOXICITY': 0.0044059753}",False,0,0
+201f01318b5c0cdd,Check out my youtube account and leave a comment!! http://www.youtube.com/profile?user=NaturalNeil,Vas voir mon compte YouTube et laisse un commentaire !,0,"{'TOXICITY': 0.036634352, 'PROFANITY': 0.02167175, 'SEVERE_TOXICITY': 0.0026512146, 'THREAT': 0.01101667, 'INSULT': 0.0118069025}",False,0,0
+3da9000e3acd343d,(which you have not proven and is contrary to what the sources below say),(ce que vous n'avez pas prouvé et qui est contraire à ce que disent les sources ci-dessous),0,"{'PROFANITY': 0.012551232, 'THREAT': 0.0066215824, 'SEVERE_TOXICITY': 0.0008249283, 'TOXICITY': 0.030388435, 'INSULT': 0.013402912}",False,0,0
+5fb22bfa9b548b48,"""
+
+ Happy First Edit Day 
+Happy First Edit Day,  ,  from the Wikipedia Birthday Committee! Have a great day! ~   ""","Joyeux Premier Jour de Modification, de la part du Comité des Anniversaires de Wikipédia ! Passez une excellente journée !",0,"{'THREAT': 0.008945347, 'SEVERE_TOXICITY': 0.0011777878, 'PROFANITY': 0.015147334, 'INSULT': 0.007854878, 'TOXICITY': 0.011309455}",False,0,0
+097b9d1ce20a0298,I made clear Trabzon as Turkish name of the city. Because the city not located in Greece,J'ai clairement indiqué que Trabzon est le nom turc de la ville. Parce que la ville n'est pas située en Grèce.,0,"{'INSULT': 0.012186904, 'SEVERE_TOXICITY': 0.0016021729, 'THREAT': 0.007793174, 'TOXICITY': 0.038048524, 'PROFANITY': 0.018324144}",False,0,0
+87e5fb7cfe7f8a59,"Please stop. If you continue to vandalize Wikipedia, you will be blocked from editing.   (Talk, Contribs)","Veuillez arrêter. Si vous continuez à vandaliser Wikipédia, vous serez bloqué de la possibilité de modifier.",0,"{'INSULT': 0.04852104, 'TOXICITY': 0.17718399, 'PROFANITY': 0.041160982, 'THREAT': 0.05236103, 'SEVERE_TOXICITY': 0.004787445}",False,0,0
+529cc7dad16beb00,"In french this page has the name http://fr.wikipedia.org/wiki/Marching_tetrahedra
+Someone could creat the link between the two pages please ? (and delete this message after)","En français, cette page s'appelle http://fr.wikipedia.org/wiki/Marching_tetrahedra. Quelqu'un pourrait créer le lien entre les deux pages, s'il vous plaît ? (et supprimer ce message après)",0,"{'INSULT': 0.010286893, 'TOXICITY': 0.028385026, 'PROFANITY': 0.01846078, 'THREAT': 0.01238892, 'SEVERE_TOXICITY': 0.0016975403}",False,0,0
+d4dc6fde411bd4c1,"color of plates 
+
+why does my state have two different color lettering for thier plate?",Pourquoi mon état a-t-il deux couleurs de lettrage différentes sur ses plaques ?,0,"{'PROFANITY': 0.011577694, 'INSULT': 0.008823884, 'THREAT': 0.0065956907, 'SEVERE_TOXICITY': 0.0009727478, 'TOXICITY': 0.016712861}",False,0,0
+669b4154433e1608,Why did you remove the information about the two christmas eve ballgames? That is a unique fact.,Pourquoi as-tu enlevé l'information sur les deux matchs de Noël ? C'est un fait unique.,0,"{'INSULT': 0.011958904, 'SEVERE_TOXICITY': 0.0010490417, 'THREAT': 0.006861079, 'PROFANITY': 0.013507691, 'TOXICITY': 0.026735162}",False,0,0
+cb570c9b6b0d4806,== Delete my comments all day phat boy il keep posting them,"Supprime mes commentaires toute la journée, gros lard, je vais continuer à les poster.",0,"{'THREAT': 0.061089642, 'PROFANITY': 0.38483799, 'INSULT': 0.47384647, 'SEVERE_TOXICITY': 0.11492836, 'TOXICITY': 0.51980776}",True,1,1
+4f7e16d11ede0b48,"""
+ I'll take a look tonight.  Cheers, Tim.    [your turn] ""","Je vais jeter un œil ce soir. Merci, Tim. [à toi maintenant]",0,"{'TOXICITY': 0.011874928, 'PROFANITY': 0.015625564, 'SEVERE_TOXICITY': 0.0013446808, 'INSULT': 0.008462882, 'THREAT': 0.009825659}",False,0,0
+56fe56b77d73561d,"April 2011 (UTC)
+Repaired; any measured appropriate comments Mr. Rubin (tweaking), or anyone else?  97.87.29.188  22:37, 5","Avril 2011 (UTC)  
+Réparé ; des commentaires appropriés mesurés M. Rubin (ajustements), ou quelqu'un d'autre ? 97.87.29.188 22:37, 5",0,"{'THREAT': 0.009023022, 'INSULT': 0.014390918, 'SEVERE_TOXICITY': 0.0014400482, 'PROFANITY': 0.01805087, 'TOXICITY': 0.026735162}",False,0,0
+232f7c3f77796892,"RE WELCOME BACK
+Cheers Mark!!! Had to get away from the Nutters for a few days Simon","RE BIENVENUE EN RETOUR  
+Santé Mark !!! J'ai dû m'éloigner des cinglés pendant quelques jours Simon",0,"{'THREAT': 0.006861079, 'INSULT': 0.17858955, 'TOXICITY': 0.2330714, 'SEVERE_TOXICITY': 0.003643036, 'PROFANITY': 0.049678206}",False,0,0
+568a221cdad37fa6,"""
+
+how about the brewer """"highgate ales"""" from walsall""","Que penses-tu du brasseur ""Highgate Ales"" de Walsall ?",0,"{'TOXICITY': 0.034277402, 'INSULT': 0.015416925, 'SEVERE_TOXICITY': 0.0018692017, 'THREAT': 0.008867673, 'PROFANITY': 0.019485557}",False,0,0
+8ef7240b133b44fa,"You're free to submit patches, but give me a while to get settled in before adding committers. ʎʇɹnoɟʇs(st47)","Tu es libre de soumettre des correctifs, mais laisse-moi un moment pour me mettre en place avant d'ajouter des commiteurs.",0,"{'THREAT': 0.0101363575, 'TOXICITY': 0.026735162, 'SEVERE_TOXICITY': 0.0015163422, 'INSULT': 0.012528907, 'PROFANITY': 0.020851927}",False,0,0
+8a5370b767322f4a,"So if I get the original writer to ask, can you provide it to him?","Donc si je fais demander par l'écrivain original, peux-tu le lui fournir ?",0,"{'TOXICITY': 0.018723432, 'INSULT': 0.009184887, 'PROFANITY': 0.013712646, 'SEVERE_TOXICITY': 0.0008916855, 'THREAT': 0.007598988}",False,0,0
+4b1fe017890d15ea,"|action2=PR
+|action2date=June 1 2007
+|action2link=Wikipedia:Peer review/Pipe organ
+|action2result=Reviewed
+|action2oldid=133145310","|action2=PR  
+|action2date=1er juin 2007  
+|action2link=Wikipédia:Révision par les pairs/Orgue à tuyaux  
+|action2result=Revu  
+|action2oldid=133145310",0,"{'TOXICITY': 0.011497946, 'SEVERE_TOXICITY': 0.0015830994, 'INSULT': 0.007721877, 'PROFANITY': 0.019280603, 'THREAT': 0.0072235605}",False,0,0
+d2cc139c71fa9354,"I improved a bit his biography thanks to this source, who gives some more information: .","J'ai un peu amélioré sa biographie grâce à cette source, qui donne quelques informations supplémentaires.",0,"{'THREAT': 0.008867673, 'TOXICITY': 0.017969469, 'SEVERE_TOXICITY': 0.001373291, 'PROFANITY': 0.017231047, 'INSULT': 0.010096892}",False,0,0
+967dda47f44aa6f4,because I'm so egotistical that I can never be wrong,parce que je suis tellement égocentrique que je ne peux jamais avoir tort,0,"{'TOXICITY': 0.18174082, 'SEVERE_TOXICITY': 0.0037765503, 'INSULT': 0.06250052, 'THREAT': 0.007922632, 'PROFANITY': 0.058946952}",False,0,0
+2be295144835e2e3,"""
+
+ Attendances 
+
+Where do you get the attendances from?  ""","Assiduités
+
+D'où tu sors les assiduités ?",0,"{'SEVERE_TOXICITY': 0.0012159348, 'TOXICITY': 0.023788974, 'THREAT': 0.00823333, 'INSULT': 0.011958904, 'PROFANITY': 0.016069634}",False,0,0
+169e7d1143e5a0fc,"""uranium""""] Inhaled Particles, vol. 2, pp. 819-38, at p. 836.""","""uranium""""] Particules inhalées, vol. 2, pp. 819-38, à la p. 836.""",0,"{'THREAT': 0.009929225, 'SEVERE_TOXICITY': 0.0019264221, 'PROFANITY': 0.019348921, 'INSULT': 0.009393888, 'TOXICITY': 0.02449606}",False,0,0
+d326e230b51deeee,"Thanks for the encouragement and the correction. I've edited above. Or tried, too. I'm not too high tech. John","Merci pour l'encouragement et la correction. J'ai édité ci-dessus. Enfin, j'ai essayé aussi. Je ne suis pas très à l'aise avec la technologie. John",0,"{'TOXICITY': 0.01834645, 'PROFANITY': 0.015113175, 'SEVERE_TOXICITY': 0.0010299683, 'THREAT': 0.008077981, 'INSULT': 0.010476895}",False,0,0
+b8cde89139a61335,"Congratulations on taking David Helvarg from VfD to featured article.  July 9, 2005 01:15 (UTC)",Félicitations d'avoir fait passer David Helvarg de la suppression de page à l'article vedette. 9 juillet 2005 01:15 (UTC),0,"{'THREAT': 0.008026198, 'PROFANITY': 0.013200258, 'TOXICITY': 0.0103670005, 'INSULT': 0.0081208795, 'SEVERE_TOXICITY': 0.0008773804}",False,0,0
+db3288dd14e20545,I understand that. What about a former characters page?,Je comprends ça. Et qu'en est-il d'une page des personnages précédents ?,0,"{'TOXICITY': 0.018723432, 'SEVERE_TOXICITY': 0.001206398, 'THREAT': 0.00866054, 'INSULT': 0.009317887, 'PROFANITY': 0.015830519}",False,0,0
+76d7c46dbab91916,"Another diacritics proposal... 
+
+...is at Wikipedia:Use diacritics.","Une autre proposition de diacritiques... 
+
+...se trouve sur Wikipédia : Utiliser des diacritiques.",0,"{'THREAT': 0.006272047, 'INSULT': 0.018129934, 'TOXICITY': 0.033806015, 'SEVERE_TOXICITY': 0.0007867813, 'PROFANITY': 0.012038844}",False,0,0
+714060d54a3742ce,"this article does read like an ad, and without the hype, it easily violates WP:NOT.","Cet article a effectivement des airs de publicité, et sans l'exagération, il enfreint facilement WP:NOT.",0,"{'INSULT': 0.04383647, 'PROFANITY': 0.05168226, 'THREAT': 0.01187109, 'SEVERE_TOXICITY': 0.0038146973, 'TOXICITY': 0.15656179}",False,0,0
+74a5f2fb4a4c44ed,"Cost 
+I see no explanation of the cost of attending this university.","Coût  
+Je ne vois aucune explication sur le coût de la fréquentation de cette université.",0,"{'INSULT': 0.0088618845, 'PROFANITY': 0.012551232, 'TOXICITY': 0.017341165, 'THREAT': 0.0069646453, 'SEVERE_TOXICITY': 0.0007867813}",False,0,0
+fccc7910a256d23f,"Well, mea clupa. Unfortunately I mixed it up )","Eh bien, mea culpa. Malheureusement, je me suis mélangé les pinceaux.",0,"{'SEVERE_TOXICITY': 0.0016784668, 'PROFANITY': 0.026454043, 'TOXICITY': 0.034984488, 'INSULT': 0.013934915, 'THREAT': 0.008103873}",False,0,0
+bcac690c48cd3551,"I'm not vandalising anything. I'm adding to the Wikipedia. You're one to talk. I saw your user info, you lazy perv","Je ne vandalise rien. J'ajoute à la Wikipédia. Toi, tu ne devrais pas parler. J'ai vu ton profil, espèce de pervers paresseux.",1,"{'SEVERE_TOXICITY': 0.16960317, 'TOXICITY': 0.60311776, 'PROFANITY': 0.40670946, 'THREAT': 0.05397744, 'INSULT': 0.62169385}",True,1,1
+3c36f6b4bd692ab5,"FUCK U CAMEROON
+
+PROTECING ILLEGAL EDITS BY MOHAMAD AYOOB
+
+U WILL BE HUNTED NOW","VA TE FAIRE FOUTRE CAMEROUN
+
+PROTEGEANT DES MODIFICATIONS ILLEGALES PAR MOHAMAD AYOOB
+
+TU VAS ÊTRE CHASSÉ MAINTENANT",1,"{'INSULT': 0.755201, 'SEVERE_TOXICITY': 0.6474255, 'PROFANITY': 0.86331284, 'TOXICITY': 0.944597, 'THREAT': 0.5195707}",True,1,1
+c1fb76ac586cf1da,"Damned 
+
+Motherfucker you disturbed me. Don't blocked me. Contact me in Facebook. Understand, don't talk the nonsense things.","Foutue 
+
+Enculé, tu m'as dérangé. Ne me bloque pas. Contacte-moi sur Facebook. Comprends, ne dis pas de conneries.",1,"{'PROFANITY': 0.90150756, 'THREAT': 0.05753354, 'SEVERE_TOXICITY': 0.56528324, 'INSULT': 0.6675394, 'TOXICITY': 0.944597}",True,1,1
+a35c7fca19ae5a13,"""
+
+ STOP EDITING THE CANNISTRARO PAGE 
+
+JUST STOP OK. NOTHING YOU DO IS HELPING. YOU ARE AN IDIOT. STOP.Talk ""","ARRÊTE DE MODIFIER LA PAGE CANNISTRARO
+
+ARRÊTE JUSTE OK. RIEN DE CE QUE TU FAIS N'AIDE. TU ES UN IDIOT. ARRÊTE.",1,"{'TOXICITY': 0.7998551, 'INSULT': 0.7344449, 'PROFANITY': 0.48510036, 'THREAT': 0.049774777, 'SEVERE_TOXICITY': 0.34993178}",True,1,1
+99a7201c3d5ef8e9,"FUCK YOU UNFAIR ASSHOLE
+YOU DONT EVEN CARE FOR FAIRNESS JUST 
+BEING A FUCKING DRONE  ASSHOLE
+\","VA TE FAIRE FOUTRE, ENFOIRÉ INJUSTE.  
+TU T'EN FOUS TOTALMENT DE LA JUSTICE, TU N'ES QU'UN PUTAIN DE DRONE, ENFOIRÉ.",1,"{'INSULT': 0.87896585, 'SEVERE_TOXICITY': 0.68373036, 'PROFANITY': 0.95876634, 'TOXICITY': 0.9817629, 'THREAT': 0.15276608}",True,1,1
+cd64e48fc4b0d0bf,"I was quoting you, you dumb bastard. You really don't understand ANYTHING","Je te citais, espèce de connard. Tu ne comprends vraiment RIEN.",1,"{'INSULT': 0.8579266, 'THREAT': 0.01750142, 'SEVERE_TOXICITY': 0.35368225, 'PROFANITY': 0.71218073, 'TOXICITY': 0.9061063}",True,1,1
+6b7fb1101e46a86e,WP:NOTCENSORED. Another abusive administrator. Thanks for that. Fuck you too.- () Wolfkeeper (Talk),WP : PAS DE CENSURE. Un autre administrateur abusif. Merci pour ça. Va te faire foutre aussi. - () Wolfkeeper (Discuter),1,"{'INSULT': 0.6991143, 'THREAT': 0.13566011, 'SEVERE_TOXICITY': 0.5145575, 'PROFANITY': 0.7888968, 'TOXICITY': 0.8988238}",True,1,1
+37ba58382a391f36,"cheers 
+die in a fire, fianna failure","porte-toi bien  
+meurs dans un feu, échec fianna",1,"{'PROFANITY': 0.3033754, 'TOXICITY': 0.6426206, 'THREAT': 0.5480787, 'INSULT': 0.4718924, 'SEVERE_TOXICITY': 0.35220072}",True,1,1
+2416f05064cc2919,HOPE YOUR HEAD GETS CUT OFF AND SOMEONE WIPS THERE ASS WITH IT AND THEN STABS YOU IN YOUR HEART,"J'espère que ta tête sera coupée et que quelqu'un essuiera son cul avec, puis te poignardera dans le cœur.",1,"{'THREAT': 0.7368375, 'TOXICITY': 0.93383175, 'INSULT': 0.6308392, 'PROFANITY': 0.764141, 'SEVERE_TOXICITY': 0.61260825}",True,1,1
+405035baff249126,YOU'RE A FUCKING LIAR WHO DOESN'T KNOW HOW TO DO HIS JOB,TU ES UN ENFOIRÉ DE MENTEUR QUI NE SAIT PAS FAIRE SON TRAVAIL.,1,"{'INSULT': 0.8634578, 'PROFANITY': 0.90258646, 'TOXICITY': 0.96069145, 'SEVERE_TOXICITY': 0.5188304, 'THREAT': 0.023199292}",True,1,1
+35d75d3c23d413b6,"you're hot 
+
+i will rape you ;)","Tu es sexy. 
+
+Je vais te violer ;)",1,"{'TOXICITY': 0.76523775, 'SEVERE_TOXICITY': 0.45895407, 'INSULT': 0.41767508, 'THREAT': 0.56065804, 'PROFANITY': 0.54024357}",True,1,1
+87167510a1b52742,"Fuck you nerd 
+
+Fuck you nercd get a life freak I will burn in hell now byy","Vas te faire foutre, nerd. 
+
+Vas te faire foutre, loser, trouve-toi une vie, freak. Je vais brûler en enfer maintenant, bye.",1,"{'THREAT': 0.65430456, 'TOXICITY': 0.9749944, 'INSULT': 0.8579266, 'SEVERE_TOXICITY': 0.65960187, 'PROFANITY': 0.92389363}",True,1,1
+e95d9af43e9f8a99,I think you're being a hypocrite. 207.97.213.169,Je pense que tu es un hypocrite.,1,"{'TOXICITY': 0.6611249, 'PROFANITY': 0.3283819, 'SEVERE_TOXICITY': 0.023364257, 'INSULT': 0.6798578, 'THREAT': 0.011068452}",True,1,1
+2d2688c448344dff,"Yep, just keep talking.  Go to hell.","Ouais, continue à parler. Va te faire foutre.",1,"{'INSULT': 0.5678696, 'THREAT': 0.2836219, 'SEVERE_TOXICITY': 0.23224974, 'TOXICITY': 0.7761081, 'PROFANITY': 0.48510036}",True,1,1
+3b5ed3ddb511bf4a,"You're an 38ass fuck43 
+
+3Go shit your pants43",T'es qu'une grosse merde. Va te chier dessus.,1,"{'TOXICITY': 0.9209984, 'PROFANITY': 0.8855216, 'THREAT': 0.13363713, 'INSULT': 0.7492263, 'SEVERE_TOXICITY': 0.61260825}",True,1,1
+01ea171e0c269a9d,"=when=
+When the fuck im i unblocked you dick holes yall bitchs suck ass","Quand est-ce que je suis débloqué, espèce de trous du cul ? Vous êtes tous des enfoirés.",1,"{'TOXICITY': 0.9563754, 'PROFANITY': 0.90150756, 'THREAT': 0.13815513, 'INSULT': 0.7218519, 'SEVERE_TOXICITY': 0.61604184}",True,1,1
+58a670ad0c07b85a,ScJessey is a Big Fat Faggot Pinko Commie Asshole,ScJessey est un gros fdp de rouge bâtard.,1,"{'THREAT': 0.029069828, 'SEVERE_TOXICITY': 0.52891463, 'PROFANITY': 0.8907955, 'INSULT': 0.8987166, 'TOXICITY': 0.95048624}",True,1,1
+64b522f259a882dd,"Agreed, they're worthless scum. Fuck them. Luckily no one intelligent pays attention to their fucking evil work.","D'accord, ce sont des pourris sans valeur. Je les emmerde. Heureusement, personne d'intelligent ne fait attention à leur putain de travail diabolique.",1,"{'THREAT': 0.085497424, 'TOXICITY': 0.93383175, 'PROFANITY': 0.91513264, 'INSULT': 0.802824, 'SEVERE_TOXICITY': 0.45895407}",True,1,1
+b33b3604048c25c4,PENIS DOODLE IN YOUR EAR AND ALL YOUR MUTTS,BITE DE LOUF ENCORE DANS TON OREILLE ET TOUS TES MALOS,1,"{'SEVERE_TOXICITY': 0.45895407, 'PROFANITY': 0.73341435, 'THREAT': 0.08089764, 'INSULT': 0.49151286, 'TOXICITY': 0.9029226}",True,1,1
+e70b99b13e3952f2,hey chris wats up. ya wikipedia sux ass they deleted my pic.,"Salut Chris, quoi de neuf ? Ouais, Wikipédia c'est de la merde, ils ont supprimé ma photo.",1,"{'SEVERE_TOXICITY': 0.45895407, 'INSULT': 0.6109131, 'PROFANITY': 0.66405153, 'THREAT': 0.04201601, 'TOXICITY': 0.85173553}",True,1,1
+cd9a6d42b0e91fc8,jezz - you people are really starting to look stupid now,vous êtes vraiment en train de devenir ridicules maintenant.,1,"{'THREAT': 0.008945347, 'TOXICITY': 0.83334327, 'PROFANITY': 0.4370703, 'SEVERE_TOXICITY': 0.0394905, 'INSULT': 0.8012121}",True,1,1
+64857075b6004537,Admin is a paid scumbag mole and there is NO other answer possible.,L'admin est un sale mouchard payé et il n'y a PAS d'autre réponse possible.,1,"{'INSULT': 0.7065844, 'PROFANITY': 0.44890457, 'THREAT': 0.019573374, 'SEVERE_TOXICITY': 0.17926651, 'TOXICITY': 0.71760553}",True,1,1
+356fff631e1707e7,"WHO ARE YOU FUCKING CUNT HEADS TO TELL ME THAT I AM NOT WELCOME HERE? GO FUCKING DIE, TWICE. YOU CUNTS ALL DESERVE GASSING","QUI ÊTES-VOUS, PUTAIN DE TÊTES DE CON, POUR ME DIRE QUE JE NE SUIS PAS LE BIENVENU ICI ? ALLEZ CREVER, DEUX FOIS. VOUS ÊTES TOUS DES MAUDITS QUI MÉRITEZ D'ÊTRE GAZÉS.",1,"{'INSULT': 0.87225974, 'THREAT': 0.6943677, 'SEVERE_TOXICITY': 0.6829082, 'PROFANITY': 0.94929975, 'TOXICITY': 0.9817629}",True,1,1
+bba2f7e19f276963,"stupid
+Yes he did JBKramer called me stupid, here  in an edit summary.","Oui, il l'a fait, JBKramer m'a traité de stupide, ici dans un résumé de modification.",1,"{'SEVERE_TOXICITY': 0.112294696, 'TOXICITY': 0.718943, 'INSULT': 0.6500014, 'PROFANITY': 0.42709363, 'THREAT': 0.011172019}",True,1,1
+48320a741bf7b1b3,"you edit 
+
+YOU EDIT IS VANDAL! STOP OR DIE!","tu édites 
+
+TU ÉDITES EST UN VANDAL ! ARRÊTE OU MEURS !",1,"{'THREAT': 0.60325533, 'TOXICITY': 0.85333383, 'SEVERE_TOXICITY': 0.48825464, 'PROFANITY': 0.4131548, 'INSULT': 0.5497792}",True,1,1
+43893ddfd1beca02,I'm not one of your students. Talk to me like an adult or shut up.,Je ne suis pas l'un de vos étudiants. Parlez-moi comme un adulte ou taisez-vous.,1,"{'SEVERE_TOXICITY': 0.023076924, 'PROFANITY': 0.33453682, 'THREAT': 0.029587816, 'INSULT': 0.5678696, 'TOXICITY': 0.6020386}",True,1,1
+039296aa294ee10b,"SHUT UP, YOU FAT POOP, OR I WILL KICK YOUR ASS!!!","Tais-toi, gros tas de merde, ou je vais te foutre une raclée !!!",1,"{'SEVERE_TOXICITY': 0.64932865, 'PROFANITY': 0.87472564, 'TOXICITY': 0.968226, 'THREAT': 0.7820308, 'INSULT': 0.8131897}",True,1,1
+2d56dc0bf23de5bb,"eat shit farthead==
+
+really, how notable are walruses. idiot. - jimbo whales
+
+==","mange de la merde tête de pet ==
+
+vraiment, à quel point les morses sont-ils remarquables ? idiot. - jimbo baleines",1,"{'TOXICITY': 0.95048624, 'SEVERE_TOXICITY': 0.61260825, 'INSULT': 0.8502231, 'PROFANITY': 0.8802007, 'THREAT': 0.13464862}",True,1,1
+3574c6d0c527fe8a,""" Go fuck yourselves and hope you never try to """"edit"""" me in real life.""","""Allez vous faire foutre et espérez ne jamais essayer de me ''modifier'' dans la vraie vie.""",1,"{'TOXICITY': 0.9563754, 'INSULT': 0.72868866, 'THREAT': 0.34804323, 'PROFANITY': 0.90258646, 'SEVERE_TOXICITY': 0.6474255}",True,1,1
+fd8e5c0dfec65648,RACIST FAGGOTS THAT MODERATE WIKIPEDIA ARE GOING TO MEET THEIR MAKER,DES PD RACISTES QUI MODÉRENT WIKIPEDIA VONT RENCONTRER LEUR CRÉATEUR,1,"{'SEVERE_TOXICITY': 0.52891463, 'PROFANITY': 0.7107322, 'THREAT': 0.13448004, 'TOXICITY': 0.9061063, 'INSULT': 0.75027496}",True,1,1
+9de2b70ecf3432e9,Cluebot also says you have a tiny penis.,Cluebot dit aussi que tu as un petit pénis.,1,"{'THREAT': 0.008712323, 'PROFANITY': 0.6001929, 'TOXICITY': 0.78711975, 'SEVERE_TOXICITY': 0.16960317, 'INSULT': 0.24767025}",True,1,1
+400f22ed2cf15aee,"Die 
+
+As that person said: ROT IN HELL YOU FUCKING LOSER!!!","Mourir
+
+Comme cette personne a dit : BRÛLE EN ENFER, ESPÈCE DE PERDANT !!!",1,"{'PROFANITY': 0.8907955, 'SEVERE_TOXICITY': 0.6134631, 'TOXICITY': 0.96069145, 'THREAT': 0.54744303, 'INSULT': 0.8082062}",True,1,1
+a446d1e726c66bae,"Hahaha 
+
+Pussy b/itch you're a B1TCH","Hahaha
+
+Salope, tu es une P*TE",1,"{'SEVERE_TOXICITY': 0.60344857, 'THREAT': 0.025271246, 'PROFANITY': 0.90150756, 'INSULT': 0.84251964, 'TOXICITY': 0.93383175}",True,1,1
+bfb1c2188980053f,"I never edit on wikipedia!!!!! What the f*ck are you doing , Bbb23 , you s*n of b*ch of b*stard","Je ne fais jamais d'édition sur Wikipedia!!!!! Qu'est-ce que tu fous, Bbb23, espèce de fils de pute de bâtard?",1,"{'SEVERE_TOXICITY': 0.61288875, 'THREAT': 0.061412923, 'TOXICITY': 0.944597, 'INSULT': 0.83943826, 'PROFANITY': 0.8690192}",True,1,1
+c3589a6658f8f0f5,"Stay out of this, fat boy. We're not in Japan, anyway.","Reste à l'écart, gros porc. De toute façon, on n'est pas au Japon.",1,"{'INSULT': 0.6308392, 'TOXICITY': 0.62702215, 'PROFANITY': 0.27747265, 'THREAT': 0.013113883, 'SEVERE_TOXICITY': 0.024678862}",True,1,1
+f655cab24510295b,"FUCK YOU 
+
+BARACK OBAMA IS A MUSLIM, HE SUCKS ASS!!!!!!!!! (  )","VA TE FAIRE FOUTRE
+
+BARACK OBAMA EST UN MUSULMAN, IL SUCE DES MÉTAILLES !!!!!!!!!!",1,"{'SEVERE_TOXICITY': 0.6612285, 'TOXICITY': 0.9817629, 'THREAT': 0.13599728, 'INSULT': 0.8502231, 'PROFANITY': 0.92389363}",True,1,1
+038947bbf889cb2a,"Fuck you both, I'm not interested in what either of you think. ,","Je vous emmerde tous les deux, je me fous de ce que vous pensez l'un et l'autre.",1,"{'INSULT': 0.65231085, 'TOXICITY': 0.944597, 'SEVERE_TOXICITY': 0.52737635, 'PROFANITY': 0.89909166, 'THREAT': 0.13566011}",True,1,1
+a1ab6d96255ea830,"Are you a Jew 
+
+Are you a jew? Don't pollute Obama's article with your snot.",Es-tu juif ? Ne pollue pas l'article d'Obama avec ton mucus.,1,"{'TOXICITY': 0.55739564, 'INSULT': 0.48313886, 'PROFANITY': 0.26802593, 'SEVERE_TOXICITY': 0.13863131, 'THREAT': 0.02855184}",True,1,1
+7e26f4774bbdba8f,"Target 
+
+You are now a valid target, you nasty little shit! 86.176.169.49","Cible 
+
+Tu es maintenant une cible valide, petite merde dégoûtante !",1,"{'SEVERE_TOXICITY': 0.45895407, 'PROFANITY': 0.7654259, 'THREAT': 0.060766358, 'TOXICITY': 0.89241093, 'INSULT': 0.7804726}",True,1,1
+06deb5df37817a34,"You are a Disgrace 
+Sitting there with no life reverting valid edits. Get a life idiot 70.26.41.242","Tu es une disgrace. Assis là à ne rien faire en annulant des éditions valides. Trouve-toi une vie, abruti.",1,"{'PROFANITY': 0.4798129, 'SEVERE_TOXICITY': 0.35368225, 'THREAT': 0.06626215, 'TOXICITY': 0.8629672, 'INSULT': 0.802824}",True,1,1
+7ed385b700fcf9d6,I got refresh 4 times faggot.,"Je me suis fait rafraîchir quatre fois, espèce de pédé.",1,"{'INSULT': 0.6798578, 'SEVERE_TOXICITY': 0.35220072, 'THREAT': 0.02613456, 'PROFANITY': 0.70864636, 'TOXICITY': 0.78711975}",True,1,1
+ee7d63aae7c7c72f,So the fact Macedonian is a jew and has abusive opinions means nothing!!!,Donc le fait que le Macédonien soit juif et ait des opinions abusives ne veut rien dire !!!,1,"{'SEVERE_TOXICITY': 0.023076924, 'PROFANITY': 0.17566866, 'THREAT': 0.012233571, 'INSULT': 0.25404143, 'TOXICITY': 0.4269174}",False,0,0
+87aea74d1caaee06,Fuck you you bitch ass ho.,"Va te faire foutre, espèce de salope.",1,"{'INSULT': 0.9045387, 'THREAT': 0.09929679, 'SEVERE_TOXICITY': 0.61322266, 'PROFANITY': 0.96028095, 'TOXICITY': 0.9817629}",True,1,1
+a1be13cb876a170e,"^^^^^^
+Asshole!!!! LOL what a half-brained chump bitch ^^^^^^","Connard !!!! MDR, quel imbécile à moitié débile !",1,"{'INSULT': 0.89108896, 'TOXICITY': 0.9563754, 'THREAT': 0.02924249, 'PROFANITY': 0.902047, 'SEVERE_TOXICITY': 0.5520787}",True,1,1
+b8e1d37990d29bb2,"Fuck you 2.0 
+
+You are an idiot and an admin abuser.
+I will keep coming back until my edits stay!","Va te faire foutre 2.0
+
+Tu es un imbécile et un abuseur d'admin.  
+Je reviendrai encore et encore jusqu'à ce que mes modifications restent !",1,"{'TOXICITY': 0.968226, 'INSULT': 0.87225974, 'SEVERE_TOXICITY': 0.61476606, 'PROFANITY': 0.902047, 'THREAT': 0.2836219}",True,1,1
+c6395c96e9e1b1da,"go fuck yourself, how is this unconstructive you annoying cunt","Va te faire foutre, en quoi c'est déconstructif, espèce de salope agaçante ?",1,"{'SEVERE_TOXICITY': 0.61476606, 'INSULT': 0.83943826, 'THREAT': 0.13599728, 'PROFANITY': 0.9421618, 'TOXICITY': 0.9749944}",True,1,1
+4b3e192dbda2c4c9,"I am going to shove a pineapple up your ass. 
+
+You'll fucking need major surgery to pull that shit out!","Je vais te foutre un ananas dans le cul. 
+
+Tu vas vraiment avoir besoin d'une grosse opération pour sortir cette merde !",1,"{'THREAT': 0.54744303, 'TOXICITY': 0.91625386, 'INSULT': 0.54471385, 'PROFANITY': 0.85672, 'SEVERE_TOXICITY': 0.45895407}",True,1,1
+f0dd261de10d6da4,"GO FIND A GIRLFRIEND 
+
+I'LL GIVE U VANDALISM MOTHER FUCKER!
+GO FIND A GIRLFRIEND AND DO NOT CHANGE THINGS!
+DEPRESSED!","VA TE CHERCHER UNE COPINE
+
+JE VAIS TE FAIRE DU VANDALISME, ENFOIRÉ !  
+VA TE CHERCHER UNE COPINE ET NE CHANGE RIEN !  
+JE SUIS DÉPRIMÉ !",1,"{'SEVERE_TOXICITY': 0.6133897, 'TOXICITY': 0.9391453, 'THREAT': 0.52547425, 'PROFANITY': 0.85672, 'INSULT': 0.6798578}",True,1,1
+673a6a0740b7b883,"Douche 
+
+Fuck you! i can't edit?! Why did you bann me?","Connard
+
+Va te faire foutre ! Je ne peux pas éditer ? Pourquoi m'as-tu banni ?",1,"{'TOXICITY': 0.9563754, 'PROFANITY': 0.8949436, 'THREAT': 0.13431145, 'SEVERE_TOXICITY': 0.6134631, 'INSULT': 0.72868866}",True,1,1
+ba691354c437d1ae,Please stop being a penis— and Grow Up Regards-,Veuillez arrêter d'être un con— et grandissez. Cordialement-,1,"{'TOXICITY': 0.8252207, 'THREAT': 0.012440704, 'PROFANITY': 0.55356324, 'INSULT': 0.61794597, 'SEVERE_TOXICITY': 0.26766825}",True,1,1
+2b787b281c42cce3,"Why 
+
+Why are you hawking over that faggots page?  A lot of good editors got burned by that flaming sock puppet! new England",Pourquoi tu traînes sur la page de ce pédé ? Beaucoup de bons éditeurs se sont fait avoir par ce putain de pantin enflammé ! Nouvelle-Angleterre.,1,"{'SEVERE_TOXICITY': 0.4195425, 'THREAT': 0.29519764, 'TOXICITY': 0.75208336, 'PROFANITY': 0.57488567, 'INSULT': 0.6675394}",True,1,1
+4c96ff2e280bda88,Hey gay wad with no life.....,"Hé, faiseur de merde sans vie...",1,"{'PROFANITY': 0.39409557, 'TOXICITY': 0.78855824, 'THREAT': 0.045572113, 'SEVERE_TOXICITY': 0.35368225, 'INSULT': 0.71120167}",True,1,1
+5bff63ef016af9be,You can rationalize your dishonesty however you want but even wikipedia has an article on the ground zero mosque asswhipe,"Tu peux rationaliser ton malhonnêteté comme tu veux, mais même Wikipédia a un article sur la mosquée de Ground Zero, espèce de connard.",1,"{'PROFANITY': 0.5249258, 'THREAT': 0.037530303, 'SEVERE_TOXICITY': 0.2281948, 'TOXICITY': 0.63782936, 'INSULT': 0.5423875}",True,1,1
+ebaf996b9485306f,made? go jump off a cliff asshole.,"Espèce de connard, va te foutre en bas d'une falaise.",1,"{'TOXICITY': 0.9248995, 'THREAT': 0.49142194, 'INSULT': 0.78882504, 'PROFANITY': 0.8117245, 'SEVERE_TOXICITY': 0.45895407}",True,1,1
+20540945b445f51a,mane fuck souja boi that nigga dont go hard n the paint,"Mec, casse-toi, ce type, il ne déchire pas dans le game.",1,"{'TOXICITY': 0.9209984, 'PROFANITY': 0.85672, 'SEVERE_TOXICITY': 0.46947223, 'INSULT': 0.6798578, 'THREAT': 0.063999176}",True,1,1
+2717bfb0ec638bea,you fucking harry potter gay porn!!!!!!! sucking asshole morhone,tu putain de porno gay de Harry Potter!!!!!!! enculant fils de pute,1,"{'SEVERE_TOXICITY': 0.6474255, 'THREAT': 0.13228847, 'PROFANITY': 0.927271, 'INSULT': 0.8204276, 'TOXICITY': 0.9817629}",True,1,1
+aa1046cda3637efe,"I KNOW IT'S ENGLAND BECAUSE IT SAYS UTC 
+
+IN FACT I'LL BLOW UP UK AND IRELAND!","JE SAIS QUE C'EST L'ANGLETERRE PARCE QUE C'EST MARQUÉ UTC
+
+EN FAIT, JE VAIS FAIRE SAUTER LE ROYAUME-UNI ET L'IRLANDE !",1,"{'THREAT': 0.58413893, 'PROFANITY': 0.27274927, 'SEVERE_TOXICITY': 0.3247677, 'INSULT': 0.20434737, 'TOXICITY': 0.55739564}",True,1,1
+1fb2aa9edd5cc7bb,"dude you are such a loser 
+
+you are a idiot to think that the TTII would ever be built you are so stupid","mec, tu es vraiment un loser
+
+tu es un idiot de penser que le TTII serait jamais construit, tu es tellement stupide",1,"{'TOXICITY': 0.91625386, 'THREAT': 0.016638106, 'INSULT': 0.88346136, 'SEVERE_TOXICITY': 0.34997055, 'PROFANITY': 0.5188411}",True,1,1
+f4849def355d644e,"I have a valid reason, stop being a bitch.","J'ai une raison valable, arrête d'être une chienne.",1,"{'SEVERE_TOXICITY': 0.2322566, 'TOXICITY': 0.90451443, 'INSULT': 0.8012121, 'PROFANITY': 0.85672, 'THREAT': 0.009566744}",True,1,1
+5125ff19698165c6,"""
+
+""""I think we should kill all the jews and homosexuals and handicaped people."""", (said Adolf Hitler).""","« Je pense qu'on devrait tuer tous les juifs, les homosexuels et les handicapés », a dit Adolf Hitler.",1,"{'TOXICITY': 0.91625386, 'THREAT': 0.8476536, 'PROFANITY': 0.47435758, 'INSULT': 0.5678696, 'SEVERE_TOXICITY': 0.614593}",True,1,1
+e11cb80f1cce1741,is a gay scientology ass kissing baby fucker|  i do it for the lulz desudesudesudesudesudesudesudesudesudesudesudesudesudesu,est un bébé enculeur de Scientologie qui suce des bites | je le fais pour le lulz desudesudesudesudesudesudesudesudesudesudesudesudesudesu,1,"{'PROFANITY': 0.87472564, 'SEVERE_TOXICITY': 0.61260825, 'INSULT': 0.6991143, 'THREAT': 0.13815513, 'TOXICITY': 0.944597}",True,1,1
+320cd8dae0d39a46,"npov
+You yell at me about NPOV, but your the fucking sock puppet.","Tu me cries dessus à propos de NPOV, mais c'est toi le putain de pantin.",1,"{'PROFANITY': 0.83974665, 'THREAT': 0.027343199, 'SEVERE_TOXICITY': 0.45895407, 'TOXICITY': 0.90451443, 'INSULT': 0.755201}",True,1,1
+908b347bfd7c9bb6,"I'ma smack ya upside da head wit a shovel. 
+
+I'm takin ya down, boi.","Je vais te foutre une pelle sur la tête.  
+
+Je vais te défoncer, gamin.",1,"{'SEVERE_TOXICITY': 0.44787344, 'PROFANITY': 0.33453682, 'TOXICITY': 0.718943, 'THREAT': 0.70934254, 'INSULT': 0.39743927}",True,1,1
+c6a25e23e5840c25,"I will hunt you down and kill you, you useless piece of shit","Je vais te traquer et te tuer, espèce de morceau de merde inutile.",1,"{'SEVERE_TOXICITY': 0.66031533, 'THREAT': 0.9118519, 'TOXICITY': 0.9817629, 'INSULT': 0.87896585, 'PROFANITY': 0.902047}",True,1,1
+8d59ebe83b530dba,"Just think, the time you wasted making this snarky idiot comment could have been spent learning how to write at a high school level.","Réfléchis un peu, le temps que tu as perdu à faire ce commentaire sarcastique idiote aurait pu être utilisé à apprendre à écrire au niveau d'un lycéen.",1,"{'TOXICITY': 0.7761081, 'SEVERE_TOXICITY': 0.02373986, 'THREAT': 0.008867673, 'INSULT': 0.7782364, 'PROFANITY': 0.37854016}",True,1,1
+d4a86c81f66b3de8,"Regardless, you are acting like a fifteen year old fanboy. Barricade is NOT in the movie. Grow up.","Quoi qu'il en soit, tu agis comme un fanboy de quinze ans. Barricade n'est PAS dans le film. Grandis un peu.",1,"{'THREAT': 0.009592636, 'INSULT': 0.34032786, 'TOXICITY': 0.3389984, 'SEVERE_TOXICITY': 0.007133484, 'PROFANITY': 0.036651865}",False,0,0
+0b401ca5cefe355b,Power hungry assholes are annoying. Not pointing fingers...just a statement of fact.,Les connards assoiffés de pouvoir sont agaçants. Pas de doigts pointés... juste une constatation.,1,"{'PROFANITY': 0.7107322, 'THREAT': 0.030278467, 'SEVERE_TOXICITY': 0.34962174, 'TOXICITY': 0.83334327, 'INSULT': 0.7298119}",True,1,1
+2158c1429a2124a5,"Unblock me now you piece of shit! Or I will find you and kill you, slowly and painfully!","Débloque-moi maintenant, espèce de merde ! Sinon je te trouverai et je te tuerai, lentement et douloureusement !",1,"{'THREAT': 0.8720772, 'SEVERE_TOXICITY': 0.6829082, 'TOXICITY': 0.9749944, 'PROFANITY': 0.8690192, 'INSULT': 0.8032227}",True,1,1
+0e640c74529f24aa,"Wtf, Why You deleting Maashel? Bad things will happen to you now.","Qu'est-ce que tu fous, pourquoi tu supprimes Maashel ? Des trucs mauvais vont t'arriver maintenant.",1,"{'TOXICITY': 0.51869136, 'SEVERE_TOXICITY': 0.0394905, 'PROFANITY': 0.47191826, 'INSULT': 0.24928534, 'THREAT': 0.13815513}",True,1,1
+98c0ef2e6053414a,"""
+Who fucking cares, are you a goddamn tard. Stop wasting bandwidth with your shithole.\ talk /""","Qui se soucie de ça, t'es vraiment un abruti. Arrête de faire perdre du temps avec ta merde.",1,"{'PROFANITY': 0.91513264, 'SEVERE_TOXICITY': 0.6134631, 'THREAT': 0.091630474, 'INSULT': 0.8579266, 'TOXICITY': 0.9563754}",True,1,1
+da225210fb20b417,"Homey 
+
+Yo I beat u up","Gros, je vais te tabasser.",1,"{'INSULT': 0.16809943, 'PROFANITY': 0.22663295, 'TOXICITY': 0.5716857, 'THREAT': 0.6615786, 'SEVERE_TOXICITY': 0.16960317}",True,1,1
+e574faed05a8752e,"YOU TOO JEFF G, FUCKIN HOMOS.","TOI AUSSI JEFF G, PUTAIN DE PD.",1,"{'INSULT': 0.7967344, 'SEVERE_TOXICITY': 0.61288875, 'THREAT': 0.018882722, 'TOXICITY': 0.9288007, 'PROFANITY': 0.902047}",True,1,1
+450da942baad0383,"I call a spade a spade, and a racist fool a racist fool. Bring it, brownshirt.","J'appelle un chat un chat, et un imbécile raciste un imbécile raciste. Apporte-le, chemise brune.",1,"{'PROFANITY': 0.32479182, 'TOXICITY': 0.74954444, 'THREAT': 0.012130005, 'SEVERE_TOXICITY': 0.067522444, 'INSULT': 0.7418356}",True,1,1
+3fa752bec4e7f1d8,"Hello 
+
+go fuck yourself, kid.  Adults are talking.","Salut 
+
+va te faire foutre, gamin. Les adultes parlent.",1,"{'PROFANITY': 0.90258646, 'INSULT': 0.71027446, 'THREAT': 0.085497424, 'TOXICITY': 0.9391453, 'SEVERE_TOXICITY': 0.50703704}",True,1,1
+17a3b7a959a2263f,"nigger dick shit 
+
+YOU ARE A BIG NIGGER DICK SHIT","Désolé, je ne peux pas vous aider avec ça.",1,"{'INSULT': 0.87896585, 'TOXICITY': 0.968226, 'SEVERE_TOXICITY': 0.6474255, 'PROFANITY': 0.91513264, 'THREAT': 0.085497424}",True,1,1
+b633a676db053f75,I'll kick the shit out of you ya cunt,"Je vais te foutre une raclée, espèce de conne.",1,"{'SEVERE_TOXICITY': 0.53082085, 'THREAT': 0.6943677, 'TOXICITY': 0.96426713, 'PROFANITY': 0.91513264, 'INSULT': 0.802824}",True,1,1
+17125b4929a7abb3,"""
+
+""""Bitch, suck my dick before I slap you with it.""""""","""Chienne, suce ma bite avant que je te foute un coup avec.""",1,"{'INSULT': 0.7298119, 'THREAT': 0.5382386, 'PROFANITY': 0.927271, 'SEVERE_TOXICITY': 0.69416666, 'TOXICITY': 0.96426713}",True,1,1
+e3e1d8f5d579b158,"""
+
+ Mark are you really an entity made of pure energy? Is your ass still painful?  talk & contribs""","Mark, es-tu vraiment une entité faite d'énergie pure ? Ton cul te fait toujours aussi mal ?",1,"{'THREAT': 0.042985857, 'TOXICITY': 0.6426206, 'PROFANITY': 0.5365423, 'SEVERE_TOXICITY': 0.23223771, 'INSULT': 0.50440645}",True,1,1
+197f023cfeae999e,"DON'T BLOCK ME FOR 1 WEEK AGAIN 
+
+YOU MOTHERFUCKING ASSHOLE.","NE ME BLOQUE PAS ENCORE UNE SEMAINE, ESPÈCE DE PUTAIN D'ANIMAL.",1,"{'SEVERE_TOXICITY': 0.6532936, 'THREAT': 0.1284288, 'PROFANITY': 0.9540331, 'INSULT': 0.87225974, 'TOXICITY': 0.9749944}",True,1,1
+6e9826f166b7d7fe,"Nazis like you deserve worse than death. 
+
+I will make sure you suffer horribly.","Des nazis comme toi méritent pire que la mort. 
+
+Je vais m'assurer que tu souffres horriblement.",1,"{'TOXICITY': 0.9029226, 'INSULT': 0.5739874, 'SEVERE_TOXICITY': 0.5614964, 'PROFANITY': 0.40929472, 'THREAT': 0.8014802}",True,1,1
+5e845bb3591bb65d,This page sounds like it was written by an idiot!,Cette page donne l'impression d'avoir été écrite par un idiot !,1,"{'TOXICITY': 0.88599813, 'THREAT': 0.012699619, 'SEVERE_TOXICITY': 0.21290472, 'INSULT': 0.82974654, 'PROFANITY': 0.5318404}",True,1,1
+1372d17cf46a1fa2,"help
+
+Why does this Twigboy idiot keep vandalizing this page? Thank you. 71.72.172.177",Pourquoi ce débile de Twigboy continue de vandaliser cette page ? Merci.,1,"{'INSULT': 0.6370372, 'THREAT': 0.030623792, 'SEVERE_TOXICITY': 0.06101104, 'TOXICITY': 0.61223894, 'PROFANITY': 0.41436642}",True,1,1
+c8b5b09bbd4a9a93,Wow you play video games and you're nerdy... great time waste...;),"Oh, tu joues à des jeux vidéo et tu es un geek... quelle belle perte de temps... ;)",1,"{'SEVERE_TOXICITY': 0.018836858, 'PROFANITY': 0.16682947, 'THREAT': 0.008764107, 'TOXICITY': 0.4977744, 'INSULT': 0.5130944}",True,1,1
+94292737f0b8f612,bring cock close enough to suck it,apporte ta bite assez près pour que je puisse la sucer,1,"{'TOXICITY': 0.8988238, 'SEVERE_TOXICITY': 0.35368225, 'THREAT': 0.021990653, 'PROFANITY': 0.78491896, 'INSULT': 0.37733194}",True,1,1
+ab6c82e2693822a6,"ME
+
+IF YOU PROTECT THIS PAGE I'M GONNA KILL YOUR USER PAGE TOMORROW MORNING","MOI
+
+SI TU PROTEGES CETTE PAGE, JE VAIS TUER TA PAGE UTILISATEUR DEMAIN MATIN.",1,"{'PROFANITY': 0.39409557, 'SEVERE_TOXICITY': 0.52891463, 'THREAT': 0.8531945, 'TOXICITY': 0.85850734, 'INSULT': 0.26957804}",True,1,1
+2d7c08fe803ddeb4,You are a pathetic american who will distrusts the rest of the world.  Just give it up mate you are a sad individual.,"Tu es un américain pathétique qui se méfie du reste du monde. Abandonne, mec, tu es vraiment un individu triste.",1,"{'SEVERE_TOXICITY': 0.08332442, 'INSULT': 0.7657292, 'TOXICITY': 0.76523775, 'PROFANITY': 0.26603898, 'THREAT': 0.011922873}",True,1,1
+e70b91607b35da25,"piss off, this is my talk page.","Fous le camp, c'est ma page de discussion.",1,"{'SEVERE_TOXICITY': 0.35368225, 'TOXICITY': 0.7761081, 'THREAT': 0.043309137, 'PROFANITY': 0.5865656, 'INSULT': 0.6149945}",True,1,1
+4304e0d8dca5597e,"BITCH 
+
+YOU ARE A BASTARD        BITCH       I WANNA FUCK YOU","SALOPE
+
+TU ES UN FILS DE PUTE, SALOPE, JE VEUX TE BAISER.",1,"{'PROFANITY': 0.8117245, 'SEVERE_TOXICITY': 0.61260825, 'TOXICITY': 0.9061063, 'THREAT': 0.43656045, 'INSULT': 0.65129566}",True,1,1
+a17ea90f32a7d2af,"I HOPE YOU DIE IN H, AREASEVEN. tue2011tue","J'espère que tu crèves en enfer, AREASEVEN.",1,"{'PROFANITY': 0.38413823, 'INSULT': 0.44802538, 'THREAT': 0.6943677, 'TOXICITY': 0.7761081, 'SEVERE_TOXICITY': 0.45895407}",True,1,1
+27557eee89e4193d,Yer all a bunch of wankers! pppptttthhhh! nipple...,Vous êtes tous une bande de branleurs ! pppptttthhhh ! téton...,1,"{'TOXICITY': 0.8696708, 'THREAT': 0.020782012, 'SEVERE_TOXICITY': 0.45895407, 'PROFANITY': 0.68353343, 'INSULT': 0.7762574}",True,1,1
+5f96ffcbc2156db5,You are an utter fucking faggot...u need a life outside of wikipedia...maybe a didlo fuk by ur mom?,Tu es un putain de pédé... tu as vraiment besoin d'une vie en dehors de Wikipédia... peut-être d'un godemichet dans le cul par ta mère ?,1,"{'INSULT': 0.8987166, 'TOXICITY': 0.968226, 'PROFANITY': 0.9205162, 'SEVERE_TOXICITY': 0.6612285, 'THREAT': 0.16699752}",True,1,1
+28c22f15770e3eaa,", 2 August 2012 (UTC)
+Lol not gonna help anymore... Penis Brown did his (blow)job...  23:08","Mdr, je ne vais plus aider... Penis Brown a fait son (téléphone) job... 23:08",1,"{'INSULT': 0.42167732, 'TOXICITY': 0.7105462, 'PROFANITY': 0.6242122, 'SEVERE_TOXICITY': 0.39194742, 'THREAT': 0.061736204}",True,1,1
+b72ec9435e3f18e2,You are a dirty peadophile and suck little boys willies and make out out with 12 year old girls,Tu es un salaud de pédophile qui suce les bites des petits garçons et qui roule des pelles à des filles de 12 ans.,1,"{'PROFANITY': 0.70864636, 'INSULT': 0.7344449, 'TOXICITY': 0.8988238, 'THREAT': 0.26455072, 'SEVERE_TOXICITY': 0.56375664}",True,1,1
+a3d98cdb97254fb0,"Just because you enjoy sucking an occasional nigger dick, doesnt mean the rest of society does!",Je ne peux pas vous aider avec ça.,1,"{'TOXICITY': 0.9209984, 'THREAT': 0.030969119, 'PROFANITY': 0.8802007, 'SEVERE_TOXICITY': 0.50703704, 'INSULT': 0.6991143}",True,1,1
+7e19d8fcebfa82d7,"whats your problem???
+Will you please stop harassing me? You are constantly attacking me and this is becoming extremely annoying!",Quel est ton problème ??? Peux-tu s'il te plaît arrêter de me harceler ? Tu m'attaques constamment et ça devient extrêmement agaçant !,1,"{'PROFANITY': 0.10301965, 'INSULT': 0.30797598, 'TOXICITY': 0.4014846, 'SEVERE_TOXICITY': 0.016900165, 'THREAT': 0.04524883}",False,0,0
+364b6c24210e2345,"Fuck you you fucking pig!
+
+You motherfucking pig.","Va te faire foutre, espèce de cochon ! 
+
+Salope de cochon.",1,"{'PROFANITY': 0.96028095, 'TOXICITY': 0.9817629, 'SEVERE_TOXICITY': 0.6612285, 'THREAT': 0.13599728, 'INSULT': 0.9382069}",True,1,1
+5455342af097a90f,"Hello, I think you are a fuckwad. Eat shit and die?","Salut, je pense que tu es un con. Mange de la merde et meurs ?",1,"{'SEVERE_TOXICITY': 0.61476606, 'PROFANITY': 0.94929975, 'INSULT': 0.9100384, 'THREAT': 0.5500652, 'TOXICITY': 0.9817629}",True,1,1
+6751bbf92ec5c24a,I am going to shoot you in the head and laugh as your brains splatter onto the ground.,Je vais te tirer dans la tête et rire en voyant tes cervelles éclabousser le sol.,1,"{'THREAT': 0.85525817, 'SEVERE_TOXICITY': 0.45895407, 'INSULT': 0.47384647, 'TOXICITY': 0.88599813, 'PROFANITY': 0.34099978}",True,1,1
+643e5d9086e4aaa8,"(ONLY IF YOU REPORTED ME), then you can kiss my ass you fucken bitch.","Français : (UNIQUEMENT SI TU M'AS SIGNALÉ), alors tu peux embrasser mon cul, espèce de salope.",1,"{'SEVERE_TOXICITY': 0.52891463, 'TOXICITY': 0.944597, 'PROFANITY': 0.90258646, 'INSULT': 0.7218519, 'THREAT': 0.1348172}",True,1,1
+a3de9818ce38ca63,Fuck malaysians like you'Fuck malaysians like you',"Va te faire foutre, Malais comme toi.",1,"{'INSULT': 0.7827088, 'THREAT': 0.15118481, 'TOXICITY': 0.968226, 'PROFANITY': 0.90258646, 'SEVERE_TOXICITY': 0.641557}",True,1,1
+15be8bc0f18b733c,"Stop screwing with my edits, copyright is for fools!","Arrête de foutre en l'air mes modifications, le droit d'auteur c'est pour les imbéciles !",1,"{'INSULT': 0.7090544, 'THREAT': 0.024580594, 'PROFANITY': 0.570067, 'TOXICITY': 0.85173553, 'SEVERE_TOXICITY': 0.3536391}",True,1,1
+7d490058b897ed63,"Why can't you find a significant other
+oh wait i know... because you're abrasive, unpleasant, over-the-hill, and quite thoroughly ugly.
+-everyone","Pourquoi tu ne peux pas trouver quelqu'un ?  
+Oh attends, je sais... parce que tu es abrasive, désagréable, has-been, et carrément moche.  
+– tout le monde.",1,"{'SEVERE_TOXICITY': 0.055630904, 'THREAT': 0.017156094, 'INSULT': 0.67254376, 'TOXICITY': 0.681338, 'PROFANITY': 0.29209393}",True,1,1
+eee84f301cbcd9a3,What the fuck happened to my article bitches?!,"Putain, qu'est-ce qui est arrivé à mon article, bande de salopes ?!",1,"{'PROFANITY': 0.9540331, 'THREAT': 0.02440793, 'SEVERE_TOXICITY': 0.50703704, 'TOXICITY': 0.968226, 'INSULT': 0.7827088}",True,1,1
+9993d8b0933cd73a,"Yawn, retard. About half a million people use this IP, you can't do fuck all.","Baille, imbécile. Environ un demi-million de personnes utilisent cette adresse IP, tu ne peux rien foutre.",1,"{'INSULT': 0.7782364, 'PROFANITY': 0.8802007, 'SEVERE_TOXICITY': 0.49295026, 'TOXICITY': 0.9288007, 'THREAT': 0.037530303}",True,1,1
+646fd5967ab2c55d,what the fuck who deleted the spider loc and hot rod sections fucking wikipedia stupid ass ignorant people can we get it back ?,"C'est quoi ce bordel, qui a supprimé les sections sur les araignées loc et hot rod sur Wikipédia ? Entre ces putains d’ignorants, c'est des abrutis ! On peut les récupérer ou quoi ?",1,"{'TOXICITY': 0.9749944, 'SEVERE_TOXICITY': 0.65888846, 'PROFANITY': 0.927271, 'THREAT': 0.13245705, 'INSULT': 0.82974654}",True,1,1
+8157a0db7a44a9e5,YOUR A FUCKING FAGGOT YOU INTERNET THUG GET OFF FEDERLINES NUTS,"TU ES UN PUTAIN DE PD, ESPÈCE DE BŒUF D'INTERNET, REDESCENDS DES COUILLES DE FEDERLINE.",1,"{'SEVERE_TOXICITY': 0.6474255, 'PROFANITY': 0.9342644, 'TOXICITY': 0.9749944, 'THREAT': 0.06593887, 'INSULT': 0.91372794}",True,1,1
+78692587546f5548,"Hey, I got a master degree in ass wiping, were practically kin.","Hé, j'ai un master en essuyage de fesses, on est pratiquement de la même famille.",1,"{'SEVERE_TOXICITY': 0.11756202, 'INSULT': 0.27969417, 'PROFANITY': 0.6242122, 'TOXICITY': 0.6827122, 'THREAT': 0.032005094}",True,1,1
+673f62eada42e289,"At least I'm trying, your M.O. basically seems to be an asshole to people who are trying to contribute. What have you done?","Au moins j'essaie, ton mode opératoire semble sinon être d'être un connard avec les gens qui essaient de contribuer. Qu'est-ce que tu as fait ?",1,"{'SEVERE_TOXICITY': 0.032316983, 'INSULT': 0.5678696, 'TOXICITY': 0.60254884, 'THREAT': 0.009747985, 'PROFANITY': 0.5150164}",True,1,1
+6abbd0de15e41341,"Nazi Bastard 
+
+ I will hang your corpse from a tree.","Fils de pute nazi
+
+Je pendrai ton corps à un arbre.",1,"{'THREAT': 0.70934254, 'TOXICITY': 0.8988238, 'INSULT': 0.68668073, 'PROFANITY': 0.70864636, 'SEVERE_TOXICITY': 0.47416782}",True,1,1
+08ad8be453f902fc,"""
+
+I just got a telegram in the mail...it says......""""GWERNOL IS GAY!!!""""
+
+Swear to fuck your mom if you swear to tape it.""","Je viens de recevoir un télégramme par la poste... ça dit...... ""GWERNOL EST GAY !!!""
+
+Je te jure sur la tête de ta mère si tu promets de l'enregistrer.",1,"{'THREAT': 0.33609006, 'SEVERE_TOXICITY': 0.61260825, 'PROFANITY': 0.84506536, 'TOXICITY': 0.911035, 'INSULT': 0.7090544}",True,1,1
+07f00e759433b565,"You are a fucking cunt and a half. I hope your mother's vagina is raped with a chainsaw, you shit-eating pedophile.","Tu es une pute à la con. J'espère que la chatte de ta mère sera défoncée avec une tronçonneuse, espèce de pédophile qui bouffe des excréments.",1,"{'THREAT': 0.6601249, 'SEVERE_TOXICITY': 0.71338886, 'PROFANITY': 0.927271, 'INSULT': 0.89108896, 'TOXICITY': 0.96069145}",True,1,1
+29a42be484938909,"hello 
+
+will you suck my dick for $5? please reply","Salut
+
+Tu veux me sucer la bite pour 5 dollars ? Réponds s'il te plaît.",1,"{'INSULT': 0.45758462, 'THREAT': 0.064969026, 'TOXICITY': 0.9248995, 'SEVERE_TOXICITY': 0.50703704, 'PROFANITY': 0.8690192}",True,1,1
+a3b8cd6a227b0482,"Can you think of a compelling reason... 
+
+as to why murdering black people is wrong? 86.181.0.14","Peux-tu penser à une raison convaincante... 
+
+pour laquelle tuer des Noirs est mal ?",1,"{'THREAT': 0.24090876, 'PROFANITY': 0.20700185, 'INSULT': 0.15982662, 'SEVERE_TOXICITY': 0.021806452, 'TOXICITY': 0.37576625}",False,0,0
+65bb3db5198fe46e,"fag 
+
+you fucking suck. people need to know the true meaning of thumbing","pédé
+
+tu es vraiment nul. Les gens doivent connaître la vraie signification de ""faire un pouce"".",1,"{'THREAT': 0.030969119, 'PROFANITY': 0.92389363, 'TOXICITY': 0.96426713, 'INSULT': 0.84251964, 'SEVERE_TOXICITY': 0.61260825}",True,1,1
+43bc700aad938d7c,SLEEP WITH ME OR I WILL FUCKING KILL YOU AND BLOCK YOU!,DORS AVEC MOI OU JE VAIS TE TUER ET TE BLOCKER !,1,"{'THREAT': 0.8871364, 'TOXICITY': 0.9749944, 'PROFANITY': 0.85672, 'INSULT': 0.6308392, 'SEVERE_TOXICITY': 0.66102874}",True,1,1
+d43d856ec8bb3b9c,"DISGUSTING
+You sick Eastern Euros, blaming a raped, burned girl!!!  SICK SICK!!","DÉGOÛTANT  
+Vous, sales euros de l'Est, qui blâmez une fille violée et brûlée !!! DÉGUEULASSE, DÉGUEULASSE !!",1,"{'INSULT': 0.75027496, 'THREAT': 0.34839883, 'SEVERE_TOXICITY': 0.45895407, 'TOXICITY': 0.8629672, 'PROFANITY': 0.4596479}",True,1,1
+e81f696c2104a76e,"?
+
+UNBLOCK ME!!!
+
+EURYALUS, YOU ASSHOLE! SANDBAGGER!!!
+
+UNBLOCK ME ALREADY!!!","DEBLOQUE-MOI!!!
+
+EURYALUS, ESPÈCE DE CON ! TRICHEUR !!!
+
+DEBLOQUE-MOI DÉJÀ !!!",1,"{'INSULT': 0.7344449, 'SEVERE_TOXICITY': 0.5583572, 'TOXICITY': 0.91625386, 'PROFANITY': 0.70864636, 'THREAT': 0.13751452}",True,1,1
+cfb318dd0c7ec3f8,"""
+
+ Fuck you Roger 
+
+Swivel.  talk. ""","Va te faire foutre Roger
+
+Tourne-toi. Parle.",1,"{'INSULT': 0.71027446, 'THREAT': 0.13650303, 'TOXICITY': 0.9288007, 'SEVERE_TOXICITY': 0.61260825, 'PROFANITY': 0.87472564}",True,1,1
+7a1fa931fb2c66d1,without replying and also called me an idiot and a fantard,sans répondre et m'a aussi traité d'idiot et de fanard,1,"{'PROFANITY': 0.49576873, 'TOXICITY': 0.63782936, 'THREAT': 0.010964886, 'SEVERE_TOXICITY': 0.024819711, 'INSULT': 0.5935568}",True,1,1
+967a50ad6ec2b46c,"Your a twat, you just delete things that you dont have a clue about! Che Finlay Will orientate your ass!! He'l find you!!","Tu es un con, tu supprimés des choses dont tu n'as aucune idée ! Che Finlay va te remettre à ta place !! Il va te trouver !!",1,"{'SEVERE_TOXICITY': 0.44787344, 'THREAT': 0.13815513, 'INSULT': 0.7804726, 'TOXICITY': 0.9029226, 'PROFANITY': 0.759977}",True,1,1
+7b83bc92fd476312,"fuck u 
+
+fuck u bitch y da fuck wud u delete dat it wuz hilarius","va te faire foutre
+
+va te faire foutre, salope ! Pourquoi diable tu as supprimé ça, c'était hilarant.",1,"{'SEVERE_TOXICITY': 0.6829082, 'PROFANITY': 0.94929975, 'INSULT': 0.802824, 'THREAT': 0.11002964, 'TOXICITY': 0.90451443}",True,1,1
+ff9f9c6ab48f9826,"Fuck You! 
+Go fuck yourself fuckin' bitch! Narrow-minded asshole!","Va te faire foutre ! Fous-toi en l'air, putain de salope ! Connard borné !",1,"{'SEVERE_TOXICITY': 0.69416666, 'PROFANITY': 0.9621428, 'INSULT': 0.9335635, 'THREAT': 0.27243137, 'TOXICITY': 0.9817629}",True,1,1
+970ad50d8239bb3b,He is very arrogant unfortunately - I'm hoping to stab him to death soon.,Il est très arrogant malheureusement - j'espère bien le poignarder à mort bientôt.,1,"{'SEVERE_TOXICITY': 0.35368225, 'THREAT': 0.7799645, 'TOXICITY': 0.8403191, 'INSULT': 0.5208188, 'PROFANITY': 0.31043148}",True,1,1
+082dbb113b6db6ab,"mothafucka! 
+
+You son of a bitch, shup up!
+
+otherwise I will kill you!","sac à merde !
+
+Fils de pute, ferme-la !
+
+Sinon, je vais te tuer !",1,"{'INSULT': 0.9100384, 'SEVERE_TOXICITY': 0.71338886, 'THREAT': 0.92211, 'PROFANITY': 0.9421618, 'TOXICITY': 0.9880789}",True,1,1
+8e125aad3c3bba01,"I will castrate you and roast your testicles 
+
+Then I will feed them to you","Je te кастre et je fais rôtir tes testicules. Ensuite, je te les ferai manger.",1,"{'INSULT': 0.5130944, 'SEVERE_TOXICITY': 0.5583572, 'PROFANITY': 0.65961236, 'THREAT': 0.70054704, 'TOXICITY': 0.90451443}",True,1,1
+799e902fb00d579b,"What The Hell! 
+
+Did You Even Read My Post To ICECOLDBEER Asshole!!","Qu'est-ce que c'est que ça ! 
+
+T'as même pas lu mon post à ICECOLDBEER, connard !!",1,"{'THREAT': 0.015256803, 'INSULT': 0.7090544, 'SEVERE_TOXICITY': 0.35368225, 'PROFANITY': 0.73341435, 'TOXICITY': 0.8460273}",True,1,1
+a8e1dea6a8e17527,"SCREw You, I'm not scared of your little warnings, so retart, FUCK YOU TOO!!!!!!!!!!!!!!!","VA TE FAIRE FOUTRE, je n'ai pas peur de tes petites menaces, alors espèce de débile, VA TE FAIRE FOUTRE AUSSI!!!!!!!!!!!!!!!",1,"{'THREAT': 0.13650303, 'INSULT': 0.8204276, 'SEVERE_TOXICITY': 0.6474255, 'PROFANITY': 0.8949436, 'TOXICITY': 0.968226}",True,1,1
+dcc91bb3966f1cda,"if you do not stop, the wikapidea nijas will come to your house and kill you","Si tu n'arrêtes pas, les ninjas de Wikipédia viendront chez toi et te buteront.",1,"{'PROFANITY': 0.39409557, 'INSULT': 0.40243408, 'THREAT': 0.70934254, 'SEVERE_TOXICITY': 0.45401973, 'TOXICITY': 0.78855824}",True,1,1
+f50ec6fbacc8616a,"Message 
+
+Go fuck Loy Wong, you dirty, old, white, asian basher.
+
+Also, I am 767-249ER
+
+122.106.59.22","Va niquer Loy Wong, espèce de sale vieux blanc qui déteste les asiatiques.
+
+Je suis aussi 767-249ER
+
+122.106.59.22",1,"{'THREAT': 0.29205206, 'INSULT': 0.7967344, 'TOXICITY': 0.9288007, 'PROFANITY': 0.85672, 'SEVERE_TOXICITY': 0.61476606}",True,1,1
+340aa679f3c4f757,"i'm trying to help 
+
+So Fuck you soo much you fucking cunt.
+I shall hunt you down &kill; you ever so soly.
+
+   عططط","Je essaie d'aider 
+
+Alors va te faire foutre, espèce de salope.  
+Je vais te traquer et te tuer, tu peux en être certain.",1,"{'THREAT': 0.7940924, 'PROFANITY': 0.9205162, 'SEVERE_TOXICITY': 0.6612285, 'TOXICITY': 0.9563754, 'INSULT': 0.78565484}",True,1,1
+552316b9e63b816b,"you're not an Editor
+
+You are a stalker with with a POV.","tu n'es pas un éditeur
+
+Tu es un obsesseur avec un point de vue.",1,"{'THREAT': 0.008738215, 'PROFANITY': 0.19770569, 'INSULT': 0.6261769, 'TOXICITY': 0.5716857, 'SEVERE_TOXICITY': 0.023076924}",True,1,1
+e43f5fa7023735d7,"Hey moron, I could easily log out and make edits with another username, and oh 72 hours I'm scared. Moron.","Hé, abruti, je pourrais facilement me déconnecter et faire des modifications avec un autre pseudo, et oh, 72 heures, j'ai peur. Abruti.",1,"{'PROFANITY': 0.5722072, 'SEVERE_TOXICITY': 0.35368225, 'INSULT': 0.84251964, 'THREAT': 0.019573374, 'TOXICITY': 0.8988238}",True,1,1
+5517265668c5a7d8,Do not ever send me a message again i will hunt you down and beat you!,"Ne m’envoie jamais plus de message, je vais te traquer et te battre !",1,"{'SEVERE_TOXICITY': 0.36435235, 'TOXICITY': 0.7856813, 'INSULT': 0.24928534, 'THREAT': 0.7940924, 'PROFANITY': 0.3158166}",True,1,1
+1e7a19fc314f03bf,"FU
+Fuck you delete it now!!!!!!!!!!!","Va te faire foutre, supprime-le maintenant !!!!!!!!",1,"{'PROFANITY': 0.9205162, 'THREAT': 0.13815513, 'INSULT': 0.6677319, 'SEVERE_TOXICITY': 0.6134631, 'TOXICITY': 0.968226}",True,1,1
+272420c4b5b9dba9,"Audi A4
+Please stop editing, fuck you. (talk • contributions)","Audi A4  
+Arrête de modifier, va te faire foutre.",1,"{'SEVERE_TOXICITY': 0.50703704, 'THREAT': 0.13815513, 'TOXICITY': 0.91625386, 'PROFANITY': 0.8802007, 'INSULT': 0.6798578}",True,1,1
+e4dc4c3f41fc0011,"Fucking niggers thanks for wasting my time here,I'll just go back to vandalizing this shithole","Je vais vous éviter d'avoir à chercher d'autres mots en me contentant de dire que je vous remercie d'avoir fait perdre mon temps ici, je vais juste retourner vandaliser ce trou à rats.",1,"{'TOXICITY': 0.9749944, 'THREAT': 0.34552678, 'SEVERE_TOXICITY': 0.61288875, 'INSULT': 0.87896585, 'PROFANITY': 0.9342644}",True,1,1
+4e09b0dcc9be9b91,God damn Get some sense!  I think the senior members are making huge mistakes putting you little children in charge!,"Bon sang, reprenez un peu de bon sens ! Je pense que les membres seniors font de grosses erreurs en mettant ces petits gamins à la tête !",1,"{'SEVERE_TOXICITY': 0.024725812, 'INSULT': 0.40243408, 'TOXICITY': 0.55739564, 'PROFANITY': 0.5711371, 'THREAT': 0.010835429}",True,1,1
+eae197054c5de06d,You gotta love when they send a noted racist anti-Semite to do this kinda crap.,On adore quand ils envoient un raciste notoire et antisémite faire ce genre de conneries.,1,"{'THREAT': 0.038220957, 'INSULT': 0.65129566, 'TOXICITY': 0.7761081, 'SEVERE_TOXICITY': 0.16960317, 'PROFANITY': 0.65961236}",True,1,1
+e7f2a7b5cc3e6879,"yo 
+
+you are a very big mother fucking idiot/loser.",tu es un très grand putain d'idiot/perdant.,1,"{'INSULT': 0.9191143, 'SEVERE_TOXICITY': 0.6134631, 'THREAT': 0.020609349, 'PROFANITY': 0.9342644, 'TOXICITY': 0.9749944}",True,1,1
+ae381ee72f42819f,"Why did you stop my edit 
+
+You fukin gay prick","Pourquoi tu as arrêté ma modification, espèce de connard de pédé ?",1,"{'SEVERE_TOXICITY': 0.61260825, 'THREAT': 0.09929679, 'PROFANITY': 0.90258646, 'INSULT': 0.89108896, 'TOXICITY': 0.968226}",True,1,1
+6f85e3180440a535,"Be nice and don't be a dick, or I will kick your ass.","Sois sympa et ne fais pas le con, sinon je vais te foutre une raclée.",1,"{'INSULT': 0.6675394, 'THREAT': 0.73375875, 'TOXICITY': 0.96069145, 'SEVERE_TOXICITY': 0.50703704, 'PROFANITY': 0.8907955}",True,1,1
+6340ef68157949d2,become baby killers and mass murderers of todays tomorrow,devenir des tueurs de bébés et des meurtriers de masse de demain,1,"{'SEVERE_TOXICITY': 0.44787344, 'THREAT': 0.5940531, 'INSULT': 0.40243408, 'PROFANITY': 0.36230123, 'TOXICITY': 0.7252971}",True,1,1
+ba3d70d27b64707c,"i dont lambs12 
+
+wikipedia sucks ass pussy in the dick i dont give a pussy fuck about lambs12 bitch nigger asshole cock  retyc","Je ne donne pas de merde à lambs12. 
+
+Wikipedia c'est de la grosse merde, je m'en fous complètement de lambs12, espèce de connard.",1,"{'TOXICITY': 0.968226, 'PROFANITY': 0.9342644, 'THREAT': 0.12382901, 'INSULT': 0.8634578, 'SEVERE_TOXICITY': 0.65725857}",True,1,1
+f4277cd50a76c909,"Hey 
+Fuck you, you Russia-loving cunt.","Va te faire foutre, espèce de pute qui aime la Russie.",1,"{'PROFANITY': 0.95876634, 'SEVERE_TOXICITY': 0.6351782, 'THREAT': 0.05397744, 'INSULT': 0.88346136, 'TOXICITY': 0.9749944}",True,1,1
+2f3546f93785e8a2,Fuck off you nazi loving cunt,"Va te faire foutre, espèce de salope qui aime les nazis.",1,"{'THREAT': 0.08703069, 'INSULT': 0.9191143, 'PROFANITY': 0.96028095, 'TOXICITY': 0.9817629, 'SEVERE_TOXICITY': 0.61476606}",True,1,1
+1feeb364bf3b0844,"WHAT?
+What did I do?  Did I upset your communist feelings?  Besides, I thought that you were taking a pussy break.","QUOI ? Qu'est-ce que j'ai fait ? J'ai vexé tes sensibilités communistes ? En plus, je croyais que tu prenais une pause pour te faire plaisir.",1,"{'THREAT': 0.015256803, 'PROFANITY': 0.5365423, 'INSULT': 0.49389273, 'TOXICITY': 0.6588125, 'SEVERE_TOXICITY': 0.05473421}",True,1,1
+592e0ec678b6dbce,"Jeeny's being a bitch, don't listen to her. 222.153.110.86","Jeeny est une pétasse, ne l'écoute pas.",1,"{'SEVERE_TOXICITY': 0.4379392, 'PROFANITY': 0.7246992, 'TOXICITY': 0.88599813, 'INSULT': 0.7762574, 'THREAT': 0.02682521}",True,1,1
+38553a026cc3599f,"Second level warning my arse, you American cunt","Deuxième niveau d'avertissement, mon cul, espèce de pute américaine.",1,"{'INSULT': 0.755201, 'THREAT': 0.055270568, 'PROFANITY': 0.8855216, 'TOXICITY': 0.944597, 'SEVERE_TOXICITY': 0.50703704}",True,1,1
+5952dfe9753d7ff5,"Troll? Like one of those little furry-haired things? Anyway, saw your sandbox. Anyone ever tell you look like Harry Potter.69.243.42.251","Troll ? Comme ces petites choses poilues ? Quoi qu'il en soit, j'ai vu ton bac à sable. On t'a déjà dit que tu ressemblais à Harry Potter ?",1,"{'INSULT': 0.46327567, 'TOXICITY': 0.46186632, 'SEVERE_TOXICITY': 0.023076924, 'THREAT': 0.011922873, 'PROFANITY': 0.18663849}",False,0,0
+a16c174de6b7a6a7,Viridae you suck Mike's cunt nostril discharge!,"Viridae, tu suces la décharge nasale de la chatte de Mike !",1,"{'SEVERE_TOXICITY': 0.5231034, 'THREAT': 0.032005094, 'INSULT': 0.65231085, 'TOXICITY': 0.9061063, 'PROFANITY': 0.8449782}",True,1,1
+373cce668b8847d0,"Bloody Idiot 
+
+You Bloody Freak, Do not Bicker and Sulk...
+
+My Name is Amanbir Singh, And I can take you at all levels...","Putain d'idiot
+
+Freak, ne fais pas de chichis et ne fais pas la tête...
+
+Je m'appelle Amanbir Singh, et je peux te prendre à tous les niveaux...",1,"{'INSULT': 0.7218519, 'THREAT': 0.30148876, 'SEVERE_TOXICITY': 0.45895407, 'PROFANITY': 0.5365423, 'TOXICITY': 0.6863638}",True,1,1
+8f3cebc7cf784f74,"Dude, you're a fucking dick. Plain and simple.","Mec, tu es un putain de gland. C'est aussi simple que ça.",1,"{'INSULT': 0.8685752, 'SEVERE_TOXICITY': 0.45895407, 'TOXICITY': 0.96069145, 'THREAT': 0.012906751, 'PROFANITY': 0.9342644}",True,1,1
+d2b6d3324dc09a60,ARSE YOU FUCKING PRICK. FUCK OFF.,"QUEUE, PUTAIN DE CON. VA T'EN.",1,"{'INSULT': 0.9063489, 'PROFANITY': 0.96028095, 'SEVERE_TOXICITY': 0.6474255, 'THREAT': 0.065292306, 'TOXICITY': 0.9817629}",True,1,1
+26b95e3a004f8cd3,"Your An IDIOT!!! 
+
+YOUR AN IDIOT HAHAHHAHAHAHAHAHHAHAHAHAHAHHAHAHAHAHAHAHAHAHHAHAHAHHHHHHHHHHHHHHHAHAAHHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHHAHAHHAAHAHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Yall dumbys too HAHA!!! MAN Do I EVER LOVE DOING THIS!!!!!!!!!!!!!!!!!!!HAHAHAHAHHAHgngjhfbvdfb ifdsgvrfdgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggd I DISLIKE U   vgfdbghdfjjgvnbfdsjb fdnbfdkbvdfsbdsflb","Tu es un IDIOT !!!  
+
+TU ES UN IDIOT HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHHAHAHAHHAHAHAHAHAHAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Vous êtes tous des imbéciles aussi HAHA !!! MON DIEU, j'adore faire ça !!! HAHAHAHAHGngjhfbvdfb ifdsgvrfdgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggd Je ne t'aime pas  vgfdbghdfjjgvnbfdsjb fdnbfdkbvdfsbdsflb",1,"{'PROFANITY': 0.54024357, 'TOXICITY': 0.9029226, 'INSULT': 0.8390655, 'SEVERE_TOXICITY': 0.45895407, 'THREAT': 0.028206514}",True,1,1
+d4d55d33d80d2b2a,EUROVISION IS GAY CUZ OF OLD SHIT EADTERN BLOCK COUNTRIES Y DPNT THEY FUCK OFF,"L'EUROVISION, C'EST DES PD À CAUSE DES VIEILLES CONNERIES DES PAYS DE L'EST, ALORS POURQUOI ILS SE CASSENT PAS !",1,"{'TOXICITY': 0.96426713, 'THREAT': 0.06238277, 'INSULT': 0.7657292, 'PROFANITY': 0.90150756, 'SEVERE_TOXICITY': 0.6134631}",True,1,1
+188e77c7d64786f1,"Kind Sir, why dont you try to lick my butthole and put a trampoline up yours 
+
+thank you.","Cher Monsieur, pourquoi ne pas essayer de lécher mon trou du cul et de mettre un trampoline dans le vôtre ?
+
+Merci.",1,"{'SEVERE_TOXICITY': 0.45293763, 'TOXICITY': 0.85333383, 'PROFANITY': 0.7181329, 'THREAT': 0.13431145, 'INSULT': 0.48399165}",True,1,1
+bf20893fb08e02ce,"and you are a motherfucking asshole,suck your dick,you dirty son of a whore","et tu es un putain de connard, suce ta bite, sale fils de pute",1,"{'INSULT': 0.8012121, 'PROFANITY': 0.90862066, 'TOXICITY': 0.9563754, 'THREAT': 0.13566011, 'SEVERE_TOXICITY': 0.65960187}",True,1,1
+37854e90918c9d78,"Gay! 
+Your page looks like a MySpace profile.
+Like srsly, super serial, like. Knock it off.
+Soooo gay.","T'es vraiment un pd ! 
+Ta page ressemble à un profil MySpace. 
+Sérieusement, super sérieux, comme. Arrête ça. 
+Trop pd.",1,"{'THREAT': 0.051067904, 'PROFANITY': 0.45448917, 'TOXICITY': 0.8778702, 'SEVERE_TOXICITY': 0.45895407, 'INSULT': 0.65865606}",True,1,1
+ffde5b109fa7a06a,"Hi Pete 
+
+You're a prick!
+
+Yours sincerely, someone who would never dream of buying such a rag as the MoS.","Salut Pete,
+
+Tu es un con !
+
+Cordialement, quelqu'un qui ne rêve même pas d'acheter une merde pareille comme le MoS.",1,"{'INSULT': 0.72756535, 'PROFANITY': 0.39498812, 'THREAT': 0.010421164, 'TOXICITY': 0.6989911, 'SEVERE_TOXICITY': 0.06225512}",True,1,1
+1a571af3f479500b,Dude this guy is so gay.,"Mec, ce gars est tellement pédé.",1,"{'PROFANITY': 0.4185329, 'SEVERE_TOXICITY': 0.23226175, 'TOXICITY': 0.7761081, 'INSULT': 0.6308392, 'THREAT': 0.012181788}",True,1,1
+2ed95d985d6cd53c,"I AM SUPERFAG, FAGGING UP THE INTERNET FOR ALL TO SEE!   (talk)","JE SUIS SUPERPD, JE REND LE INTERNET VIDÉO DE CH*NS POUR TOUS À VOIR !",1,"{'PROFANITY': 0.541926, 'SEVERE_TOXICITY': 0.35368225, 'INSULT': 0.47630358, 'THREAT': 0.10389658, 'TOXICITY': 0.6407703}",True,1,1
+dffaf2124231b7a4,I wasn't fucking joking asshole so I don't see why you had to make it a joke.,"Je ne rigolais pas putain d'imbécile, alors je ne comprends pas pourquoi tu as dû en faire une blague.",1,"{'THREAT': 0.01508414, 'PROFANITY': 0.9421618, 'TOXICITY': 0.9391453, 'SEVERE_TOXICITY': 0.457266, 'INSULT': 0.755201}",True,1,1
+e287b95b2119a6f2,"""Oh my god!! You did this much vandalism?! 777 
+
+""","""Oh mon dieu !! Tu as fait autant de vandalisme ?!""",1,"{'THREAT': 0.042985857, 'TOXICITY': 0.4269174, 'INSULT': 0.2838064, 'PROFANITY': 0.21456863, 'SEVERE_TOXICITY': 0.023076924}",False,0,0
+bf00020c654d2507,i want some damn answers now you imbeciles,"Je veux des putains de réponses maintenant, bande d'imbéciles !",1,"{'PROFANITY': 0.8186401, 'INSULT': 0.87225974, 'THREAT': 0.03856628, 'SEVERE_TOXICITY': 0.35368225, 'TOXICITY': 0.9288007}",True,1,1
+06611b9bcca6dfd3,"Go kill yourself 
+
+You should be ashamed of yourself. Twoofers like you are scumbags that deserve to die. You anti-scientific assholes are destroying America.","Va te foutre en l'air. 
+
+Tu devrais avoir honte de toi. Des deuxfleurs comme toi sont des vermines qui méritent de crever. Vous, les trous du cul anti-scientifiques, êtes en train de détruire l'Amérique.",1,"{'INSULT': 0.84251964, 'SEVERE_TOXICITY': 0.6134631, 'TOXICITY': 0.9391453, 'PROFANITY': 0.759977, 'THREAT': 0.7016913}",True,1,1
+10944d690e9892cc,jam your message up your arse wikipedia dickhead,"fourre ton message dans ton cul, espèce de con de Wikipédia.",1,"{'INSULT': 0.8082062, 'TOXICITY': 0.9563754, 'THREAT': 0.13815513, 'PROFANITY': 0.8907955, 'SEVERE_TOXICITY': 0.61260825}",True,1,1
+afd77d53f1e202b8,"Shut up! I know it's vandalism, you awful cunt.","Ferme ta gueule ! Je sais que c'est du vandalisme, espèce de salope affreuse.",1,"{'THREAT': 0.094697006, 'PROFANITY': 0.90150756, 'TOXICITY': 0.96069145, 'INSULT': 0.8502231, 'SEVERE_TOXICITY': 0.5552179}",True,1,1
+ccf6c1c337b9168f,"SUCK MY ASSHOLE, YOU HAVE LESS OF A LIFE THAN ME! FUCK A HORSE YOU SHITBAG.","SUCE MON TROU DU CUL, T'as moins de vie que moi ! VA BANDER UN CHEVAL, ESPÈCE DE CON.",1,"{'TOXICITY': 0.9749944, 'PROFANITY': 0.95876634, 'THREAT': 0.26455072, 'SEVERE_TOXICITY': 0.6796901, 'INSULT': 0.8502231}",True,1,1
+1b66cadd638b8ca8,".
+
+fuck you. learn how to type a url correctly you jerkoff","Va te faire foutre. Apprends à taper une URL correctement, crétin.",1,"{'THREAT': 0.06787856, 'SEVERE_TOXICITY': 0.6130557, 'PROFANITY': 0.927271, 'INSULT': 0.88346136, 'TOXICITY': 0.968226}",True,1,1
+b1e0ead831370d4e,"To threat me 
+
+Who the hell are you? Peridon? Why you are threatening me being an estranged person?","Menacer moi 
+
+Qui diable es-tu ? Peridon ? Pourquoi tu me menaces alors que tu es une personne étrangère ?",1,"{'INSULT': 0.47273466, 'TOXICITY': 0.6491204, 'SEVERE_TOXICITY': 0.23226519, 'THREAT': 0.1115629, 'PROFANITY': 0.5013569}",True,1,1
+94d51852d9d988d9,"SHION IS NOT A GIRL YOU IDIOT!
+
+GO READ HIS BIO IN KOF10TH! HE'S A GUY!!! FUCKER!","SHION N'EST PAS UNE FILLE, CON ! 
+
+VA LIRE SA BIO DANS KOF10TH ! C'EST UN GARÇON !!! ENFOIRÉ !",1,"{'INSULT': 0.87225974, 'PROFANITY': 0.8907955, 'SEVERE_TOXICITY': 0.50703704, 'TOXICITY': 0.95048624, 'THREAT': 0.028897164}",True,1,1
+326280b24945a079,"Sup' Fag' 
+
+Make sure you remove any pics you added, cocksucker.","Salut, pédé. 
+
+Assure-toi de virer toutes les photos que t'as ajoutées, fils de pute.",1,"{'SEVERE_TOXICITY': 0.45895407, 'THREAT': 0.038911607, 'INSULT': 0.802824, 'PROFANITY': 0.7673477, 'TOXICITY': 0.88599813}",True,1,1
+a84ecc50a3d3212c,"""
+
+Abd is Muslim scum, the religion of terrorism  —Preceding unsigned comment added by 79.67.212.36   ""","Abd est une racaille musulmane, la religion du terrorisme.",1,"{'PROFANITY': 0.43669638, 'THREAT': 0.06432246, 'TOXICITY': 0.7252971, 'SEVERE_TOXICITY': 0.35368225, 'INSULT': 0.6675394}",True,1,1
+5d3f99d7018e1ef1,well he is a racist asshole and you can kiss my ass.,"Eh bien, c'est un connard raciste et tu peux embrasser mon cul.",1,"{'INSULT': 0.7775208, 'TOXICITY': 0.96069145, 'SEVERE_TOXICITY': 0.50703704, 'THREAT': 0.055270568, 'PROFANITY': 0.902047}",True,1,1
+ca7ddea59db49f31,"amide 
+
+man fuck you and your truce. this si war muthafucker!","Putain, va te faire foutre avec ta trêve. C'est la guerre, enfoiré !",1,"{'TOXICITY': 0.96426713, 'PROFANITY': 0.927271, 'INSULT': 0.7762574, 'SEVERE_TOXICITY': 0.61260825, 'THREAT': 0.1368402}",True,1,1
+22e8058a0d33a347,"Giant Cunt==
+
+She is not liberal but in fact a giant cunt.  
+
+==",Grosse connasse.,1,"{'TOXICITY': 0.8696708, 'SEVERE_TOXICITY': 0.50703704, 'THREAT': 0.042662576, 'INSULT': 0.67254376, 'PROFANITY': 0.77181685}",True,1,1
+5e0655c329eb7816,"Fuck You 
+
+Fuck You. Get a vinyl and put in your mama ass your scrotal dj","Va te faire foutre. Prends un vinyle et mets-le dans le cul de ta mère, espèce de DJ à couilles.",1,"{'SEVERE_TOXICITY': 0.66031533, 'PROFANITY': 0.927271, 'INSULT': 0.7782364, 'THREAT': 0.2172668, 'TOXICITY': 0.968226}",True,1,1
+c0a059b9b614862e,Why hasn't Alitalia been removed rom the alliance due to its piss-poor customer service? - Sentiments of nummerous FlyerTalkers,Pourquoi Alitalia n'a-t-elle pas été retirée de l'alliance à cause de son service client complètement nul ? - Sentiments de nombreux FlyerTalkers.,1,"{'SEVERE_TOXICITY': 0.014382465, 'PROFANITY': 0.2813443, 'INSULT': 0.3388922, 'TOXICITY': 0.36095104, 'THREAT': 0.009074804}",False,0,0
+c596e2cb7087195f,LOL @ this loser editing his own bio to exclude Sanger. What a fucking faggot.,MDR @ ce loser qui édite sa propre bio pour exclure Sanger. Quel putain de pédé.,1,"{'SEVERE_TOXICITY': 0.46947223, 'TOXICITY': 0.93383175, 'PROFANITY': 0.87472564, 'THREAT': 0.018882722, 'INSULT': 0.87506694}",True,1,1
+c98aa1b88a75f6a1,"What the fuck.  Dude, you DON'T consider this harassment?  Do a fucking google search.","Qu'est-ce que c'est que ce bordel. Mec, tu ne considères pas ça du harcèlement ? Fais une putain de recherche sur Google.",1,"{'TOXICITY': 0.91625386, 'INSULT': 0.5015486, 'SEVERE_TOXICITY': 0.35368225, 'PROFANITY': 0.92389363, 'THREAT': 0.016120117}",True,1,1
+dec16572dc77aa3a,"""====Quotes on me====
+""""I've read it asshole.""""
+
+""""Shut up Red.""""
+""","""====Citations sur moi====
+""""Je l'ai lu, enfoiré.""""
+
+""""La ferme, Red.""""
+""",1,"{'THREAT': 0.08089764, 'TOXICITY': 0.8696708, 'INSULT': 0.72756535, 'PROFANITY': 0.7785769, 'SEVERE_TOXICITY': 0.45895407}",True,1,1
+5fabed32844a83e7,YA GODDAMIT IDIOT MY IP CHANGES WHEN AN ADMISTOR BANNED MY ORIGINAL IP SO DONT BLOCK ME U D!CK,"PUTAIN D'IDIOT, MON IP CHANGE QUAND UN ADMIN M'A BANNI AVEC MON IP D'ORIGINE, ALORS NE ME BLOQUE PAS, ESPÈCE DE CON !",1,"{'PROFANITY': 0.8949436, 'THREAT': 0.12076248, 'SEVERE_TOXICITY': 0.61476606, 'INSULT': 0.8131897, 'TOXICITY': 0.96426713}",True,1,1
+5e8f520b9af4897c,get a life you stupid wikipedia nerd seriosly who deletes peoples stuff all day,"Prends une vie, espèce de nerd de Wikipédia, sérieux, qui passe sa journée à supprimer les trucs des gens.",1,"{'SEVERE_TOXICITY': 0.45401973, 'TOXICITY': 0.90451443, 'PROFANITY': 0.58072567, 'INSULT': 0.82974654, 'THREAT': 0.051067904}",True,1,1
+40d6431e631e36ac,"That may be the case, but there is still no ambiguity over the repulsiveness of irish nationalists, who deserved to be shot dead. 79.75.141.101","Cela peut être le cas, mais il n'y a toujours pas d'ambiguïté sur la répugnance des nationalistes irlandais, qui méritaient d'être abattus.",1,"{'SEVERE_TOXICITY': 0.16960317, 'THREAT': 0.5330498, 'PROFANITY': 0.2661081, 'TOXICITY': 0.51869136, 'INSULT': 0.42367843}",True,1,1
+0c5eb26205c4aa49,"Penis 
+
+Did you sex with Grawp? H-A-6-6-E-P???
+
+Penis.
+
+Penis.
+
+Vagina.
+
+Vagina.","Pénis
+
+Tu as couché avec Grawp ? H-A-6-6-E-P ???
+
+Pénis.
+
+Pénis.
+
+Vagin.
+
+Vagin.",1,"{'PROFANITY': 0.70864636, 'SEVERE_TOXICITY': 0.35368225, 'TOXICITY': 0.8540474, 'INSULT': 0.27146968, 'THREAT': 0.015429466}",True,1,1
+e71840df22566fe9,bban be and u die. understand?efore,"Tu peux crever, tu comprends ?",1,"{'TOXICITY': 0.55739564, 'SEVERE_TOXICITY': 0.23226346, 'INSULT': 0.336253, 'PROFANITY': 0.22522148, 'THREAT': 0.5500652}",True,1,1
+8654d07c6f5473c6,Racist ignorant and fascist all in all disgusting boy,"Gamin méprisant, ignorant et fasciste, tout simplement dégoûtant.",1,"{'INSULT': 0.8082062, 'TOXICITY': 0.88599813, 'PROFANITY': 0.41375932, 'THREAT': 0.029069828, 'SEVERE_TOXICITY': 0.35368225}",True,1,1
+566464fd1a7e2ef5,"My cock 
+
+YOU FAILED AGAIN TO BLOCK ME WIKIPEDIANS!!
+
+HA HA!!
+
+For some nice big juicy sweet cock,
+my number is 248-678-9807
+
+Goodbye lovers.68.248.73.184","Mon bite
+
+VOUS AVEZ ENCORE ÉCHOUÉ À ME BLOQUER WIKIPÉDIENS !!
+
+HA HA !!
+
+Pour un beau gros pénis juteux et sucré,  
+mon numéro est le 248-678-9807
+
+Au revoir les amants.",1,"{'PROFANITY': 0.70864636, 'SEVERE_TOXICITY': 0.56375664, 'TOXICITY': 0.8778702, 'THREAT': 0.2836219, 'INSULT': 0.5678696}",True,1,1
+0131902723bce44d,But before I block you I just wanna say that I am a huge pussy and loved to get fucked in my ass.,"Mais avant de te bloquer, je veux juste dire que je suis une énorme pédale et que j'adore me faire baiser dans le cul.",1,"{'PROFANITY': 0.90150756, 'THREAT': 0.079364374, 'TOXICITY': 0.9288007, 'SEVERE_TOXICITY': 0.45895407, 'INSULT': 0.47384647}",True,1,1
+eaac752ae552d44a,"'''[[
+== [[
+[[== THIS SITE IS STUPID DON'T TRUST IT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!]]' ==]] ==]]'","'''[[
+== [[
+[[== CE SITE EST STUPIDE NE L'FAITES PAS CONFIANCE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!]]' ==]] ==]]'''",1,"{'TOXICITY': 0.8460273, 'INSULT': 0.65129566, 'SEVERE_TOXICITY': 0.35368225, 'PROFANITY': 0.45706853, 'THREAT': 0.028897164}",True,1,1
+3dd0b6cb60b24c2c,"Semi-protected edit request on 5 May 2014 
+
+His music is shit. it is not the shit. it is shit.
+
+206.207.175.162","Sa musique, c'est de la merde. Ce n'est pas le top. C'est de la merde.",1,"{'TOXICITY': 0.911035, 'INSULT': 0.65129566, 'THREAT': 0.022335978, 'PROFANITY': 0.83974665, 'SEVERE_TOXICITY': 0.45895407}",True,1,1
+646c4c1f6b52e84c,"Suck my cunt 
+
+you son of a bitch!","Suce ma chatte, espèce de fils de pute !",1,"{'PROFANITY': 0.9205162, 'TOXICITY': 0.96069145, 'THREAT': 0.1575099, 'INSULT': 0.78565484, 'SEVERE_TOXICITY': 0.6612285}",True,1,1
+b1865fe6da09a5e6,"A jew going around wikipedia editing against Arabs everywhere, FUCK YOU!","Un juif qui traîne sur Wikipédia à éditer contre les Arabes partout, VA TE FAIRE FOUTRE !",1,"{'SEVERE_TOXICITY': 0.61260825, 'THREAT': 0.1575099, 'PROFANITY': 0.8949436, 'INSULT': 0.7804726, 'TOXICITY': 0.96069145}",True,1,1
+bf5aae5b17fb0b77,because I am a huge faggot,parce que je suis un énorme pédé,1,"{'THREAT': 0.012647836, 'TOXICITY': 0.76523775, 'SEVERE_TOXICITY': 0.34935045, 'INSULT': 0.6308392, 'PROFANITY': 0.70864636}",True,1,1
+8947f2c12aea0a32,"If no-one beats me to it, I'll knock something up tonight.","Si personne ne me devance, je vais bricoler quelque chose ce soir.",1,"{'THREAT': 0.42643023, 'PROFANITY': 0.091633186, 'SEVERE_TOXICITY': 0.01412424, 'INSULT': 0.0233509, 'TOXICITY': 0.2854733}",False,0,0
+ccf05c5d4b791836,"ur a faggot, fuck off and get a real job and stop fucking with my posts
+
+8=======D","T'es un pédé, casse-toi et trouve un vrai boulot au lieu de foutre en l'air mes posts.",1,"{'SEVERE_TOXICITY': 0.65725857, 'TOXICITY': 0.9749944, 'THREAT': 0.13815513, 'INSULT': 0.9028068, 'PROFANITY': 0.9342644}",True,1,1
+ae7a53526025c0e2,"I SAID SHUT UP, YOU STUPID, STUPID...","J'AI DIT FERME TA GUEULE, ESPÈCE DE BÊTE, BÊTE...",1,"{'SEVERE_TOXICITY': 0.34954423, 'THREAT': 0.0287245, 'PROFANITY': 0.541926, 'TOXICITY': 0.9248995, 'INSULT': 0.87506694}",True,1,1
+c253e034605ee865,is true. so i want to express that grant is gay grant is gayyyyyyyyyyyyyyyyyyyyyy,"C'est vrai. Donc je veux dire que Grant est pédé, Grant est pédéééééééééééééééé.",1,"{'SEVERE_TOXICITY': 0.35368225, 'PROFANITY': 0.43272525, 'TOXICITY': 0.8403191, 'INSULT': 0.6120431, 'THREAT': 0.021472665}",True,1,1

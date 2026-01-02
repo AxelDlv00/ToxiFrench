@@ -1,0 +1,1241 @@
+{
+    "global": {
+        "benchmark_dir": "../data/Benchmark/",
+        "results_dir": "../data/Benchmark/results/",
+        "env_dir": "../.secrets/.env",
+        "few_shot_examples": {
+            "toxic": [
+                "Je pensais pas qu'on pouvait encore plus aplatir la face d'un asiat' :rire:",
+                "Pas envie de donner mon sang pour un africain désolé",
+                "tous nos ennemis seront vitrifiés\n💥🍉💥\n💥🇮🇷💥",
+                "Allah est au même niveau que le père noël, vous êtes des gros tarés et des low iq",
+                "Le gros porc à deux doigts de pleurer. Les gauchistes putain :rire:"
+            ],
+            "non_toxic": [
+                "les endroits confinés style les mecs qui sont morts coincés dans des grottes la tête en bas. Ca me terrifie.",
+                "On dirait les cocktail que tu faisais en fin de soirée à 15 ans en mélangent toutes les bouteilles qu'il restait\nÇa doit être ignoble",
+                "Chez moi, il pleut 4-5 jours sur 7 depuis qques mois, à part pour le mois de février où il a moins plu",
+                "Il faut quel niveau de hsk pour s'en sortir ? Vous en êtes où de l'apprentissage du chinois pour ceux qui sont en Chine ?",
+                "Encore plus de taxe :bave:"
+            ]
+        }
+    },
+    "Gemini-2.5-flash-Detailed-TFR": {
+        "predictor": "GeminiPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "gemini-2-5-flash-detailed-tf-fr.csv",
+        "api_key": { "type": "env", "name": "GEMINI_API" },
+        "model_name": "gemini-2.5-flash",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" },
+        "language": "fr"
+    },
+    "Gemini-1.5-pro-Detailed-TFR": {
+        "predictor": "GeminiPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "gemini-1-5-pro-detailed-tf-fr.csv",
+        "api_key": { "type": "env", "name": "GEMINI_API" },
+        "model_name": "gemini-1.5-pro",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" },
+        "language": "fr"
+    },
+    "Gemini-2.0-flash-Detailed-TFR": {
+        "predictor": "GeminiPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "gemini-2-0-flash-detailed-tf-fr.csv",
+        "api_key": { "type": "env", "name": "GEMINI_API" },
+        "model_name": "gemini-2.0-flash",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" },
+        "language": "fr"
+    },
+    "Gemini-2.0-flash-Simple-TFR": {
+        "predictor": "GeminiPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "gemini-2-0-flash-simple-tf-fr.csv",
+        "api_key": { "type": "env", "name": "GEMINI_API" },
+        "model_name": "gemini-2.0-flash",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/simple_toxicity_french.txt" },
+        "language": "fr"
+    },
+    "Gemini-2.0-flash-Simple-JIGSAW-EN": {
+        "predictor": "GeminiPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "gemini-2-0-flash-simple-jigsaw-en.csv",
+        "api_key": { "type": "env", "name": "GEMINI_API" },
+        "model_name": "gemini-2.0-flash",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_english.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/simple_toxicity_english.txt" },
+        "language": "en"
+    },
+    "Gemini-2.0-flash-Simple-LEGACY": {
+        "predictor": "GeminiPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "gemini-2.0-flash_simple_prompt.csv",
+        "api_key": { "type": "env", "name": "GEMINI_API" },
+        "model_name": "gemini-2.0-flash",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/simple_toxicity_french.txt" },
+        "language": "fr"
+    },
+    "Gemini-1.5-pro-LEGACY": {
+        "predictor": "GeminiPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "gemini-1.5-pro.csv",
+        "api_key": { "type": "env", "name": "GEMINI_API" },
+        "model_name": "gemini-1.5-pro",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" },
+        "language": "fr"
+    },
+    "Gemini-2.0-flash-LEGACY": {
+        "predictor": "GeminiPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "gemini-2.0-flash.csv",
+        "api_key": { "type": "env", "name": "GEMINI_API" },
+        "model_name": "gemini-2.0-flash",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" },
+        "language": "fr"
+    },
+    "ENG-Gemini-1.5-pro-LEGACY": {
+        "predictor": "GeminiPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "eng-gemini-1.5-pro.csv",
+        "api_key": { "type": "env", "name": "GEMINI_API" },
+        "model_name": "gemini-1.5-pro",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_english.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_english.txt" },
+        "language": "en"
+    },
+    "ENG-Gemini-2.0-flash-LEGACY": {
+        "predictor": "GeminiPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "eng-gemini-2.0-flash.csv",
+        "api_key": { "type": "env", "name": "GEMINI_API" },
+        "model_name": "gemini-2.0-flash",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_english.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_english.txt" },
+        "language": "en"
+    },
+    "GPT-4o-Detailed-TFR": {
+        "predictor": "GPTPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "gpt-4o-detailed-tf-fr.csv",
+        "api_key": { "type": "env", "name": "OPENAI_API_KEY" },
+        "model_name": "gpt-4o",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" },
+        "language": "fr"
+    },
+    "GPT-4o-Detailed-JIGSAW-FR": {
+        "predictor": "GPTPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "gpt-4o-detailed-jigsaw-fr.csv",
+        "api_key": { "type": "env", "name": "OPENAI_API_KEY" },
+        "model_name": "gpt-4o",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" },
+        "language": "fr"
+    },
+    "GPT-4o-Detailed-JIGSAW-EN": {
+        "predictor": "GPTPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "gpt-4o-detailed-jigsaw-en.csv",
+        "api_key": { "type": "env", "name": "OPENAI_API_KEY" },
+        "model_name": "gpt-4o",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_english.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_english.txt" },
+        "language": "en"
+    },
+    "GPT-4o-Mini-Simple-TFR": {
+        "predictor": "GPTPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "gpt-4o-mini-simple-tf-fr.csv",
+        "api_key": { "type": "env", "name": "OPENAI_API_KEY" },
+        "model_name": "gpt-4o-mini",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/simple_toxicity_french.txt" },
+        "language": "fr"
+    },
+    "GPT-4o-Mini-Detailed-TFR": {
+        "predictor": "GPTPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "gpt-4o-mini-detailed-tf-fr.csv",
+        "api_key": { "type": "env", "name": "OPENAI_API_KEY" },
+        "model_name": "gpt-4o-mini",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" },
+        "language": "fr"
+    },
+    "GPT-4o-Mini-Detailed-JIGSAW-FR": {
+        "predictor": "GPTPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "gpt-4o-mini-detailed-jigsaw-fr.csv",
+        "api_key": { "type": "env", "name": "OPENAI_API_KEY" },
+        "model_name": "gpt-4o-mini",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" },
+        "language": "fr"
+    },
+    "GPT-4o-Mini-Detailed-JIGSAW-EN": {
+        "predictor": "GPTPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "gpt-4o-mini-detailed-jigsaw-en.csv",
+        "api_key": { "type": "env", "name": "OPENAI_API_KEY" },
+        "model_name": "gpt-4o-mini",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_english.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_english.txt" },
+        "language": "en"
+    },
+    "GPT-4o-Mini-Simple-JIGSAW-FR": {
+        "predictor": "GPTPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "gpt-4o-mini-simple-jigsaw-fr.csv",
+        "api_key": { "type": "env", "name": "OPENAI_API_KEY" },
+        "model_name": "gpt-4o-mini",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/simple_toxicity_french.txt" },
+        "language": "fr"
+    },
+    "GPT-4o-Mini-Simple-JIGSAW-EN": {
+        "predictor": "GPTPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "gpt-4o-mini-simple-jigsaw-en.csv",
+        "api_key": { "type": "env", "name": "OPENAI_API_KEY" },
+        "model_name": "gpt-4o-mini",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_english.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/simple_toxicity_english.txt" },
+        "language": "en"
+    },
+    "GPT-3.5-Turbo-Detailed-TFR": {
+        "predictor": "GPTPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "gpt-3-5-turbo-detailed-tf-fr.csv",
+        "api_key": { "type": "env", "name": "OPENAI_API_KEY" },
+        "model_name": "gpt-3.5-turbo",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" },
+        "language": "fr"
+    },
+    "GPT-4o-Mini-LEGACY": {
+        "predictor": "GPTPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "o4-mini.csv",
+        "api_key": { "type": "env", "name": "OPENAI_API_KEY" },
+        "model_name": "gpt-4o-mini",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/simple_toxicity_french.txt" },
+        "language": "fr"
+    },
+    "ENG-GPT-4o-Mini-LEGACY": {
+        "predictor": "GPTPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "eng-o4-mini.csv",
+        "api_key": { "type": "env", "name": "OPENAI_API_KEY" },
+        "model_name": "gpt-4o-mini",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_english.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_english.txt" },
+        "language": "en"
+    },
+    "Mistral-Large-Detailed-TFR": {
+        "predictor": "MistralAPIPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "mistral-large-detailed-tf-fr.csv",
+        "api_key": { "type": "env", "name": "MISTRAL_API_KEY" },
+        "model_name": "mistral-large-latest",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" },
+        "language": "fr"
+    },
+    "Mistral-Medium-Detailed-TFR": {
+        "predictor": "MistralAPIPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "mistral-medium-detailed-tf-fr.csv",
+        "api_key": { "type": "env", "name": "MISTRAL_API_KEY" },
+        "model_name": "mistral-medium-latest",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" },
+        "language": "fr"
+    },
+    "Mistral-Medium-Simple-TFR": {
+        "predictor": "MistralAPIPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "mistral-medium-simple-tf-fr.csv",
+        "api_key": { "type": "env", "name": "MISTRAL_API_KEY" },
+        "model_name": "mistral-medium-latest",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/simple_toxicity_french.txt" },
+        "language": "fr"
+    },
+    "Mistral-Medium-Detailed-JIGSAW-FR": {
+        "predictor": "MistralAPIPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "mistral-medium-detailed-jigsaw-fr.csv",
+        "api_key": { "type": "env", "name": "MISTRAL_API_KEY" },
+        "model_name": "mistral-medium-latest",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" },
+        "language": "fr"
+    },
+    "Mistral-Medium-Detailed-JIGSAW-EN": {
+        "predictor": "MistralAPIPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "mistral-medium-detailed-jigsaw-en.csv",
+        "api_key": { "type": "env", "name": "MISTRAL_API_KEY" },
+        "model_name": "mistral-medium-latest",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_english.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_english.txt" },
+        "language": "en"
+    },
+    "Mistral-Moderation-API-TFR": {
+        "predictor": "MistralModerationPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "mistral-moderation-api-tf-fr.csv",
+        "api_key": { "type": "env", "name": "MISTRAL_API_KEY" },
+        "model_name": "mistral-moderation-latest"
+    },
+    "Mistral-Moderation-API-JIGSAW-EN": {
+        "predictor": "MistralModerationPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "mistral-moderation-api-jigsaw-en.csv",
+        "api_key": { "type": "env", "name": "MISTRAL_API_KEY" },
+        "model_name": "mistral-moderation-latest"
+    },
+    "Mistral-7B-Local-Detailed-TFR": {
+        "predictor": "MistralPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "mistral-7b-detailed-local-tf-fr.csv",
+        "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" }
+    },
+    "Mistral-7B-Local-Simple-TFR": {
+        "predictor": "MistralPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "mistral-7b-simple-local-tf-fr.csv",
+        "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/simple_toxicity_french.txt" }
+    },
+    "Mistral-7B-Local-Detailed-JIGSAW-FR": {
+        "predictor": "MistralPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "mistral-7b-detailed-local-jigsaw-fr.csv",
+        "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" }
+    },
+    "Mistral-7B-Local-Detailed-JIGSAW-EN": {
+        "predictor": "MistralPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "mistral-7b-detailed-local-jigsaw-en.csv",
+        "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_english.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_english.txt" }
+    },
+    "Mistral-Moderation-LEGACY": {
+        "predictor": "MistralModerationPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "mistral_moderation.csv",
+        "api_key": { "type": "env", "name": "MISTRAL_API_KEY" },
+        "model_name": "mistral-moderation-latest"
+    },
+    "Mistral-Small-LEGACY": {
+        "predictor": "MistralAPIPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "mistral_small.csv",
+        "api_key": { "type": "env", "name": "MISTRAL_API_KEY" },
+        "model_name": "mistral-small-latest",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" },
+        "language": "fr"
+    },
+    "Deepseek-V3-Detailed-TFR": {
+        "predictor": "DeepseekPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "deepseek-v3-detailed-tf-fr.csv",
+        "api_key": { "type": "env", "name": "DEEPSEEK_API_KEY" },
+        "model_name": "DeepseekV3",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" },
+        "language": "fr"
+    },
+    "Deepseek-V3-Simple-TFR": {
+        "predictor": "DeepseekPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "deepseek-v3-simple-tf-fr.csv",
+        "api_key": { "type": "env", "name": "DEEPSEEK_API_KEY" },
+        "model_name": "DeepseekV3",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/simple_toxicity_french.txt" },
+        "language": "fr"
+    },
+    "Deepseek-V3-Detailed-JIGSAW-FR": {
+        "predictor": "DeepseekPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "deepseek-v3-detailed-jigsaw-fr.csv",
+        "api_key": { "type": "env", "name": "DEEPSEEK_API_KEY" },
+        "model_name": "DeepseekV3",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" },
+        "language": "fr"
+    },
+    "Deepseek-V3-Detailed-JIGSAW-EN": {
+        "predictor": "DeepseekPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "deepseek-v3-detailed-jigsaw-en.csv",
+        "api_key": { "type": "env", "name": "DEEPSEEK_API_KEY" },
+        "model_name": "DeepseekV3",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_english.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_english.txt" },
+        "language": "en"
+    },
+    "Deepseek-Reasoner-Detailed-TFR": {
+        "predictor": "DeepseekPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "deepseek-reasoner-detailed-tf-fr.csv",
+        "api_key": { "type": "env", "name": "DEEPSEEK_API_KEY" },
+        "model_name": "deepseek-reasoner",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" },
+        "language": "fr"
+    },
+    "Deepseek-V3-10Shot-5-5-TFR": {
+        "predictor": "DeepseekPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "deepseek-v3-10shot-5-5-tf-fr.csv",
+        "api_key": { "type": "env", "name": "DEEPSEEK_API_KEY" },
+        "model_name": "DeepseekV3",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/fewshot_toxicity_french.txt" },
+        "few_shots_toxic": 5,
+        "few_shots_non_toxic": 5,
+        "language": "fr"
+    },
+    "Deepseek-V3-4Shot-2-2-TFR": {
+        "predictor": "DeepseekPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "deepseek-v3-4shot-2-2-tf-fr.csv",
+        "api_key": { "type": "env", "name": "DEEPSEEK_API_KEY" },
+        "model_name": "DeepseekV3",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/fewshot_toxicity_french.txt" },
+        "few_shots_toxic": 2,
+        "few_shots_non_toxic": 2,
+        "language": "fr"
+    },
+    "Deepseek-V3-1Shot-Toxic-TFR": {
+        "predictor": "DeepseekPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "deepseek-v3-1shot-t-tf-fr.csv",
+        "api_key": { "type": "env", "name": "DEEPSEEK_API_KEY" },
+        "model_name": "DeepseekV3",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/fewshot_toxicity_french.txt" },
+        "few_shots_toxic": 1,
+        "few_shots_non_toxic": 0,
+        "language": "fr"
+    },
+    "Deepseek-V3-1Shot-NonToxic-TFR": {
+        "predictor": "DeepseekPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "deepseek-v3-1shot-nt-tf-fr.csv",
+        "api_key": { "type": "env", "name": "DEEPSEEK_API_KEY" },
+        "model_name": "DeepseekV3",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/fewshot_toxicity_french.txt" },
+        "few_shots_toxic": 0,
+        "few_shots_non_toxic": 1,
+        "language": "fr"
+    },
+    "Qwen-2.5-3B-Detailed-TFR": {
+        "predictor": "Qwen25Predictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "qwen-2-5-3b-detailed-tf-fr.csv",
+        "model_name": "Qwen2.5-3B-Instruct",
+        "model_id": "Qwen/Qwen2.5-3B-Instruct",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" }
+    },
+    "Qwen-2.5-3B-Simple-TFR": {
+        "predictor": "Qwen25Predictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "qwen-2-5-3b-simple-tf-fr.csv",
+        "model_name": "Qwen2.5-3B-Instruct",
+        "model_id": "Qwen/Qwen2.5-3B-Instruct",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/simple_toxicity_french.txt" }
+    },
+    "Qwen-2.5-3B-Detailed-JIGSAW-EN": {
+        "predictor": "Qwen25Predictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "qwen-2-5-3b-detailed-jigsaw-en.csv",
+        "model_name": "Qwen2.5-3B-Instruct",
+        "model_id": "Qwen/Qwen2.5-3B-Instruct",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_english.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_english.txt" },
+        "language": "en"
+    },
+    "Qwen-2.5-1.5B-Detailed-JIGSAW-EN": {
+        "predictor": "Qwen25Predictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "qwen-2-5-1-5b-detailed-jigsaw-en.csv",
+        "model_name": "Qwen2.5-1.5B-Instruct",
+        "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_english.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_english.txt" },
+        "language": "en"
+    },
+    "Qwen-2.5-7B-Detailed-TFR": {
+        "predictor": "Qwen25Predictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "qwen-2-5-7b-detailed-tf-fr.csv",
+        "model_name": "Qwen2.5-7B-Instruct",
+        "model_id": "Qwen/Qwen2.5-7B-Instruct",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" }
+    },
+    "Qwen-2.5-7B-Simple-TFR": {
+        "predictor": "Qwen25Predictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "qwen-2-5-7b-simple-tf-fr.csv",
+        "model_name": "Qwen2.5-7B-Instruct",
+        "model_id": "Qwen/Qwen2.5-7B-Instruct",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/simple_toxicity_french.txt" }
+    },
+    "Qwen-2.5-7B-Detailed-JIGSAW-EN": {
+        "predictor": "Qwen25Predictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "qwen-2-5-7b-detailed-jigsaw-en.csv",
+        "model_name": "Qwen2.5-7B-Instruct",
+        "model_id": "Qwen/Qwen2.5-7B-Instruct",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_english.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_english.txt" },
+        "language": "en"
+    },
+    "Qwen-2.5-3B-10Shot-5-5-TFR": {
+        "predictor": "Qwen25Predictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "qwen-2-5-3b-10shot-5-5-tf-fr.csv",
+        "model_name": "Qwen2.5-3B-Instruct",
+        "model_id": "Qwen/Qwen2.5-3B-Instruct",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/fewshot_toxicity_french.txt" },
+        "few_shots_toxic": 5,
+        "few_shots_non_toxic": 5
+    },
+    "Qwen-2.5-3B-4Shot-2-2-TFR": {
+        "predictor": "Qwen25Predictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "qwen-2-5-3b-4shot-2-2-tf-fr.csv",
+        "model_name": "Qwen2.5-3B-Instruct",
+        "model_id": "Qwen/Qwen2.5-3B-Instruct",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/fewshot_toxicity_french.txt" },
+        "few_shots_toxic": 2,
+        "few_shots_non_toxic": 2
+    },
+    "Qwen-2.5-3B-1Shot-Toxic-TFR": {
+        "predictor": "Qwen25Predictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "qwen-2-5-3b-1shot-t-tf-fr.csv",
+        "model_name": "Qwen2.5-3B-Instruct",
+        "model_id": "Qwen/Qwen2.5-3B-Instruct",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/fewshot_toxicity_french.txt" },
+        "few_shots_toxic": 1,
+        "few_shots_non_toxic": 0
+    },
+    "Qwen-2.5-3B-1Shot-NonToxic-TFR": {
+        "predictor": "Qwen25Predictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "qwen-2-5-3b-1shot-nt-tf-fr.csv",
+        "model_name": "Qwen2.5-3B-Instruct",
+        "model_id": "Qwen/Qwen2.5-3B-Instruct",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/fewshot_toxicity_french.txt" },
+        "few_shots_toxic": 0,
+        "few_shots_non_toxic": 1
+    },
+    "Qwen-3-4B-Detailed-TFR": {
+        "predictor": "Qwen3Predictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "qwen-3-4b-detailed-tf-fr.csv",
+        "model_name": "Qwen3-4B-Instruct",
+        "model_id": "Qwen/Qwen3-4B-Instruct",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" }
+    },
+    "Qwen-3-4B-Simple-TFR": {
+        "predictor": "Qwen3Predictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "qwen-3-4b-simple-tf-fr.csv",
+        "model_name": "Qwen3-4B-Instruct",
+        "model_id": "Qwen/Qwen3-4B-Instruct",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/simple_toxicity_french.txt" }
+    },
+    "Qwen-3-4B-Detailed-JIGSAW-FR": {
+        "predictor": "Qwen3Predictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "qwen-3-4b-detailed-jigsaw-fr.csv",
+        "model_name": "Qwen3-4B-Instruct",
+        "model_id": "Qwen/Qwen3-4B-Instruct",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" },
+        "language": "fr"
+    },
+    "Qwen-3-4B-Detailed-JIGSAW-EN": {
+        "predictor": "Qwen3Predictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "qwen-3-4b-detailed-jigsaw-en.csv",
+        "model_name": "Qwen3-4B-Instruct",
+        "model_id": "Qwen/Qwen3-4B-Instruct",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_english.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_english.txt" },
+        "language": "en"
+    },
+    "Qwen-3-4B-10Shot-5-5-TFR": {
+        "predictor": "Qwen3Predictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "qwen-3-4b-10shot-5-5-tf-fr.csv",
+        "model_name": "Qwen3-4B-Instruct",
+        "model_id": "Qwen/Qwen3-4B-Instruct",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/fewshot_toxicity_french.txt" },
+        "few_shots_toxic": 5,
+        "few_shots_non_toxic": 5
+    },
+    "Qwen-3-4B-4Shot-2-2-TFR": {
+        "predictor": "Qwen3Predictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "qwen-3-4b-4shot-2-2-tf-fr.csv",
+        "model_name": "Qwen3-4B-Instruct",
+        "model_id": "Qwen/Qwen3-4B-Instruct",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/fewshot_toxicity_french.txt" },
+        "few_shots_toxic": 2,
+        "few_shots_non_toxic": 2
+    },
+    "Qwen-3-4B-1Shot-Toxic-TFR": {
+        "predictor": "Qwen3Predictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "qwen-3-4b-1shot-t-tf-fr.csv",
+        "model_name": "Qwen3-4B-Instruct",
+        "model_id": "Qwen/Qwen3-4B-Instruct",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/fewshot_toxicity_french.txt" },
+        "few_shots_toxic": 1,
+        "few_shots_non_toxic": 0
+    },
+    "Qwen-3-4B-1Shot-NonToxic-TFR": {
+        "predictor": "Qwen3Predictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "qwen-3-4b-1shot-nt-tf-fr.csv",
+        "model_name": "Qwen3-4B-Instruct",
+        "model_id": "Qwen/Qwen3-4B-Instruct",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/fewshot_toxicity_french.txt" },
+        "few_shots_toxic": 0,
+        "few_shots_non_toxic": 1
+    },
+    "Qwen-3-1.7B-Detailed-JIGSAW-EN": {
+        "predictor": "Qwen3Predictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "qwen-3-1-7b-detailed-jigsaw-en.csv",
+        "model_name": "Qwen3-1.7B-Instruct",
+        "model_id": "Qwen/Qwen3-1.7B-Instruct",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_english.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_english.txt" },
+        "language": "en"
+    },
+    "CUSTOM-FINETUNED-QWEN3-DPO": {
+        "predictor": "CustomModelPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "tf-fr-qwen-3-4b-dpo-odal-raw.csv",
+        "model_name": "Qwen/Qwen3-4B",
+        "checkpoint_path": "../reinforcement_learning/finetuning/final_dpo_adapters",
+        "dataset_name": "odal",
+        "parsing_logic": "default"
+    },
+    "Camembert-SFC-TFR": {
+        "predictor": "CamemBertPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "camembert-sfc-tf-fr.csv",
+        "model_id": "AgentPublic/camembert-base-toxic-fr-user-prompts"
+    },
+    "Camembert-SFC-TFR-Finetuned-v2": {
+        "predictor": "CamemBertPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "camembert-sfc-tf-fr-finetuned-v2.csv",
+        "model_id": "/Data/AxelDlv/camembert-toxic-finetuned-v2/FinalModel"
+    },
+    "DistilBert-SFC-TFR": {
+        "predictor": "DistilBertPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "distilbert-sfc-tf-fr.csv",
+        "model_id": "citizenlab/distilbert-base-multilingual-cased-toxicity"
+    },
+    "FrenchToxicityClassifier-SFC-TFR": {
+        "predictor": "FrenchToxicityClassifierPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "french-tox-classifier-sfc-tf-fr.csv",
+        "model_id": "EIStakovskii/french_toxicity_classifier_plus_v2"
+    },
+    "ToxicBert-SFC-TFR": {
+        "predictor": "ToxicBertPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "toxic-bert-sfc-tf-fr.csv",
+        "model_id": "unitary/multilingual-toxic-xlm-roberta"
+    },
+    "PolyGuard-SFC-TFR": {
+        "predictor": "PolyGuardPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "polyguard-sfc-tf-fr.csv",
+        "model_id": "Jayveersinh-Raj/PolyGuard"
+    },
+    "PolyGuard-SFC-JIGSAW-FR": {
+        "predictor": "PolyGuardPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "polyguard-sfc-jigsaw-fr.csv",
+        "model_id": "Jayveersinh-Raj/PolyGuard"
+    },
+    "PolyGuard-SFC-JIGSAW-EN": {
+        "predictor": "PolyGuardPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "polyguard-sfc-jigsaw-en.csv",
+        "model_id": "Jayveersinh-Raj/PolyGuard"
+    },
+    "Llama-Guard-Local-TFR": {
+        "predictor": "LlamaGuardPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "llama-guard-local-tf-fr.csv",
+        "model_id": "meta-llama/Llama-Guard-3-8B"
+    },
+    "Llama-Guard-Local-TFR-v2": {
+        "predictor": "LlamaGuardPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "llama-guard-local-tf-fr-v2.csv",
+        "model_id": "meta-llama/Llama-Guard-3-8B"
+    },
+    "Llama-Guard-Local-JIGSAW-FR": {
+        "predictor": "LlamaGuardPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "llama-guard-local-jigsaw-fr.csv",
+        "model_id": "meta-llama/Llama-Guard-3-8B"
+    },
+    "Llama-Guard-Local-JIGSAW-EN": {
+        "predictor": "LlamaGuardPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "llama-guard-local-jigsaw-en.csv",
+        "model_id": "meta-llama/Llama-Guard-3-8B"
+    },
+    "Shield-Gemma-Local-TFR": {
+        "predictor": "ShieldGemmaPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "shield-gemma-7b-local-tf-fr.csv",
+        "model_id": "google/shield-gemma-7b"
+    },
+    "Shield-Gemma-Local-JIGSAW-FR": {
+        "predictor": "ShieldGemmaPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "shield-gemma-7b-local-jigsaw-fr.csv",
+        "model_id": "google/shield-gemma-7b"
+    },
+    "Shield-Gemma-Local-JIGSAW-EN": {
+        "predictor": "ShieldGemmaPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "shield-gemma-7b-local-jigsaw-en.csv",
+        "model_id": "google/shield-gemma-7b"
+    },
+    "Shield-Gemma-2B-LEGACY": {
+        "predictor": "ShieldGemmaPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "google-gemma-2-2b-it.csv",
+        "model_id": "google/gemma-2-2b-it"
+    },
+    "Shield-Gemma-2B-Detailed-JIGSAW-EN": {
+        "predictor": "ShieldGemmaPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "google-gemma-2-2b-detailed-jigsaw-en.csv",
+        "model_id": "google/gemma-2-2b-it"
+    },
+    "OpenAI-Omni-Moderation-API-TFR": {
+        "predictor": "OpenAIModerationPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "openai-omni-moderation-api-tf-fr.csv",
+        "api_key": { "type": "env", "name": "OPENAI_API_KEY" },
+        "model_name": "text-moderation-latest"
+    },
+    "OpenAI-Omni-Moderation-API-JIGSAW-FR": {
+        "predictor": "OpenAIModerationPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "openai-omni-moderation-api-jigsaw-fr.csv",
+        "api_key": { "type": "env", "name": "OPENAI_API_KEY" },
+        "model_name": "text-moderation-latest"
+    },
+    "OpenAI-Omni-Moderation-API-JIGSAW-EN": {
+        "predictor": "OpenAIModerationPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "openai-omni-moderation-api-jigsaw-en.csv",
+        "api_key": { "type": "env", "name": "OPENAI_API_KEY" },
+        "model_name": "text-moderation-latest"
+    },
+    "Perspective-API-TFR": {
+        "predictor": "PerspectiveAPIPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "perspective-api-tf-fr.csv",
+        "api_key": { "type": "env", "name": "PERSPECTIVE_API_KEY" },
+        "requested_attributes": ["TOXICITY", "INSULT", "THREAT", "PROFANITY", "SEVERE_TOXICITY"]
+    },
+    "Perspective-API-JIGSAW-FR": {
+        "predictor": "PerspectiveAPIPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "perspective-api-jigsaw-fr.csv",
+        "api_key": { "type": "env", "name": "PERSPECTIVE_API_KEY" },
+        "requested_attributes": ["TOXICITY", "INSULT", "THREAT", "PROFANITY", "SEVERE_TOXICITY"]
+    },
+    "Perspective-API-JIGSAW-EN": {
+        "predictor": "PerspectiveAPIPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "perspective-api-jigsaw-en.csv",
+        "api_key": { "type": "env", "name": "PERSPECTIVE_API_KEY" },
+        "requested_attributes": ["TOXICITY", "INSULT", "THREAT", "PROFANITY", "SEVERE_TOXICITY"]
+    },
+    "Qwen3-4B-CoT6-SOAP-SFT": {
+        "predictor": "ToxiFrenchPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "qwen3-4b-cot6-soap-sft-tf-fr.csv",
+        "model_name": "Qwen/Qwen3-4B",
+        "gpu_parallel": true,
+        "batch_size": 64,
+        "local_checkpoint": "../TrainedModels/finetuning/Qwen3-4B-CoT6-SOAP-SFT/final_adapters",
+        "proxy_address": ""
+    },
+     "Qwen3-4B-CoT6-ADAM-SFT": {
+        "predictor": "ToxiFrenchPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "qwen3-4b-cot6-adam-sft-tf-fr.csv",
+        "model_name": "Qwen/Qwen3-4B",
+        "gpu_parallel": true,
+        "batch_size": 64,
+        "local_checkpoint": "../TrainedModels/finetuning/Qwen3-4B-CoT6-Adam-SFT/final_adapters",
+        "proxy_address": "http://127.0.0.1:10809"
+    },
+     "Qwen3-4B-CoT6-SOAP-SFT-OverSpl": {
+        "predictor": "ToxiFrenchPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "qwen3-4b-cot6-soap-sft-overspl-tf-fr.csv",
+        "model_name": "Qwen/Qwen3-4B",
+        "gpu_parallel": true,
+        "batch_size": 64,
+        "local_checkpoint": "../TrainedModels/finetuning/Qwen3-4B-CoT6-SOAP-SFT-OverSpl/checkpoint-1260",
+        "proxy_address": ""
+    },
+    "GPT-4o-Mini-Detailed-RTPLX": {
+        "predictor": "GPTPredictor",
+        "benchmark": "RTP-LX-french.csv",
+        "output": "gpt-4o-mini-detailed-rtplx.csv",
+        "api_key": { "type": "env", "name": "OPENAI_API_KEY" },
+        "model_name": "gpt-4o-mini",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" },
+        "parallel_requests":20,
+        "language": "fr"
+    },
+    "GPT-4o-Detailed-RTPLX": {
+        "predictor": "GPTPredictor",
+        "benchmark": "RTP-LX-french.csv",
+        "output": "gpt-4o-detailed-rtplx.csv",
+        "api_key": { "type": "env", "name": "OPENAI_API_KEY" },
+        "model_name": "gpt-4o",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" },
+        "parallel_requests":20,
+        "language": "fr"
+    },
+    "GPT-4o-Detailed-HateDay": {
+        "predictor": "GPTPredictor",
+        "benchmark": "HateDay-french.csv",
+        "output": "gpt-4o-detailed-hateday.csv",
+        "api_key": { "type": "env", "name": "OPENAI_API_KEY" },
+        "model_name": "gpt-4o",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" },
+        "parallel_requests":20,
+        "language": "fr"
+    },
+     "GPT-4o-Mini-Detailed-HateDay": {
+        "predictor": "GPTPredictor",
+        "benchmark": "HateDay-french.csv",
+        "output": "gpt-4o-mini-detailed-hateday.csv",
+        "api_key": { "type": "env", "name": "OPENAI_API_KEY" },
+        "model_name": "gpt-4o-mini",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" },
+        "parallel_requests":20,
+        "language": "fr"
+    },
+    "DeepseekChat-Detailed-RTPLX": {
+        "predictor": "DeepseekPredictor",
+        "benchmark": "RTP-LX-french.csv",
+        "output": "deepseek-chat-detailed-rtplx.csv",
+        "api_key": { "type": "env", "name": "DEEPSEEK_API_KEY" },
+        "model_name": "deepseek-chat",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" },
+        "parallel_requests":20,
+        "language": "fr"
+    },
+    "DeepseekChat-Detailed-HateDay": {
+        "predictor": "DeepseekPredictor",
+        "benchmark": "HateDay-french.csv",
+        "output": "deepseek-chat-detailed-hateday.csv",
+        "api_key": { "type": "env", "name": "DEEPSEEK_API_KEY" },
+        "model_name": "deepseek-chat",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" },
+        "parallel_requests":20,
+        "language": "fr"
+    },
+    "Mistral-Detailed-HateDay": {
+        "predictor": "MistralAPIPredictor",
+        "benchmark": "HateDay-french.csv",
+        "output": "mistral-detailed-hateday.csv",
+        "api_key": { "type": "env", "name": "MISTRAL_API_KEY" },
+        "model_name": "mistral-large-2512",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" },
+        "parallel_requests":4,
+        "language": "fr"
+    },
+    "Mistral-Detailed-RTPLX": {
+        "predictor": "MistralAPIPredictor",
+        "benchmark": "RTP-LX-french.csv",
+        "output": "mistral-detailed-rtplx.csv",
+        "api_key": { "type": "env", "name": "MISTRAL_API_KEY" },
+        "model_name": "mistral-large-2512",
+        "system_prompt": { "type": "file", "path": "./prompts/system_prompt_french.txt" },
+        "prompt_template": { "type": "file", "path": "./prompts/detailed_toxicity_french.txt" },
+        "parallel_requests":4,
+        "language": "fr"
+    },
+    "Camembert-SFC-RTPLX": {
+        "predictor": "CamemBertPredictor",
+        "benchmark": "RTP-LX-french.csv",
+        "output": "camembert-sfc-rtplx.csv",
+        "model_id": "AgentPublic/camembert-base-toxic-fr-user-prompts"
+    },
+    "Camembert-SFC-HateDay": {
+        "predictor": "CamemBertPredictor",
+        "benchmark": "HateDay-french.csv",
+        "output": "camembert-sfc-hateday.csv",
+        "model_id": "AgentPublic/camembert-base-toxic-fr-user-prompts"
+    },
+    "Qwen3-4B-CoT6-SOAP-DWL-DFT-OverSpl-optimized": {
+        "predictor": "ToxiFrenchPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "qwen3-4b-cot6-soap-dwl-dft-overspl-optimized-tf-fr.csv",
+        "model_name": "Qwen/Qwen3-4B",
+        "gpu_parallel": true,
+        "batch_size": 64,
+        "local_checkpoint": "../TrainedModels/finetuning/Qwen3-4B-CoT6-SOAP-DWL-DFT-OverSpl-optimized/final_adapters",
+        "proxy_address": "http://127.0.0.1:10809"
+    },
+    "Qwen3-4B-CoT6-SOAP-SFT-OverSpl-DPO-Stable": {
+        "predictor": "ToxiFrenchPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "qwen3-4b-cot6-soap-sft-overspl-dpo-stable-tf-fr.csv",
+        "model_name": "Qwen/Qwen3-4B",
+        "gpu_parallel": true,
+        "batch_size": 64,
+        "local_checkpoint": "../TrainedModels/DPO/Qwen3-4B-CoT6-SOAP-SFT-OverSpl-DPO-Stable/final_dpo_adapters",
+        "proxy_address": ""
+    },
+    "Qwen3-4B-CoT6-SOAP-DWL-DFT-OverSpl-constrastedscheduling": {
+        "predictor": "ToxiFrenchPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "qwen3-4b-cot6-soap-dwl-dft-overspl-constrastedscheduling-tf-fr.csv",
+        "model_name": "Qwen/Qwen3-4B",
+        "gpu_parallel": true,
+        "batch_size": 64,
+        "local_checkpoint": "../TrainedModels/finetuning/Qwen3-4B-CoT6-SOAP-DWL-DFT-OverSpl-constrastedscheduling/final_adapters",
+        "proxy_address": ""
+    },
+    "Qwen3-4B-CoT6-SOAP-SFT-OverSpl-DPO-Stable-Balanced": {
+        "predictor": "ToxiFrenchPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "qwen3-4b-cot6-soap-sft-overspl-dpo-stable-balanced-tf-fr.csv",
+        "model_name": "Qwen/Qwen3-4B",
+        "gpu_parallel": true,
+        "batch_size": 64,
+        "local_checkpoint": "../TrainedModels/DPO/Qwen3-4B-CoT6-SOAP-SFT-OverSpl-DPO-Stable-Balanced/final_dpo_adapters",
+        "proxy_address": ""
+    },
+    "Qwen3-4B-CoT6-SOAP-DWL-DFT-OverSpl-veryconstrastedscheduling": {
+        "predictor": "ToxiFrenchPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "qwen3-4b-cot6-soap-dwl-dft-overspl-veryconstrastedscheduling-tf-fr.csv",
+        "model_name": "Qwen/Qwen3-4B",
+        "gpu_parallel": true,
+        "batch_size": 64,
+        "local_checkpoint": "../TrainedModels/finetuning/Qwen3-4B-CoT6-SOAP-DWL-DFT-OverSpl-veryconstrastedscheduling/final_adapters",
+        "proxy_address": ""
+    },
+    "rec_soap_test": {
+        "predictor": "ToxiFrenchPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "rec_soap-corrected-tf-fr.csv",
+        "model_name": "Qwen/Qwen3-4B",
+        "gpu_parallel": true,
+        "batch_size": 64,
+        "local_checkpoint": "../TrainedModels/finetuning/rec_soap",
+        "proxy_address": "http://127.0.0.1:10809"
+    },
+    "rec_soap_hyperpar": {
+        "predictor": "ToxiFrenchPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "rec_soap-hyperpar-tf-fr.csv",
+        "model_name": "Qwen/Qwen3-4B",
+        "gpu_parallel": true,
+        "batch_size": 64,
+        "local_checkpoint": "../TrainedModels/finetuning/rec_soap",
+        "proxy_address": "http://127.0.0.1:10809",
+        "generation_params": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_new_tokens": 1024,
+            "repetition_penalty": 1.1
+        }
+    },
+    "rec_soap_hyperparv2": {
+        "predictor": "ToxiFrenchPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "rec_soap-hyperparv2-tf-fr.csv",
+        "model_name": "Qwen/Qwen3-4B",
+        "gpu_parallel": true,
+        "batch_size": 64,
+        "local_checkpoint": "../TrainedModels/finetuning/rec_soap",
+        "proxy_address": "http://127.0.0.1:10809",
+        "generation_params": {
+            "do_sample": true,
+            "temperature": 0.3,
+            "max_new_tokens": 1024,
+            "repetition_penalty": 1.1
+        }
+    },
+    "rec_soap_hyperparv3": {
+        "predictor": "ToxiFrenchPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "rec_soap-hyperparv3-tf-fr.csv",
+        "model_name": "Qwen/Qwen3-4B",
+        "gpu_parallel": true,
+        "batch_size": 64,
+        "local_checkpoint": "../TrainedModels/finetuning/rec_soap",
+        "proxy_address": "http://127.0.0.1:10809",
+        "generation_params": {
+            "do_sample": true,
+            "temperature": 0.1,
+            "max_new_tokens": 1024,
+            "repetition_penalty": 1.1
+        }
+    },
+    "Qwen3-4B-CoT6-SOAP-DWL-SFT-OverSpl-veryconstrastedscheduling": {
+        "predictor": "ToxiFrenchPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "qwen3-4b-cot6-soap-dwl-sft-overspl-veryconstrastedscheduling-tf-fr.csv",
+        "model_name": "Qwen/Qwen3-4B",
+        "gpu_parallel": true,
+        "batch_size": 64,
+        "local_checkpoint": "../TrainedModels/finetuning/Qwen3-4B-CoT6-SOAP-DWL-DFT-OverSpl-veryconstrastedscheduling/final_adapters",
+        "proxy_address": "http://127.0.0.1:10809",
+        "generation_params": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_new_tokens": 1024,
+            "repetition_penalty": 1.1
+        }
+    },
+    "Qwen3-4B-CoT6-SOAP-SFT-OverSpl_thendwl-hyperpar": {
+        "predictor": "ToxiFrenchPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "qwen3-4b-cot6-soap-sft-overspl-thendwl-hyperpar-tf-fr.csv",
+        "model_name": "Qwen/Qwen3-4B",
+        "gpu_parallel": true,
+        "batch_size": 64,
+        "local_checkpoint": "../TrainedModels/finetuning/Qwen3-4B-CoT6-SOAP-SFT-OverSpl_thendwl/final_adapters",
+        "proxy_address": "",
+        "generation_params": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_new_tokens": 1024,
+            "repetition_penalty": 1.1
+        }
+    },
+    "Qwen3-4B-CoT6-SOAP-DWL-SFT-OverSpl-constrastedscheduling-hyperpar": {
+        "predictor": "ToxiFrenchPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "qwen3-4b-cot6-soap-dwl-sft-overspl-constrastedscheduling-hyperpar-tf-fr.csv",
+        "model_name": "Qwen/Qwen3-4B",
+        "gpu_parallel": true,
+        "batch_size": 64,
+        "local_checkpoint": "../TrainedModels/finetuning/Qwen3-4B-CoT6-SOAP-DWL-DFT-OverSpl-constrastedscheduling/final_adapters",
+        "proxy_address": "",
+        "generation_params": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_new_tokens": 1024,
+            "repetition_penalty": 1.1
+        }
+    },
+    "Qwen3-4B-CoT6-SOAP-DWL-SFT-OverSpl-softcheduling-hyperpar": {
+        "predictor": "ToxiFrenchPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "qwen3-4b-cot6-soap-dwl-sft-overspl-softscheduling-hyperpar-tf-fr.csv",
+        "model_name": "Qwen/Qwen3-4B",
+        "gpu_parallel": true,
+        "batch_size": 64,
+        "local_checkpoint": "../TrainedModels/finetuning/Qwen3-4B-CoT6-SOAP-DWL-DFT-OverSpl-softcheduling/final_adapters",
+        "proxy_address": "",
+        "generation_params": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_new_tokens": 1024,
+            "repetition_penalty": 1.1
+        }
+    },
+    "Qwen3-4B-CoT6-SOAP-DWL-DFT-OverSpl-optimized-hyperpar": {
+        "predictor": "ToxiFrenchPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "qwen3-4b-cot6-soap-dwl-dft-overspl-optimized-hyperpar-tf-fr.csv",
+        "model_name": "Qwen/Qwen3-4B",
+        "gpu_parallel": true,
+        "batch_size": 64,
+        "local_checkpoint": "../TrainedModels/finetuning/Qwen3-4B-CoT6-SOAP-DWL-DFT-OverSpl-optimized/final_adapters",
+        "proxy_address": "http://127.0.0.1:10809",
+        "generation_params": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_new_tokens": 1024,
+            "repetition_penalty": 1.1
+        }
+    },
+    "rec_soap_dpo_augmented-hyperpar": {
+        "predictor": "ToxiFrenchPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "rec_soap_dpo_augmented-hyperpar-tf-fr.csv",
+        "model_name": "Qwen/Qwen3-4B",
+        "gpu_parallel": true,
+        "batch_size": 64,
+        "local_checkpoint": "../TrainedModels/DPO/rec_soap_dpo_augmented/final_dpo_adapters",
+        "proxy_address": "http://127.0.0.1:10809",
+        "generation_params": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_new_tokens": 1024,
+            "repetition_penalty": 1.1
+        }
+    },
+    "rec_soap_dpo_augmentedv2-hyperpar": {
+        "predictor": "ToxiFrenchPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "rec_soap_dpo_augmentedv2-hyperpar-tf-fr.csv",
+        "model_name": "Qwen/Qwen3-4B",
+        "gpu_parallel": true,
+        "batch_size": 64,
+        "local_checkpoint": "../TrainedModels/DPO/rec_soap_dpo_augmented_v2/final_dpo_adapters",
+        "proxy_address": "http://127.0.0.1:10809",
+        "generation_params": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_new_tokens": 1024,
+            "repetition_penalty": 1.1
+        }
+    },
+    "rec_soap_dpo_balanced-hyperpar": {
+        "predictor": "ToxiFrenchPredictor",
+        "benchmark": "ToxiFrenchBalanced.csv",
+        "output": "rec_soap_dpo_balanced-hyperpar-tf-fr.csv",
+        "model_name": "Qwen/Qwen3-4B",
+        "gpu_parallel": true,
+        "batch_size": 64,
+        "local_checkpoint": "../TrainedModels/DPO/rec_soap_dpo_balanced/final_dpo_adapters",
+        "proxy_address": "http://127.0.0.1:10809",
+        "generation_params": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_new_tokens": 1024,
+            "repetition_penalty": 1.1
+        }
+    },
+    "rec_soap_dpo_augmented-HateDay": {
+        "predictor": "ToxiFrenchPredictor",
+        "benchmark": "HateDay-french.csv",
+        "output": "rec_soap_dpo_augmented-hate-day-tf-fr.csv",
+        "model_name": "Qwen/Qwen3-4B",
+        "gpu_parallel": true,
+        "batch_size": 64,
+        "local_checkpoint": "../TrainedModels/DPO/rec_soap_dpo_augmented/final_dpo_adapters",
+        "proxy_address": "http://127.0.0.1:10809",
+        "generation_params": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_new_tokens": 1024,
+            "repetition_penalty": 1.1
+        }
+    },
+    "rec_soap_dpo_augmented-rtplx": {
+        "predictor": "ToxiFrenchPredictor",
+        "benchmark": "RTP-LX-french.csv",
+        "output": "rec_soap_dpo_augmented-rtplx-tf-fr.csv",
+        "model_name": "Qwen/Qwen3-4B",
+        "gpu_parallel": true,
+        "batch_size": 64,
+        "local_checkpoint": "../TrainedModels/DPO/rec_soap_dpo_augmented/final_dpo_adapters",
+        "proxy_address": "http://127.0.0.1:10809",
+        "generation_params": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_new_tokens": 1024,
+            "repetition_penalty": 1.1
+        }
+    },
+    "rec_soap_dpo_augmented-jigsawfr": {
+        "predictor": "ToxiFrenchPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "rec_soap_dpo_augmented-jigsawfr.csv",
+        "content_field": "content",
+        "model_name": "Qwen/Qwen3-4B",
+        "gpu_parallel": true,
+        "batch_size": 64,
+        "local_checkpoint": "../TrainedModels/DPO/rec_soap_dpo_augmented/final_dpo_adapters",
+        "proxy_address": "http://127.0.0.1:10809",
+        "generation_params": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_new_tokens": 1024,
+            "repetition_penalty": 1.1
+        }
+    },
+    "rec_soap_dpo_augmented-jigsawen": {
+        "predictor": "ToxiFrenchPredictor",
+        "benchmark": "JigsawBilingualBalanced.csv",
+        "output": "rec_soap_dpo_augmented-jigsawen.csv",
+        "content_field": "original_text",
+        "model_name": "Qwen/Qwen3-4B",
+        "gpu_parallel": true,
+        "batch_size": 64,
+        "local_checkpoint": "../TrainedModels/DPO/rec_soap_dpo_augmented/final_dpo_adapters",
+        "proxy_address": "http://127.0.0.1:10809",
+        "generation_params": {
+            "do_sample": false,
+            "temperature": 0.0,
+            "max_new_tokens": 1024,
+            "repetition_penalty": 1.1
+        }
+    }
+}

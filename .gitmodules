@@ -1,0 +1,3 @@
+[submodule "TrainedModels"]
+	path = TrainedModels
+	url = https://huggingface.co/Naela00/ToxiFrench

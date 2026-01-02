@@ -1,81 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ToxiFrench: French Toxicity Detection</title>
-    <link rel="stylesheet" href="style.css"> 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToxiFrench | Axel Delaval</title>
+  <link rel="icon" type="image/png" href="assets/img/icons/favicon.png">
+  <link rel="stylesheet" href="assets/css/theme.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
 </head>
 <body>
-    <header>
-        <h1><span style="font-variant: small-caps;">ToxiFrench</span>: Benchmarking and Enhancing Language Models via CoT Fine-Tuning for French Toxicity Detection</h1>
-        <p class="subtitle">Axel Delaval, Shujian Yang, Haicheng Wang, Han Qiu, Jialiang Lu</p>
-        <p class="subtitle"><em>École Polytechnique & Shanghai Jiao Tong University (SJTU) & Tsinghua University</em></p>
-    </header>
+  <header>
+    <nav class="navbar">
+      <div class="logo">ToxiFrench</div>
+      <ul class="links" id="nav-links"></ul>
+      <div class="lang-switcher" id="lang-switcher">
+        <button data-lang="en">EN</button>
+        <button data-lang="fr">FR</button>
+        <button data-lang="zh">中文</button>
+      </div>
+    </nav>
+  </header>
 
-    <main>
-        <div class="warning-banner">
-            <p><strong>Content Warning:</strong> This project and the associated dataset contain examples of text that may be considered offensive, toxic, or otherwise disturbing. The content is presented for research purposes only.</p>
-        </div>
+  <main>
+    <section class="hero" id="hero"></section>
 
-        <section id="project-links">
-            <h2>Project Resources</h2>
-            <div class="link-container">
-                <div class="link-box">
-                    <!-- Images are now sized via style.css -->
-                    <img src="assets/github.png" alt="GitHub Logo", style="width: 1.5em; height: 1.5em;">
-                    <a href="https://github.com/AxelDlv00/ToxiFrench" target="_blank" rel="noopener noreferrer">Repository</a>
-                </div>
-                <div class="link-box">
-                    <!-- Images are now sized via style.css -->
-                    <img src="assets/huggingface.png" alt="Hugging Face Logo" style="width: 1.5em; height: 1.5em;">
-                    <a href="https://huggingface.co/Naela00/ToxiFrench" target="_blank" rel="noopener noreferrer">Model</a>
-                </div>
-                <div class="link-box">
-                    <!-- Images are now sized via style.css -->
-                    <img src="assets/huggingface.png" alt="Hugging Face Logo" style="width: 1.5em; height: 1.5em;">
-                    <a href="https://huggingface.co/datasets/Naela00/ToxiFrench" target="_blank" rel="noopener noreferrer">Dataset</a>
-                </div>
-            </div>
-        </section>
+    <div class="social-links" id="badges-container" style="justify-content: center; margin-bottom: 2rem;"></div>
 
-        <section id="abstract">
-            <h2>Abstract</h2>
-            <p>
-                Detecting toxic content using language models is crucial yet challenging. While substantial progress has been made in English, toxicity detection in French remains underdeveloped, primarily due to the lack of culturally relevant, large-scale datasets. In this work, we introduce TOXIFRENCH, a new public benchmark of 53,622 French online comments, constructed via a semi-automated annotation pipeline that reduces manual labeling to only 10% through high-confidence LLM-based pre-annotation and human verification. Then, we benchmark a broad range of models and uncover a counterintuitive insight: Small Language Models (SLMs) outperform many larger models in robustness and generalization under the toxicity detection task. Motivated by this finding, we propose a novel Chain-of-Thought (CoT) fine-tuning strategy using a dynamic weighted loss that progressively emphasizes the model's final decision, significantly improving faithfulness. Our fine-tuned 4B model achieves state-of-the-art performance, improving its F1 score by 13% over its baseline and outperforming LLMs such as GPT-40 and Gemini-2.5. Further evaluation on a cross-lingual toxicity benchmark demonstrates strong multilingual ability, suggesting that our methodology can be effectively extended to other languages and safety-critical classification tasks.
-            </p>
-        </section>
+    <section id="abstract-section"></section>
+    <section id="contributions-section"></section>
+    <section id="resources-list"></section>
+    
+    <section id="academic-footer"></section>
+  </main>
 
-        <section id="key-contributions">
-            <h2>Key Contributions</h2>
-            <ul>
-                <li><strong>Dataset and benchmark:</strong> Introduction of <span style="font-variant: small-caps;">ToxiFrench</span>, a new public benchmark dataset for French toxicity detection (53,622 entries).</li>
-                <li><strong>Evaluation state-of-the-art detectors:</strong> Extensive evaluation of LLMs (<code>GPT-4o</code>, <code>DeepSeek</code>, <code>Gemini</code>, <code>Mistral</code>, ...), SLMs (<code>Qwen</code>, <code>Gemma</code>, <code>Mistral</code>, ...), Transformers (<code>CamemBERT</code>, <code>DistilBERT</code>, ...), and moderation APIs (<code>Perspective API</code>, <code>OpenAI moderation</code>, <code>Mistral moderation</code>, ...), showing that <strong>SLMs outperform LLMs</strong> in robustness to bias, cross-language consistency, and generalization to novel toxicity forms.</li>
-                <li><strong>Transfer learning strategies:</strong> Systematic comparison of ICL, SFT, and CoT reasoning.</li>
-                <li><strong>Model development:</strong> Development of a <strong>state-of-the-art 4B SLM</strong> for French toxicity detection that outperforms several powerful LLMs based on the <code>Qwen3-4B</code> model.</li>
-                <li><strong>CoT fine-tuning:</strong> Introduction of a <em>novel</em> approach for CoT fine-tuning that employs a <strong>dynamic weighted loss function</strong>, significantly boosting performance by ensuring the model's reasoning is <em>faithful</em> to its final conclusion.</li>
-            </ul>
-        </section>
+  <footer>
+    <div id="footer-content"></div>
+  </footer>
 
-        <section id="citation">
-            <h2>Citing This Work</h2>
-            <p>
-                If you use this dataset, model, or methodology in your research, please cite our work using the following BibTeX entry:
-            </p>
-            <pre><code>@misc{delaval2025toxifrench,
-    title={ToxiFrench: Benchmarking and Enhancing Language Models via CoT Fine-Tuning for French Toxicity Detection},
-    author={Axel Delaval and Shujian Yang and Haicheng Wang and Han Qiu and Jialiang Lu},
-    year={2025},
-}</code></pre>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Axel Delaval. All rights reserved.</p>
-        <p>This project is for research and analysis purposes.</p>
-    </footer>
+  <script src="assets/js/app.js"></script>
 </body>
 </html>

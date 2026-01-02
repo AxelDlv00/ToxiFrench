@@ -1,0 +1,59 @@
+/* =========================================================
+   GLOBAL RESET & BOX MODEL
+   ---------------------------------------------------------
+   Normalize spacing and sizing across all elements.
+   - box-sizing: border-box ensures padding & border 
+     are included in element width/height.
+   - margin/padding: 0 removes default browser spacing.
+   ========================================================= */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* =========================================================
+   BASE BODY STYLES
+   ---------------------------------------------------------
+   Defines the global font, background, and text color.
+   - Uses the "Inter" font imported previously.
+   - Background and text colors reference CSS variables
+     (which change automatically for dark/light mode).
+   ========================================================= */
+body {
+  font-family: "Inter", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7; /* Improves readability of long text */
+}
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+/* =========================================================
+   LINKS
+   ---------------------------------------------------------
+   - Default color: accent (blue, from theme variables)
+   - No underline by default for a clean look
+   - Underline appears on hover for accessibility feedback
+   ========================================================= */
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* =========================================================
+   HEADINGS (H1, H2, H3)
+   ---------------------------------------------------------
+   - Consistent weight for visual hierarchy
+   - Inherits color from body text
+   ========================================================= */
+h1, h2, h3 {
+  font-weight: 600;
+}

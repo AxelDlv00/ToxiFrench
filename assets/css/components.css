@@ -1,0 +1,310 @@
+/* =========================================================
+   CARD COMPONENT
+   ---------------------------------------------------------
+   General container used for research items, projects, etc.
+   - Uses theme variables for background and border
+   - Rounded corners and soft shadow for depth
+   ========================================================= */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+/* ---------------------------------------------------------
+   CARD TITLE
+   ---------------------------------------------------------
+   - Highlights the title (usually section or project name)
+   - Accent color aligns with theme palette
+   --------------------------------------------------------- */
+.card h3 {
+  margin-bottom: 0.5rem;
+  color: var(--accent);
+}
+
+/* =========================================================
+   META INFORMATION
+   ---------------------------------------------------------
+   Used for displaying dates, authors, or brief contextual info.
+   ========================================================= */
+.meta {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-bottom: 0.4rem;
+}
+
+/* =========================================================
+   TAGS & CHIPS CONTAINERS
+   ========================================================= */
+.tags, .chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+/* =========================================================
+   TAGS
+   ========================================================= */
+.tag {
+  background: var(--accent);
+  color: white;
+  border-radius: 999px;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.85rem;
+}
+
+/* =========================================================
+   CHIPS
+   ========================================================= */
+.chip {
+  background: #e0e7ff;
+  color: #3730a3;
+  border-radius: 8px;
+  padding: 2px 8px;
+  font-size: 0.8rem;
+}
+
+/* =========================================================
+   "SEE MORE" BUTTON
+   ========================================================= */
+.see-more {
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-weight: 600;
+  width: 100%;
+  display: block;
+  transition: background 0.2s ease;
+}
+
+.see-more:hover {
+  background: #1e40af;
+}
+
+/* =========================================================
+   COLLAPSIBLE EXTRA CONTENT
+   ========================================================= */
+.extra {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease;
+}
+
+.extra.open {
+  max-height: 2000px;
+}
+
+/* =========================================================
+   CHIPS / TAGS STYLING (Improved visual layout)
+   ========================================================= */
+.desc {
+  margin-bottom: 0.8rem;
+}
+
+.chips-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.3rem;
+}
+
+.chip {
+  background: #eef2ff;
+  color: #1e3a8a;
+  border-radius: 999px;
+  padding: 0.35rem 0.9rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  transition: all 0.2s ease;
+  border: 1px solid rgba(30, 58, 138, 0.1);
+}
+
+.chip:hover {
+  background: #dbeafe;
+  color: #1e40af;
+  transform: translateY(-1px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+/* =========================================================
+   HERO TAGS (Interactive style matching .chip)
+   ========================================================= */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 0.8rem;
+}
+
+.tag {
+  background: var(--accent);
+  color: #fff;
+  border-radius: 999px;
+  padding: 0.35rem 0.9rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.tag:hover {
+  background: #1e40af;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+/* =========================================================
+   SOCIAL LINK BUTTONS
+   ========================================================= */
+.social-links {
+  max-width: 1000px;
+  margin: 0 auto 3rem auto;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: flex-start;
+}
+
+.social-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.6rem 1rem;
+  font-weight: 500;
+  color: var(--text);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.social-button img {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.social-button:hover {
+  background: var(--accent);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+/* =========================================================
+   CARD MAIN LAYOUT (Equal height text + logo)
+   ---------------------------------------------------------
+   Logo dynamically matches text block height for visual symmetry
+   ========================================================= */
+
+.card-main {
+  display: flex;
+  align-items: stretch;         /* Ensures both children have same height */
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.card-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;      /* Centers text vertically if short */
+}
+
+/* =========================================================
+   INLINE LOGO — Transparent background & proportional scaling
+   --------------------------------------------------------- */
+.inline-logo {
+  max-width: 140px;
+  max-height: 120px;
+  width: auto;
+  height: auto;
+  align-self: center;                /* Center vertically */
+  border-radius: 10px;
+  border: 1px solid var(--border);
+
+  /* Semi-transparent background for soft blending */
+  background: rgba(255, 255, 255, 0.7);  /* Light mode base */
+  backdrop-filter: blur(4px);            /* Slight frosted-glass effect */
+
+  object-fit: contain;                   /* Keep proportions */
+  padding: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+/* Make sure logos don't stretch or overflow */
+.card-main img.inline-logo {
+  display: block;
+  margin: auto 0;
+}
+
+/* Hover effect: subtle glow */
+.inline-logo:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+  border-color: var(--accent);
+}
+
+.side-media {
+  max-width: 120px;
+  border-radius: 10px;
+  box-shadow: var(--shadow-sm);
+  object-fit: contain;
+}
+
+.visual-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+
+/* =========================================================
+   RESPONSIVE LAYOUT
+   ========================================================= */
+@media (max-width: 700px) {
+  .inline-logo {
+    max-width: 100px;
+    max-height: 80px;
+  }
+}
+
+
+.citation-card {
+  background: var(--second-bg);
+  padding: 1.5rem;
+  border-radius: 8px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.85rem;
+  overflow-x: auto;
+  border-left: 4px solid var(--accent);
+}
+
+.clickable-hero {
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.clickable-hero:hover {
+  transform: scale(1.02);
+}

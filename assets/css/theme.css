@@ -1,0 +1,37 @@
+/* =========================================================
+   COLOR THEME VARIABLES
+   ---------------------------------------------------------
+   Define global CSS variables (custom properties) used 
+   throughout the website for consistent theming.
+   These are declared inside :root so they apply globally.
+   ========================================================= */
+
+:root {
+  /* === Light Mode Colors === */
+  --bg: #fafafa;           /* Page background color */
+  --text: #1f2937;         /* Main text color (dark gray) */
+  --muted: #4b5563;        /* Muted / secondary text (subtle gray) */
+  --accent: #2563eb;       /* Primary accent color (blue) */
+  --border: #e5e7eb;       /* Light border color */
+  --card: #ffffff;         /* Background for cards and panels */
+}
+
+/* =========================================================
+   DARK MODE OVERRIDES
+   ---------------------------------------------------------
+   Automatically applies when the user's OS or browser is set
+   to dark mode (via the prefers-color-scheme media query).
+   These values override the light theme variables.
+   ========================================================= */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+      --bg: #fafafa;           /* Page background color */
+      --text: #1f2937;         /* Main text color (dark gray) */
+      --muted: #4b5563;        /* Muted / secondary text (subtle gray) */
+      --accent: #2563eb;       /* Primary accent color (blue) */
+      --border: #e5e7eb;       /* Light border color */
+      --card: #ffffff;         /* Background for cards and panels */
+      --second-bg: #e6e6e6;      /* Dark background color */
+  }
+}

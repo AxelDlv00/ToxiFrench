@@ -1,0 +1,9 @@
+/* =========================================================
+   FONT IMPORT
+   ---------------------------------------------------------
+   This line imports the "Inter" font family from Google Fonts.
+   Available weights: 300 (light), 400 (regular), 600 (semi-bold), 700 (bold).
+   The `display=swap` parameter ensures the system font is used 
+   temporarily until the custom font is fully loaded — improving UX.
+   ========================================================= */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap");

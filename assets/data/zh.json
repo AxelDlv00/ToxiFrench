@@ -1,0 +1,46 @@
+{
+  "nav": {
+    "abstract": "摘要",
+    "resources": "资源",
+    "contributions": "贡献",
+    "citation": "引用",
+    "back_home": "返回首页"
+  },
+  "hero": {
+    "title": "ToxiFrench",
+    "subtitle": "通过思维链 (CoT) 微调增强法语毒性检测语言模型",
+    "tags": ["自然语言处理", "AI 安全", "小语言模型", "CoT 微调", "开放科学"]
+  },
+  "badges": [
+    { "name": "arXiv 论文", "icon": "ArXiv.png", "link": "https://arxiv.org/abs/2508.11281" },
+    { "name": "数据集", "icon": "huggingface.svg", "link": "https://huggingface.co/datasets/AxelDlv00/ToxiFrench" },
+    { "name": "模型", "icon": "huggingface.svg", "link": "https://huggingface.co/AxelDlv00/ToxiFrench" },
+    { "name": "源代码", "icon": "github.svg", "link": "https://github.com/AxelDlv00/ToxiFrench" },
+    { "name": "Axel Delaval", "icon": "delaunay.jpg", "link": "https://axeldlv00.github.io/axel-delaval-personal-page/" },
+    { "name": "Google Scholar", "icon": "googlescholar.png", "link": "https://scholar.google.com/citations?user=-89Mh24AAAAJ" }
+  ],
+  "abstract": {
+    "title": "学术摘要",
+    "desc": "利用语言模型检测毒性内容至关重要但也极具挑战性。尽管英语领域已取得显著进展，但由于缺乏文化相关且经过人工标注的大规模数据集，法语毒性检测仍处于起步阶段。在本研究中，我们发布了 <strong>ToxiFrench</strong>：一个包含 53,622 条法语在线评论的数据集，并提供了一个用于系统评估的平衡基准测试集。<br><br>该数据集通过半自动标注流水线构建，通过高置信度 LLM 预标注和人工验证，将人工标注量减少了 90%，同时确保与纯人工标注保持高度统计一致性（κ ≈ 0.98）。随后，我们对多种模型进行了基准测试，并发现了一个反直觉的现象：<strong>小语言模型 (SLM)</strong> 在此任务中的稳健性和泛化能力往往优于大型模型。<br><br>基于这一发现，我们提出了一种新型的思维链 (CoT) 微调策略，采用 <strong>动态权重损失 (DWL)</strong> 函数。该函数逐步强调模型的最终决策，显著提升了推理的忠实度。我们微调后的 4B 模型在基准测试中达到了 SOTA 性能，其平衡准确度较基准提升了 10%，表现优于 <code>GPT-4o</code> 和 <code>DeepSeek-R1</code>。"
+  },
+  "contributions": [
+    {
+      "title": "大规模标注数据集",
+      "desc": "推出 <strong>ToxiFrench</strong>：一个包含 53,622 条数据的高质量基准。通过半自动标注流水线，我们将<strong>人工标注工作量减少了 90%</strong>，同时保持了极高的标注精度。"
+    },
+    {
+      "title": "SLM 稳健性发现",
+      "desc": "系统性基准测试表明，<strong>4B-7B 级小模型在法语检测中展现出更强的稳健性</strong>，相比大型 LLM 能更好地处理文化细微差别并减少过拟合偏差。"
+    },
+    {
+      "title": "基于动态权重损失的 CoT",
+      "desc": "提出一种 <strong>动态权重损失 (DWL)</strong> 策略用于思维链微调。通过同步推理步骤与最终分类，我们消除了“推理正确但结论错误”的问题，准确率提升了 10%。"
+    },
+    {
+      "title": "达到 SOTA 性能",
+      "desc": "<strong>ToxiFrench-4B</strong> 模型树立了法语文本审核的新标准。它在跨语言一致性和未知毒性形式的泛化能力上，优于 <code>Perspective API</code>、<code>GPT-4o</code> 等模型。"
+    }
+  ],
+  "citation": "@misc{delaval2025toxifrench,\n  title={ToxiFrench: Benchmarking and Enhancing Language Models via CoT Fine-Tuning for French Toxicity Detection},\n  author={Delaval, Axel and Yang, Shujian and Wang, Haicheng and Qiu, Han and Lu, Jialiang},\n  publisher={arXiv},\n  year={2025},\n  url={https://arxiv.org/abs/2508.11281}\n}",
+  "license": "本项目采用 <strong>MIT 许可证</strong> 开源。数据集和模型仅供非商业性研究和安全分析使用。"
+}

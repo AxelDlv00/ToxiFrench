@@ -1,0 +1,46 @@
+{
+  "nav": {
+    "abstract": "Abstract",
+    "resources": "Resources",
+    "contributions": "Contributions",
+    "citation": "Citation",
+    "back_home": "Back to Home"
+  },
+  "hero": {
+    "title": "ToxiFrench",
+    "subtitle": "Benchmarking and Enhancing Language Models via CoT Fine-Tuning for French Toxicity Detection",
+    "tags": ["NLP", "AI Safety", "SLM", "CoT Fine-Tuning", "Open Science"]
+  },
+  "badges": [
+    { "name": "arXiv Paper", "icon": "ArXiv.png", "link": "https://arxiv.org/abs/2508.11281" },
+    { "name": "Dataset", "icon": "huggingface.svg", "link": "https://huggingface.co/datasets/AxelDlv00/ToxiFrench" },
+    { "name": "Models", "icon": "huggingface.svg", "link": "https://huggingface.co/AxelDlv00/ToxiFrench" },
+    { "name": "Source Code", "icon": "github.svg", "link": "https://github.com/AxelDlv00/ToxiFrench" },
+    { "name": "Axel Delaval", "icon": "delaunay.jpg", "link": "https://axeldlv00.github.io/axel-delaval-personal-page/" },
+    { "name": "Google Scholar", "icon": "googlescholar.png", "link": "https://scholar.google.com/citations?user=-89Mh24AAAAJ" }
+  ],
+  "abstract": {
+    "title": "Scientific Abstract",
+    "desc": "Detecting toxic content using language models is crucial yet challenging. While substantial progress has been made in English, toxicity detection in French remains underdeveloped, primarily due to the lack of culturally relevant, human-annotated, large-scale datasets. In this work, we release <strong>ToxiFrench</strong>, a dataset of 53,622 French online comments, together with a balanced benchmark split for systematic evaluation.<br><br>The dataset is constructed via a semi-automated annotation pipeline that reduces manual labeling to only 10% through high-confidence LLM-based pre-annotation and human verification, while ensuring statistically near-perfect alignment with human-only annotation. We then benchmark a broad range of models and uncover a counterintuitive insight: <strong>Small Language Models (SLMs)</strong> often surpass larger models in robustness and generalization on this task.<br><br>Motivated by this finding, we propose a novel Chain-of-Thought (CoT) fine-tuning strategy using a <strong>Dynamic Weighted Loss (DWL)</strong> that progressively emphasizes the model's final decision, significantly improving faithfulness. Our fine-tuned 4B model achieves state-of-the-art performance on the benchmark, improving its balanced accuracy by 10% over its baseline and achieving better performance than <code>GPT-4o</code> and <code>DeepSeek-R1</code>."
+  },
+  "contributions": [
+    {
+      "title": "Large-Scale Annotated Dataset",
+      "desc": "Introduction of <strong>ToxiFrench</strong>, a high-quality dataset of 53,622 French comments. We utilized a semi-automated annotation pipeline that combines LLM pre-annotation with expert human verification, achieving a <strong>90% reduction in manual labeling effort</strong> while maintaining a near-perfect Cohen’s Kappa (κ ≈ 0.98) alignment with human-only standards."
+    },
+    {
+      "title": "SLM Robustness Discovery",
+      "desc": "Comprehensive benchmarking of LLMs (<code>GPT-4o</code>, <code>Gemini</code>) vs. SLMs (<code>Qwen</code>, <code>Mistral</code>). Our analysis reveals that <strong>Small Language Models (4B-7B) often exhibit superior robustness</strong> and lower bias in French toxicity detection compared to massive LLMs, which frequently struggle with cultural nuances and over-sensitization."
+    },
+    {
+      "title": "Faithful CoT via Dynamic Weighted Loss",
+      "desc": "A novel <strong>Dynamic Weighted Loss (DWL)</strong> strategy for Chain-of-Thought fine-tuning. By progressively shifting training focus from reasoning steps to the final classification, we eliminate 'faithfulness gaps' where models reason correctly but conclude incorrectly, resulting in a <strong>10% boost in balanced accuracy</strong>."
+    },
+    {
+      "title": "State-of-the-Art Performance",
+      "desc": "The resulting <strong>ToxiFrench-4B</strong> model sets a new state-of-the-art for French moderation. It consistently outperforms specialized models like <code>Perspective API</code> and general-purpose LLMs such as <code>GPT-4o</code> and <code>DeepSeek-R1</code>, particularly in cross-lingual consistency and generalization to unseen toxic forms."
+    }
+  ],
+  "citation": "@misc{delaval2025toxifrench,\n  title={ToxiFrench: Benchmarking and Enhancing Language Models via CoT Fine-Tuning for French Toxicity Detection},\n  author={Delaval, Axel and Yang, Shujian and Wang, Haicheng and Qiu, Han and Lu, Jialiang},\n  publisher={arXiv},\n  year={2025},\n  url={https://arxiv.org/abs/2508.11281}\n}",
+  "license": "This work is licensed under a <strong>MIT License</strong>. The dataset and models are provided exclusively for non-commercial research and safety analysis purposes."
+}

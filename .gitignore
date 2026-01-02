@@ -1,4 +1,5 @@
 .secrets/
 .vscode/
 TrainedModels/
-data/
+data/Forum*
+data/Train*

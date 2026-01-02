@@ -1,0 +1,46 @@
+{
+  "nav": {
+    "abstract": "Résumé",
+    "resources": "Ressources",
+    "contributions": "Contributions",
+    "citation": "Citation",
+    "back_home": "Retour à l'Accueil"
+  },
+  "hero": {
+    "title": "ToxiFrench",
+    "subtitle": "Évaluation et Amélioration des Modèles de Langue via le Fine-Tuning CoT pour la Détection de Toxicité en Français",
+    "tags": ["TAL", "Sécurité de l'IA", "SLM", "Fine-Tuning CoT", "Science Ouverte"]
+  },
+  "badges": [
+    { "name": "Article arXiv", "icon": "ArXiv.png", "link": "https://arxiv.org/abs/2508.11281" },
+    { "name": "Jeu de Données", "icon": "huggingface.svg", "link": "https://huggingface.co/datasets/AxelDlv00/ToxiFrench" },
+    { "name": "Modèles", "icon": "huggingface.svg", "link": "https://huggingface.co/AxelDlv00/ToxiFrench" },
+    { "name": "Code Source", "icon": "github.svg", "link": "https://github.com/AxelDlv00/ToxiFrench" },
+    { "name": "Axel Delaval", "icon": "delaunay.jpg", "link": "https://axeldlv00.github.io/axel-delaval-personal-page/" },
+    { "name": "Google Scholar", "icon": "googlescholar.png", "link": "https://scholar.google.com/citations?user=-89Mh24AAAAJ" }
+  ],
+  "abstract": {
+    "title": "Résumé Scientifique",
+    "desc": "La détection de contenus toxiques via des modèles de langage est cruciale mais complexe. Alors que des progrès substantiels ont été réalisés en anglais, la détection en français reste sous-développée, principalement en raison du manque de jeux de données à grande échelle annotés par l'homme et culturellement pertinents. Dans ce travail, nous publions <strong>ToxiFrench</strong>, un dataset de 53 622 commentaires en ligne en français, accompagné d'un benchmark équilibré pour une évaluation systématique.<br><br>Le jeu de données est construit via un pipeline d'annotation semi-automatique qui réduit l'étiquetage manuel à seulement 10 % grâce à une pré-annotation basée sur des LLM de haute confiance et une vérification humaine, tout en garantissant un alignement quasi parfait avec l'annotation humaine seule (κ ≈ 0,98). Nous évaluons ensuite une large gamme de modèles et révélons une observation contre-intuitive : les <strong>petits modèles de langage (SLM)</strong> surpassent souvent les modèles plus volumineux en termes de robustesse et de généralisation sur cette tâche.<br><br>Inspirés par cette découverte, nous proposons une nouvelle stratégie de fine-tuning par chaîne de pensée (CoT) utilisant une <strong>perte pondérée dynamique (DWL)</strong> qui met progressivement l'accent sur la décision finale du modèle, améliorant significativement la fidélité. Notre modèle 4B fine-tuné atteint des performances de pointe sur le benchmark, améliorant sa précision équilibrée de 10 % par rapport à sa version de base et surpassant <code>GPT-4o</code> et <code>DeepSeek-R1</code>."
+  },
+  "contributions": [
+    {
+      "title": "Dataset Annoté à Grande Échelle",
+      "desc": "Introduction de <strong>ToxiFrench</strong>, un benchmark de haute qualité de 53 622 entrées. Nous avons utilisé un pipeline semi-automatique permettant une <strong>réduction de 90 % de l'effort d'étiquetage manuel</strong> tout en maintenant une rigueur statistique optimale."
+    },
+    {
+      "title": "Découverte sur la Robustesse des SLM",
+      "desc": "Analyse comparative démontrant que les <strong>petits modèles (4B-7B) font preuve d'une robustesse supérieure</strong> et d'un biais plus faible que les LLM massifs, qui peinent souvent avec les nuances culturelles françaises."
+    },
+    {
+      "title": "CoT Fidèle via Perte Pondérée Dynamique",
+      "desc": "Une nouvelle stratégie <strong>Dynamic Weighted Loss (DWL)</strong> pour le fine-tuning CoT. En synchronisant le raisonnement avec la classification finale, nous éliminons les erreurs de logique interne et boostons la précision de 10 %."
+    },
+    {
+      "title": "Performances État de l'Art",
+      "desc": "Le modèle <strong>ToxiFrench-4B</strong> surpasse systématiquement les modèles spécialisés comme <code>Perspective API</code> et les LLM généralistes, notamment en termes de cohérence multilingue."
+    }
+  ],
+  "citation": "@misc{delaval2025toxifrench,\n  title={ToxiFrench: Benchmarking and Enhancing Language Models via CoT Fine-Tuning for French Toxicity Detection},\n  author={Delaval, Axel and Yang, Shujian and Wang, Haicheng and Qiu, Han and Lu, Jialiang},\n  publisher={arXiv},\n  year={2025},\n  url={https://arxiv.org/abs/2508.11281}\n}",
+  "license": "Ce travail est sous licence <strong>MIT</strong>. Les données et modèles sont fournis exclusivement à des fins de recherche non commerciale et d'analyse de sécurité."
+} 
